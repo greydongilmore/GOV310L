@@ -1,6 +1,8 @@
+#+TITLE: GOV310L: Introduction to American Politics
 #+AUTHOR: J. Alexander Branham
 #+DATE: Spring 2016
 #+EMAIL: branham@utexas.edu 
+#+OPTIONS: toc:nil
 
 * Course description
   This course serves as an introduction to politics in the United
@@ -9,14 +11,70 @@
   emerged from the Constitution. During the latter half of the
   semester, we will attempt to understand the public's role in
   American politics. At the completion of the course, students will be
-  able to: 
+  able to:
   
   1. Demonstrate a basic understanding of U.S. politics
   2. Participate knowledgeably in the American political process
   3. Critically examine key concepts from political science
 
 * Grades
+  - Participation: 25% :: You can earn participation points in several
+    ways. You can complete the (weekly) exercises on Canvas, come to
+    office hours, ask questions or participate in discussions on Slack
+    or via email, or participate in civic or academic events. More
+    information about this is below.
+  - Quizzes: 25% :: Quizzes will be in class and closed-note. They will
+    not be announced beforehand, so always be prepared. You should
+    expect roughly one quiz every two weeks. I will drop your lowest
+    grade. 
+  - Exams (2): 50% :: There will be two exams, one midway through the
+    semester and the other at the end. They will be in-class and
+    closed-note. The second will not cover material from the first.
+    - First exam: March 4th, 2016
+    - Second exam : May 6th, 2016 
 
 * Course Policies
+  - *Participation*
+    - Slack :: Slack is an online chat service. If twitter and email
+               had a baby, it would be something like Slack.
+    - Online exercises :: There will be an online exercise every
+         week. These will usually be multiple choice quizzes. Feel
+         free to use any resource (your brain, the internet, other
+         students) to answer the questions.
+    - Civic events :: You may choose to attend any civic
+                      event. Examples include Austin City Council
+                      meetings, political rallies, and
+                      speeches. Please confirm with me that the event
+                      is suitable *before* going. You will need to
+                      provide proof of attendance as well as a short
+                      write-up of what happened and your reaction to
+                      it. Feel free to share that on Slack! 
+    - Academic events :: I will announce academic events via Slack and
+         Canvas. These will usually be distinguished speakers giving a
+         lecture on a topic germane to the course. If you go, you
+         should be sure to provide proof in the form of a photo as
+         well as a very short write-up of what happened. Feel free to
+         share your thoughts about the event on Slack!
+  - *Missing assignments:* I do not let students make up assignments
+       (quizzes or exams) barring exceptional circumstances. Let nme know
+       *now* if you have a conflict with one of the exams. 
 
-* Schedule
+* Tentative Schedule
+| *Week* | *Topic*                   | *Reading*                       |
+|--------+---------------------------+---------------------------------|
+| Jan 18 | Intro and the Founding    | Federalist 10, 51, Constitution |
+| Jan 25 | Congress                  |                                 |
+| Feb 1  | The Presidency            |                                 |
+| Feb 8  | The Courts                |                                 |
+| Feb 15 | Federalism                |                                 |
+| Feb 22 | Federalism, cntd          |                                 |
+| Feb 29 | Catch-up and first exam   |                                 |
+| Mar 7  | Public Opinion            |                                 |
+| Mar 14 | Spring Break              | None                            |
+| Mar 21 | Public opinion and policy |                                 |
+| Mar 28 | Political parties         |                                 |
+| Apr 4  |                           |                                 |
+| Apr 11 | Interest groups           |                                 |
+| Apr 18 | The media                 |                                 |
+| Apr 25 |                           |                                 |
+| May 2  | Catch-up and second exam  |                                 |
