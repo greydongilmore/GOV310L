@@ -18,23 +18,26 @@
   3. Critically examine key concepts from political science
 
 * Grades
-  - Participation: 25% :: You can earn participation points in several
-    ways. You can complete the (weekly) exercises on Canvas, come to
-    office hours, ask questions or participate in discussions on Slack
-    or via email, or participate in civic or academic events. More
-    information about this is below.
-  - Quizzes: 25% :: Quizzes will be in class and closed-note. They will
-    not be announced beforehand, so always be prepared. You should
-    expect roughly one quiz every two weeks. I will drop your lowest
-    grade. 
-  - Exams (2): 50% :: There will be two exams, one midway through the
-    semester and the other at the end. They will be in-class and
-    closed-note. The second will not cover material from the first.
-    - First exam: March 4th, 2016
-    - Second exam : May 6th, 2016 
-
+  - Participation: (25%) :: You can earn participation points in
+       several ways. You can complete the (weekly) exercises on
+       Canvas, come to office hours, ask questions and/or participate
+       in discussions on Slack or email, or participate in civic or
+       academic events. More information about this is below.
+  - Quizzes: (25%) :: Quizzes will be in class and closed-note. They
+                      will not be announced beforehand, so always be
+                      prepared. You should expect roughly one quiz
+                      every two weeks. I will drop your lowest grade.
+  - Exams (2): (50%) :: There will be two exams, one midway through
+       the semester and the other at the end. They will be in-class
+       and closed-note. The second will not cover material from the
+       first.
+    - First exam: March 11, 2016
+    - Second exam : May 6, 2016
+      
 * Course Policies
-  - *Participation*
+  - Participation
+    - In class :: Feel free to ask questions in class! If you're
+                  confused, someone else probably is too. 
     - Slack :: Slack is an online chat service. If twitter and email
                had a baby, it would be something like Slack.
     - Online exercises :: There will be an online exercise every
@@ -55,7 +58,7 @@
          should be sure to provide proof in the form of a photo as
          well as a very short write-up of what happened. Feel free to
          share your thoughts about the event on Slack!
-  - *Missing assignments:* I do not let students make up assignments
+  - Missing assignments: I do not let students make up assignments
        (quizzes or exams) barring exceptional circumstances. Let nme know
        *now* if you have a conflict with one of the exams.
   - The University of Texas at Austin provides upon request
