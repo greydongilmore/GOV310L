@@ -64,21 +64,26 @@
     of Students at 471-6259, 471-6441 TTY.
 
 * Tentative Schedule
-| *Week* | *Topic*                   | *Reading*                       |
-|--------+---------------------------+---------------------------------|
-| Jan 18 | Intro and the Founding    | Federalist 10, 51, Constitution |
-| Jan 25 | Congress                  |                                 |
-| Feb 1  | The Presidency            |                                 |
-| Feb 8  | The Courts                |                                 |
-| Feb 15 | Federalism                |                                 |
-| Feb 22 | Federalism, cntd          |                                 |
-| Feb 29 | Catch-up and first exam   |                                 |
-| Mar 7  | Public Opinion            |                                 |
-| Mar 14 | Spring Break              | None                            |
-| Mar 21 | Public opinion and policy |                                 |
-| Mar 28 | Political parties         |                                 |
-| Apr 4  |                           |                                 |
-| Apr 11 | Interest groups           |                                 |
-| Apr 18 | The media                 |                                 |
-| Apr 25 |                           |                                 |
-| May 2  | Catch-up and second exam  |                                 |
+|   | *Week* | *Date*                 | *Topic*                  | *Readings* |
+|---+--------+------------------------+--------------------------+------------|
+| $ |        | start=<2016-01-11 Mon> |                          |            |
+| # |      1 | <2016-01-18 Mon>       | Intro and the founding   |            |
+| # |      2 | <2016-01-25 Mon>       | Liberties and rights     |            |
+| # |      3 | <2016-02-01 Mon>       | Congress                 |            |
+| # |      4 | <2016-02-08 Mon>       |                          |            |
+| # |      5 | <2016-02-15 Mon>       | The Presidency           |            |
+| # |      6 | <2016-02-22 Mon>       | The Courts               |            |
+| # |      7 | <2016-02-29 Mon>       | Federalism               |            |
+| # |      8 | <2016-03-07 Mon>       | Catch-up and first exam  |            |
+|---+--------+------------------------+--------------------------+------------|
+| # |      9 | <2016-03-14 Mon>       | Spring Break             |            |
+|---+--------+------------------------+--------------------------+------------|
+| # |     10 | <2016-03-21 Mon>       | Public opinion           |            |
+| # |     11 | <2016-03-28 Mon>       | Political parties        |            |
+| # |     12 | <2016-04-04 Mon>       | Campaigns and elections  |            |
+| # |     13 | <2016-04-11 Mon>       | Interest groups          |            |
+| # |     14 | <2016-04-18 Mon>       | The media                |            |
+| # |     15 | <2016-04-25 Mon>       |                          |            |
+| # |     16 | <2016-05-02 Mon>       | Catch-up and second exam |            |
+#+TBLFM: $3=$start + $2 * 7
+
