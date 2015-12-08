@@ -7,8 +7,8 @@ politics.
 
 # Source
 The source code for all the files here is available under a
-version-controlled repository (on
-github)[https://github.com/jabranham/GOV310L]. 
+version-controlled repository [on
+github](https://github.com/jabranham/GOV310L). 
 
 # License
 This material is licensed under the
