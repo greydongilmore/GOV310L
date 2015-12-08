@@ -1,15 +1,21 @@
-#+TITLE: GOV310L: Introduction to American Politics
+#+TITLE: Introduction to American Politics
+#+SUBTITLE: GOV310L
 #+AUTHOR: J. Alexander Branham
 #+DATE: Spring 2016
 #+EMAIL: branham@utexas.edu 
 #+OPTIONS: toc:nil
+#+LaTeX_CLASS_OPTIONS: [colorlinks, linkcolor=blue, urlcolor=blue]
 
-     
 Office Hours
+
 Office Location
+
 [[mailto:branham@utexas.edu][My email]]
+
 [[http://jabranham.com/GOV310L][Course website]]
+
 MWF 11-11:50
+
 UTC 3.102 
 
 * Course description
