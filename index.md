@@ -7,7 +7,8 @@ politics. You can find the syllabus
 [here](http://jabranham.com/GOV310L/syllabus/syllabus.pdf).
 
 # Lecture Slides
-These will be updated with links to the slides. 
+These will be updated with links to the slides.
+
 1. Intro and the founding
 2. Liberties and rights
 3. Federalism and separation of powers
