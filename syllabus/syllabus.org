@@ -3,6 +3,7 @@
 #+DATE: Spring 2016
 #+EMAIL: branham@utexas.edu 
 #+OPTIONS: toc:nil
+
      
 Office Hours
 Office Location
@@ -23,7 +24,7 @@ UTC 3.102
   2. Participate knowledgeably in the American political process
   3. Critically examine key concepts from political science
 
-* Grades
+* Assessment
   - Participation: (25%) :: You can earn participation points in
        several ways. You can complete the (weekly) exercises on
        Canvas, come to office hours, ask questions and/or participate
@@ -38,7 +39,7 @@ UTC 3.102
        and closed-note. The second will not cover material from the
        first.
     - First exam: March 11, 2016
-    - Second exam : May 6, 2016
+    - Second exam: May 6, 2016
       
 * Course Policies
   - Participation
@@ -67,6 +68,7 @@ UTC 3.102
   - Missing assignments: I do not let students make up assignments
        (quizzes or exams) barring exceptional circumstances. Let me know
        *now* if you have a conflict with one of the exams.
+  - I will make my slides available on the [[http://jabranham.com/GOV310L][course website]]. 
   - The University of Texas at Austin provides upon request
     appropriate academic accommodations for qualified students with
     disabilities. For more information, contact the Office of the Dean
