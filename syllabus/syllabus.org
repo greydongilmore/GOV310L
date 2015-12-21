@@ -75,7 +75,10 @@ UTC 3.102
   - Missing assignments: I do not let students make up assignments
        (quizzes or exams) barring exceptional circumstances. Let me know
        *now* if you have a conflict with one of the exams.
-  - I will make my slides available on the [[http://jabranham.com/GOV310L][course website]]. 
+  - I will make my slides available on the [[http://jabranham.com/GOV310L][course website]].
+  - You are expected to do the readings listed in the course schedule.
+    The book we are using can be found [[http://books.wwnorton.com/books/webad.aspx?id=4294989276][here]], though there are cheaper
+    copies available through other websites. 
   - The University of Texas at Austin provides upon request
     appropriate academic accommodations for qualified students with
     disabilities. For more information, contact the Office of the Dean
