@@ -86,21 +86,21 @@ UTC 3.102
 |---+--------+---------------------+-----------------------------------+---------------------------|
 | $ |        | start=<2016-01-11 Mon> |                                   |                           |
 | # |      1 | <2016-01-18 Mon>    | Intro and the founding            | Ch 2 & Federalist 10 & 51 |
-| # |      2 | <2016-01-25 Mon>    | Liberties and rights              | Chs 4 & 5                 |
+| # |      2 | <2016-01-25 Mon>    | Liberties and rights              | Ch 4                      |
 | # |      3 | <2016-02-01 Mon>    | Federalism & Separation of Powers | Ch 3                      |
-| # |      4 | <2016-02-08 Mon>    | Congress                          | Ch 6                      |
-| # |      5 | <2016-02-15 Mon>    | The Presidency                    | Ch 7 & 8                  |
-| # |      6 | <2016-02-22 Mon>    | The Courts                        | Ch 9                      |
+| # |      4 | <2016-02-08 Mon>    | Congress                          | Ch 5                      |
+| # |      5 | <2016-02-15 Mon>    | The Presidency                    | Ch 6 & 7                  |
+| # |      6 | <2016-02-22 Mon>    | The Courts                        | Ch 8                      |
 | # |      7 | <2016-02-29 Mon>    |                                   |                           |
 | # |      8 | <2016-03-07 Mon>    | Catch-up and first exam           |                           |
 |---+--------+---------------------+-----------------------------------+---------------------------|
 | # |      9 | <2016-03-14 Mon>    | Spring Break                      |                           |
 |---+--------+---------------------+-----------------------------------+---------------------------|
-| # |     10 | <2016-03-21 Mon>    | Public opinion                    | Ch 10                     |
-| # |     11 | <2016-03-28 Mon>    | Political parties                 | Ch 12                     |
-| # |     12 | <2016-04-04 Mon>    | Campaigns and elections           | Ch 11                     |
-| # |     13 | <2016-04-11 Mon>    | Interest groups                   | Ch 13                     |
-| # |     14 | <2016-04-18 Mon>    | The media                         | Ch 14                     |
+| # |     10 | <2016-03-21 Mon>    | Public opinion                    | Ch 9                      |
+| # |     11 | <2016-03-28 Mon>    | Political parties                 | Ch 11                     |
+| # |     12 | <2016-04-04 Mon>    | Campaigns and elections           | Ch 10                     |
+| # |     13 | <2016-04-11 Mon>    | Interest groups                   | Ch 12                     |
+| # |     14 | <2016-04-18 Mon>    | The media                         |                           |
 | # |     15 | <2016-04-25 Mon>    |                                   |                           |
 | # |     16 | <2016-05-02 Mon>    | Catch-up and second exam          |                           |
 #+TBLFM: $3=$start + $2 * 7
