@@ -5,18 +5,16 @@
 #+EMAIL: branham@utexas.edu 
 #+OPTIONS: toc:nil
 #+LaTeX_CLASS_OPTIONS: [colorlinks, linkcolor=blue, urlcolor=blue]
+#+LATEX_HEADER: \usepackage[margin=1in]{geometry}
 
-Office Hours
+- Unique number :: 37685
+- Course time: :: MWF 11-11:50
+- Course location: :: UTC 3.102 
+- Office hours: :: MW 9:30 - 11 and by appointment 
+- Office location: :: MEZ 3.212
+- Email: :: [[mailto:branham@utexas.edu][branham@utexas.edu]]
+- Course website: :: [[http://jabranham.com/GOV310L/][http://jabranham.com/GOV310L/]]
 
-Office Location
-
-[[mailto:branham@utexas.edu][My email]]
-
-[[http://jabranham.com/GOV310L][Course website]]
-
-MWF 11-11:50
-
-UTC 3.102 
 
 * Course description
   This course serves as an introduction to politics in the United
@@ -35,8 +33,9 @@ UTC 3.102
   - Participation: (25%) :: You can earn participation points in
        several ways. You can complete the (weekly) exercises on
        Canvas, come to office hours, ask questions and/or participate
-       in discussions on Slack or email, or participate in civic or
-       academic events. More information about this is below.
+       in discussions on Slack or email, participate in civic or
+       academic events, or write a critical essay of an academic
+       article. More information about this is below.
   - Quizzes: (25%) :: Quizzes will be in class and closed-note. They
                       will not be announced beforehand, so always be
                       prepared. You should expect roughly one quiz
@@ -51,34 +50,40 @@ UTC 3.102
 * Course Policies
   - Participation
     - In class :: Feel free to ask questions in class! If you're
-                  confused, someone else probably is too. 
+         confused, someone else probably is too.
     - Slack :: Slack is an online chat service. If twitter and email
-               had a baby, it would be something like Slack.
-    - Online exercises :: There will be an online exercise every
-         week. These will usually be multiple choice quizzes. Feel
-         free to use any resource (your brain, the internet, other
-         students) to answer the questions.
-    - Civic events :: You may choose to attend any civic
-                      event. Examples include Austin City Council
-                      meetings, political rallies, and
-                      speeches. Please confirm with me that the event
-                      is suitable *before* going. You will need to
-                      provide proof of attendance as well as a short
-                      write-up of what happened and your reaction to
-                      it. Feel free to share that on Slack! 
+         had a baby, it would be something like Slack. More
+         information about this, including how to sign up and join the
+         course, will be given in the first week. 
+    - Online exercises :: There will be an online exercise every week.
+         These will usually be multiple choice quizzes. Feel free to
+         use any resource (your brain, the internet, other students)
+         to answer the questions.
+    - Civic events :: You may choose to attend any civic event.
+         Examples include Austin City Council meetings, political
+         rallies, and speeches. Please confirm with me that the event
+         is suitable *before* going. You will need to provide proof of
+         attendance as well as a short write-up of what happened and
+         your reaction to it. Feel free to share that on Slack!
     - Academic events :: I will announce academic events via Slack and
          Canvas. These will usually be distinguished speakers giving a
          lecture on a topic germane to the course. If you go, you
          should be sure to provide proof in the form of a photo as
          well as a very short write-up of what happened. Feel free to
          share your thoughts about the event on Slack!
+    - Critical essays :: If you find one of the topics we discuss
+         particularly interesting, you may ask me for an academic
+         article about it. I'll give you a choice of several and you
+         may read it and write up a critical essay where you (briefly)
+         summarize the article and then critique its main points.
+         These should be no longer than two pages. 
   - Missing assignments: I do not let students make up assignments
-       (quizzes or exams) barring exceptional circumstances. Let me know
-       *now* if you have a conflict with one of the exams.
+    (quizzes or exams) barring exceptional circumstances. Let me know
+    *now* if you have a conflict with one of the exams.
   - I will make my slides available on the [[http://jabranham.com/GOV310L][course website]].
   - You are expected to do the readings listed in the course schedule.
     The book we are using can be found [[http://books.wwnorton.com/books/webad.aspx?id=4294989276][here]], though there are cheaper
-    copies available through other websites. 
+    copies available through other websites.
   - The University of Texas at Austin provides upon request
     appropriate academic accommodations for qualified students with
     disabilities. For more information, contact the Office of the Dean
