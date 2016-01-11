@@ -1,0 +1,14 @@
+#+TITLE: README
+#+AUTHOR: J. Alexander Branham
+#+DATE: Spring 2016
+#+EMAIL: branham@utexas.edu 
+#+OPTIONS: toc:nil
+
+This is a repository for the course materials for an Introduction to
+American Politics class. The course website is available [[http://jabranham.com/GOV310L/][on my
+website]]. 
+
+Please feel free to [[https://guides.github.com/activities/forking/][fork this repository and create a pull request]] if
+you would like to see any changes. Alternatively, you can [[https://guides.github.com/features/issues/][open an
+issue]] to let me know about something wrong or any tweaks you want to
+see. 
