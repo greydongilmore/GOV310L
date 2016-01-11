@@ -1,0 +1,85 @@
+#+TITLE:     Introduction and the Founding
+#+AUTHOR:    J. Alexander Branham
+#+EMAIL:     branham@utexas.edu
+#+DATE:      Spring 2016
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LATEX_CMD: xelatex
+#+OPTIONS: toc:nil H:2
+#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue]
+#+BEAMER_THEME: m[sectionpage=none, progressbar=frametitle] 
+
+* Introduction
+** Goals
+ Goals for students of the course: 
+ 1. Demonstrate a basic understanding of U.S. politics
+ 2. Participate knowledgeably in the American political process
+ 3. Critically examine key concepts from political science
+
+** The class's website
+ - Most materials will be available on the course's website 
+ - [[http://jabranham.com/GOV310L]]
+ - I'll use Canvas:
+   - For posting grades
+   - For online quizzes
+
+** Important course policies
+ - *NO MAKING UP MISSED ASSIGNMENTS, INCLUDING EXAMS*
+ - Exam 1: March 11th
+ - Exam 2: May 6th
+   - not cumulative
+
+** Grades
+ - Participation (25%)
+ - Quizzes (25%)
+ - Exams (2) (50%)
+
+** Participation 
+ - In class
+ - Slack
+ - Online exercises
+ - Civic events
+ - Academic events
+ - Critical essays
+
+** What is government?
+ #+BEAMER: \pause
+ - The institutions and procedures through which a land and its people
+   are ruled
+ - These can be simple or complex
+
+** Why government?
+ - We're all farmers and one of us proposes to build an irrigation
+   system. How do we decide what happens? Does it get built? Who pays
+   for it? Who maintains it? 
+ - Tragedy of the commons
+
+** Functions of government
+#+BEAMER: \pause
+ - Maintain order
+ - Protect property
+ - Provide public goods
+** The basic power of government
+ Coercion!
+
+** Who rules?
+ - Autocracy :: rule by a single individual
+ - Oligarchy :: rule by a small class of people (landowners, military
+      officers, etc)
+ - Democracy :: system that allows citizens to play a significant role
+      in the governmental process, usually through selection of
+      officials
+
+** How do they govern?
+ - Constitutional :: Formal and effective limits placed on government
+ - Authoritarian :: No formal limits, but may be checked by other
+      social forces (the church, for example)
+ - Totalitarian :: No formal limits and the state seeks to expand to
+      basically all areas of life
+
+** What is politics?
+ #+BEAMER: \pause 
+ - Conflict and struggles over the leadership, structure, and policies
+   of government
+
+* The Founding 
