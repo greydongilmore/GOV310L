@@ -90,7 +90,7 @@
 
 * The Founding 
 
-** Why break from the UK? 
+** Why break from Britain? 
 - Britain left the colonies alone for a while
 - But then needed help to pay for a costly war
 - Raised taxes on colonies, as they defended the colonies during the war
@@ -138,7 +138,7 @@ Lives, our Fortunes and our sacred Honor.
 - Ultimately failed because the central government was too weak
   - Examples: 
   - No ability to tax
-  - Weak executive
+  - No executive
   - No standing army
 ** Constitutional Convention (1787)
 - Called to amend the Articles of Confederation
@@ -229,12 +229,14 @@ Lives, our Fortunes and our sacred Honor.
      the States respectively, or to the people"
 
 ** Amendments 11 - 27
-- Expansion of the electorate (citizenship - XIV, *races* - XV, *women*,
-  XIX, DC - XXIII, no poll tax - XXIV, 18 years old to vote - XXVI)
-- Changing elections (fix ballot - XII, revoke 3/5ths - XIV, *direct
-  election of senators* - XVII, eliminate lame duck Congress - XX,
-  *limited president to 2 terms* - XXII, presidential succession - XXV)
-- Changing the power of government (limits federal courts'
+- Expansion of the electorate :: (citizenship - XIV, *races* - XV,
+     *women*, XIX, DC - XXIII, no poll tax - XXIV, 18 years old to
+     vote - XXVI)
+- Changing elections :: (fix ballot - XII, revoke 3/5ths - XIV,
+     *direct election of senators* - XVII, eliminate lame duck
+     Congress - XX, *limited president to 2 terms* - XXII,
+     presidential succession - XXV)
+- Changing the power of government :: (limits federal courts'
   jurisdiction - XI, *eliminates slavery* - XIII, due process to the
   states - XIV, *income tax* - XVI, prohibit Congress from raising its
   own salary - XXVII)
