@@ -9,7 +9,7 @@
 #+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue]
 #+BEAMER_THEME: m[progressbar=frametitle] 
 
-* Introduction
+* This Class
 
 ** This class 
 - GOV 310L
@@ -48,6 +48,7 @@
  - Academic events
  - Critical essays
 
+* Introduction to politics
 ** What is government?
  #+BEAMER: \pause
  - The institutions and procedures through which a land and its people
@@ -142,6 +143,7 @@ Lives, our Fortunes and our sacred Honor.
   - No standing army
 ** Constitutional Convention (1787)
 - Called to amend the Articles of Confederation
+- Every state (except Rhode Island) sent delegates 
 - Quickly became apparent that the Articles needed to be scrapped and
   rewritten
 
@@ -161,7 +163,20 @@ Lives, our Fortunes and our sacred Honor.
 - Some solutions
   - Great compromise
   - Three-fifths compromise
-
+** The Great Compromise
+- Articles of Confederation :: one vote per state
+- Virginia Plan :: representation based on population
+- New Jersey plan :: one vote per state
+- Connecticut compromise :: bicameral, House based on population and
+     Senate representation equal by state
+** Constitutional Convention (1787)
+- Other ideas *not* adopted:
+  - New constitution every 19 years
+  - Three presidents
+  - Appointed president
+  - Life-term for president
+  - Federal government ability to veto state legislation
+* The Constitution 
 ** The Constitution: Articles I - II
 - Article I: The legislative branch
   - Bicameral
@@ -177,7 +192,7 @@ Lives, our Fortunes and our sacred Honor.
 - Article III: The judicial branch
   - Supreme court and other federal courts that Congress makes
   - Lifetime terms, nominated by president, confirmed by Senate
-- Article IV: States powers
+- Article IV: States' conduct
   - States must respect other states' laws ("full faith and credit")
   - Several other agreements between states (extradition of fugitives,
     for example)
@@ -198,7 +213,7 @@ Lives, our Fortunes and our sacred Honor.
     :BEAMER_col: 0.5
     :END:
 - Ratification of amendments:
-  - 3/4 of state legislatures
+  - 3/4 of state legislatures OR
   - Conventions in 3/4 of the states (used only once)
 
 ** Articles VI - VII
@@ -207,6 +222,7 @@ Lives, our Fortunes and our sacred Honor.
     ("supremacy clause")
 - Article VII: Ratification
 
+* The Amendments
 ** The Bill of Rights
 - Madison proposed 39 amendments to the Constitution, 11 of which were
   eventually ratified[fn:1]
