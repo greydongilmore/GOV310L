@@ -1,0 +1,263 @@
+#+TITLE:     Introduction and the Founding
+#+AUTHOR:    J. Alexander Branham
+#+EMAIL:     branham@utexas.edu
+#+DATE:      Spring 2016
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LATEX_CMD: xelatex
+#+OPTIONS: toc:nil H:2
+#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue]
+#+BEAMER_THEME: m[progressbar=frametitle] 
+
+* This Class
+
+** This class 
+- GOV 310L
+- MWF 11 - 11:50
+- Unique #: 37685
+- Satisfies the first half of the legislative requirement 
+** Goals
+ Goals for students of the course: 
+ 1. Demonstrate a basic understanding of U.S. politics
+ 2. Participate knowledgeably in the American political process
+ 3. Critically examine key concepts from political science
+
+** The class's website
+ - Most materials will be available on the course's website 
+ - [[http://jabranham.com/GOV310L]]
+ - I'll use Canvas:
+   - For posting grades
+   - For online quizzes
+
+** Important course policies
+ - *NO MAKING UP MISSED ASSIGNMENTS, INCLUDING EXAMS*
+ - Exam 1: March 11th
+ - Exam 2: May 6th
+   - not cumulative
+
+** Grades
+ - Participation (25%)
+ - Quizzes (25%)
+ - Exams (2) (50%)
+
+** Participation 
+ - In class
+ - Slack
+ - Online exercises
+ - Civic events
+ - Academic events
+ - Critical essays
+
+* Introduction to politics
+** What is government?
+ #+BEAMER: \pause
+ - The institutions and procedures through which a land and its people
+   are ruled
+ - These can be simple or complex
+
+** Why government?
+ - We're all farmers and one of us proposes to build an irrigation
+   system. How do we decide what happens? Does it get built? Who pays
+   for it? Who maintains it? 
+ - Tragedy of the commons
+
+** Functions of government
+#+BEAMER: \pause
+ - Maintain order
+ - Protect property
+ - Provide public goods
+** The basic power of government
+   Coercion!
+
+** Who rules?
+ - Autocracy :: rule by a single individual
+ - Oligarchy :: rule by a small class of people (landowners, military
+      officers, etc)
+ - Democracy :: system that allows citizens to play a significant role
+      in the governmental process, usually through selection of
+      officials
+
+** How do they govern?
+ - Constitutional :: Formal and effective limits placed on government
+ - Authoritarian :: No formal limits, but may be checked by other
+      social forces (the church, for example)
+ - Totalitarian :: No formal limits and the state seeks to expand to
+      basically all areas of life
+
+** What is politics?
+ #+BEAMER: \pause 
+ - Conflict and struggles over the leadership, structure, and policies
+   of government
+
+* The Founding 
+
+** Why break from Britain? 
+- Britain left the colonies alone for a while
+- But then needed help to pay for a costly war
+- Raised taxes on colonies, as they defended the colonies during the war
+- This did not go over well 
+
+** The Declaration of Independence 
+- For the time (1776), a somewhat radical document
+- "Unalienable rights"
+  - Life
+  - Liberty
+  - The pursuit of happiness
+- Is it just to revolt against your government?
+#+BEAMER: \pause
+  - Yes, when said government does not respect these rights 
+- Laundry list of complaints
+
+** The Declaration of Independence 
+#+BEGIN_QUOTE
+We, therefore, the Representatives of the united States of America, in
+General Congress, Assembled, appealing to the Supreme Judge of the
+world for the rectitude of our intentions, do, in the Name, and by
+Authority of the good People of these Colonies, solemnly publish and
+declare, That these united Colonies are, and of Right ought to be Free
+and Independent States; that they are Absolved from all Allegiance to
+the British Crown, and that all political connection between them and
+the State of Great Britain, is and ought to be totally dissolved; 
+#+END_QUOTE
+** The Declaration of Independence 
+#+BEGIN_QUOTE
+and that as Free and Independent States, they have full Power to levy
+War, conclude Peace, contract Alliances, establish Commerce, and to do
+all other Acts and Things which Independent States may of right do.
+And for the support of this Declaration, with a firm reliance on the
+protection of divine Providence, we mutually pledge to each other our
+Lives, our Fortunes and our sacred Honor.
+#+END_QUOTE
+** The Revolutionary War
+- British military forces vastly outnumbered the colonists
+- British economy much greater than the colonies
+- Royalists in the colonies weren't in favor of independence
+- Ultimately, the war was too expensive for Britain
+- Independence granted in the Treaty of Paris (1783)
+** The Articles of Confederation 
+- First pass at a governing document
+- Ultimately failed because the central government was too weak
+  - Examples: 
+  - No ability to tax
+  - No executive
+  - No standing army
+** Constitutional Convention (1787)
+- Called to amend the Articles of Confederation
+- Every state (except Rhode Island) sent delegates 
+- Quickly became apparent that the Articles needed to be scrapped and
+  rewritten
+
+** Constitutional Convention (1787)
+***                                                                   :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- Major issues:
+  - National power vs state power
+  - Representation by population or by state
+  - Slavery
+***                                                                   :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- Some solutions
+  - Great compromise
+  - Three-fifths compromise
+** The Great Compromise
+- Articles of Confederation :: one vote per state
+- Virginia Plan :: representation based on population
+- New Jersey plan :: one vote per state
+- Connecticut compromise :: bicameral, House based on population and
+     Senate representation equal by state
+** Constitutional Convention (1787)
+- Other ideas *not* adopted:
+  - New constitution every 19 years
+  - Three presidents
+  - Appointed president
+  - Life-term for president
+  - Federal government ability to veto state legislation
+* The Constitution 
+** The Constitution: Articles I - II
+- Article I: The legislative branch
+  - Bicameral
+  - Powers of government
+  - "Necessary and proper"
+- Article II: The executive branch
+  - Independent, stronger than the Articles
+  - Commander in chief
+  - Nomination of executive and judicial officials
+  - Electoral college
+
+** Articles III - IV
+- Article III: The judicial branch
+  - Supreme court and other federal courts that Congress makes
+  - Lifetime terms, nominated by president, confirmed by Senate
+- Article IV: States' conduct
+  - States must respect other states' laws ("full faith and credit")
+  - Several other agreements between states (extradition of fugitives,
+    for example)
+
+** Article V: Amendment
+
+***                                                                   :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- Proposing amendments:
+  - 2/3 of both houses of Congress OR
+  - 2/3 of state legislatures call for Constitutional Convention
+    (never used)
+
+***                                                                   :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- Ratification of amendments:
+  - 3/4 of state legislatures OR
+  - Conventions in 3/4 of the states (used only once)
+
+** Articles VI - VII
+- Article VI: Federal powers
+  - The constitution and federal laws trump state laws & constitutions
+    ("supremacy clause")
+- Article VII: Ratification
+
+* The Amendments
+** The Bill of Rights
+- Madison proposed 39 amendments to the Constitution, 11 of which were
+  eventually ratified[fn:1]
+- The first 10 are the first 10 amendments and are referred to as the
+  Bill of Rights
+- These are designed to limit the power of the federal government
+
+** The Bill of Rights
+- 1st :: Protects free religion, freedom of speech, freedom of the
+     press, right to peaceful assembly, and prohibits Congress from
+     making laws respecting the establishment of religion
+- 2nd :: Right to keep and bear arms
+- 4th :: Protects against unreasonable searches and seizures
+- 5th :: Protects against self-incrimination
+- 6th :: Gives defendants rights in criminal trials
+- 8th :: No cruel and unusual punishments
+- 9th :: Bill of rights isn't exhaustive
+- 10th :: "The powers not delegated to the United States by the
+     Constitution, nor prohibited by it to the States, are reserved to
+     the States respectively, or to the people"
+
+** Amendments 11 - 27
+- Expansion of the electorate :: (citizenship - XIV, *races* - XV,
+     *women*, XIX, DC - XXIII, no poll tax - XXIV, 18 years old to
+     vote - XXVI)
+- Changing elections :: (fix ballot - XII, revoke 3/5ths - XIV,
+     *direct election of senators* - XVII, eliminate lame duck
+     Congress - XX, *limited president to 2 terms* - XXII,
+     presidential succession - XXV)
+- Changing the power of government :: (limits federal courts'
+  jurisdiction - XI, *eliminates slavery* - XIII, due process to the
+  states - XIV, *income tax* - XVI, prohibit Congress from raising its
+  own salary - XXVII)
+- Prohibition (XVIII, XXI)
+
+* Footnotes
+
+[fn:1] One was ratified 202 years later as the 27th amendment 

@@ -4,22 +4,24 @@ layout: default
 
 This is the course website for GOV310L, an introduction to American
 politics. You can find the syllabus
-[here](http://jabranham.com/GOV310L/syllabus/syllabus.pdf).
+[here](/syllabus/syllabus.pdf).
 
 # Lecture Slides
 These will be updated with links to the slides.
 
-1. Intro and the founding
+1. [Intro and the founding](/slides/intro-and-founding.pdf)
 2. Liberties and rights
 3. Federalism and separation of powers
 4. Congress
-5. The Presidency
+5. The Presidency & Executive
 6. The Courts
-7. Public opinion
-8. Political parties
-9. Campaigns and elections
-10. Interest groups
-11. The media
+7. Issue spotlight #1
+8. Public opinion
+9. Political parties
+10. Campaigns and elections
+11. Interest groups
+12. The media
+13. Issue spotlight #2
 
 # Source
 The source code for all the files here is available under a
