@@ -4,12 +4,12 @@ layout: default
 
 This is the course website for GOV310L, an introduction to American
 politics. You can find the syllabus
-[here](http://jabranham.com/GOV310L/syllabus/syllabus.pdf).
+[here](/syllabus/syllabus.pdf).
 
 # Lecture Slides
 These will be updated with links to the slides.
 
-1. Intro and the founding
+1. [Intro and the founding](/slides/intro-and-founding.pdf)
 2. Liberties and rights
 3. Federalism and separation of powers
 4. Congress
