@@ -10,7 +10,7 @@ politics. You can find the syllabus
 These will be updated with links to the slides.
 
 1. [Intro and the founding](/GOV310L/slides/intro-and-founding.pdf)
-2. Liberties and rights
+2. [Liberties and rights](/GOV310L/slides/liberties-and-rights.pdf)
 3. Federalism and separation of powers
 4. Congress
 5. The Presidency & Executive
