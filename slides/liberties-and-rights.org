@@ -1,0 +1,304 @@
+#+TITLE:     Civil Liberties and Civil Rights
+#+AUTHOR:    J. Alexander Branham
+#+EMAIL:     branham@utexas.edu
+#+DATE:      Spring 2016
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LATEX_CMD: xelatex
+#+OPTIONS: toc:nil H:2
+#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue]
+#+BEAMER_THEME: m[progressbar=frametitle] 
+
+* Introduction
+
+** Liberties and Rights: What's the difference?
+#+BEAMER: \pause 
+*** Civil Liberties                                                   :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: .5
+    :END:
+*Civil Liberties*
+- Limitations on collective action
+- Defines spheres (e.g. religion) where the influence of government is
+  limited 
+- *What government /can't/ do*
+
+*** Civil Rights                                                      :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: .5
+    :END:
+*Civil Rights*
+- Who may participate in collective decision making process
+- How government must (or cannot) treat its citizens
+- *What government /must/ do*
+
+
+* Civil Liberties
+** Who decides? 
+- The courts are the major actor
+  - Jurisdiction from Article II, statues, and prior decisions (precedent)
+- Congress also plays a role
+  - Constitutional amendments, lawmaking
+- The president to a lesser extent 
+
+** The Bill of Rights
+- Confusingly, the bill of rights focuses on what government must
+  /not/ do and thus is concerned with civil liberties
+- Not originally included in Constitution because Hamilton & others
+  thought it irrelevant
+
+** The Bill of Rights
+- Originally applied only to the federal government (dual citizenship)
+- The 14th amendment (post Civil War) provides for a single national
+  citizenship, but the Court doesn't start to expand protections
+  provided by the Bill of Rights to the states until late 1800s, but
+  especially the 1930s & 60s
+
+** The First Amendment
+- *Establishment Clause* prevents Congress from making a law respecting
+  the establishment of religion
+- What does that mean?
+#+BEAMER: \pause
+- No official state church?
+- Government can't take sides, but isn't prohibited from providing
+  assistance to religion?
+- Wall of separation?
+
+** The First Amendment
+- *Free exercise of religion* protects citizens' rights to believe and
+  practice whatever religion (or not) they choose
+- Difference in practice and action
+
+** The First Amendment
+- *Freedom of speech* 
+- Court has been especially hesitant to curb political speech
+- "Clear and present danger"
+- Some controversy about whether spending money on campaigns is speech
+
+** The First Amendment
+- *Freedom of the press*
+- Hugely protected (no censorship unless extraordinary circumstances)
+- May publish secret documents that were given to them illegally[fn:1]
+
+** The First Amendment
+- *Freedom of assembly* and *freedom to petition*
+- Flag burning
+- Picketing
+- /Peaceful/ demonstration (in public areas)
+
+** The First Amendment - limitations
+- Libel/slander /not/ protected
+- Obscenity and pornography
+- Fighting words (sometimes)
+- Student speech
+
+** The Second Amendment
+#+BEGIN_QUOTE
+A well regulated Militia, being necessary to the security of a free
+State, the right of the people to keep and bear Arms, shall not be
+infringed. 
+#+END_QUOTE
+- The right to bear arms
+- Recently applied to the states[fn:2]
+
+** Rights of the criminally accused 
+- Protection against *unreasonable searches and seizures* (4th amendment)
+  - Exclusionary rule prevents improperly obtained evidence from being
+    introduced during a trial 
+- No *double jeopardy* (5th)
+- Right to a *grand jury* (5th)
+- Protection against *self-incrimination* (5th)
+  - Miranda rights[fn:3]
+
+** Rights of the criminally accused
+- *Right to counsel* (6th)[fn:4]
+- Protection against *cruel and unusual punishments* (8th)
+
+** The Death Penalty 
+- Banned by the Supreme Court in 1972 for being applied in a
+  capricious manner, reinstated in 1976
+- 1976 - 2015 the U.S. executed 1,422 people[fn:5]
+| State | Total executions | 2015 |
+|-------+------------------+------|
+| TX    |              532 |   13 |
+| OK    |              112 |    1 |
+| VA    |              111 |    1 |
+| FL    |               92 |    2 |
+| MO    |               86 |    6 |
+
+** The Death Penalty
+- Arguments for?
+- Arguments against?
+- Should we use it?
+
+** The Ninth Amendment
+#+BEGIN_QUOTE
+The enumeration in the Constitution, of certain rights, shall not be
+construed to deny or disparage others retained by the people.
+#+END_QUOTE
+- Has been used to justify:
+  - The right to privacy
+  - Birth control
+  - Abortion[fn:6]
+  - Homosexuality
+  - Death
+
+* Civil Rights
+
+** Civil Rights: What are they?
+- Recall that civil rights regulate who can participate and how they
+  can do so
+- Civil liberties are what government /can't/ do, civil rights are
+  oftentimes obligations that government must meet
+
+** Civil Rights
+- /Who/ has /what/ right and /how much/ do they have?
+- /Citizens 18 years and older/ have the /right to vote/ and their
+  votes are counted /equally/
+- Today, guiding principals of civil rights are that they ought to be
+  - *Universal* - everyone can enjoy that right
+  - *Equal* - all people who enjoy a right have an equal ability or
+    opportunity to practice that right
+
+** Civil rights: the founding
+- Right to vote not guaranteed for all
+- Permits groups to be treated differently
+- Permits states to limit rights to property owners...
+  - And to put limits on who could own property
+- Black people especially target
+
+** Civil rights: Post-Civil War
+- 13th amendment :: prohibits slavery
+- 15th amendment :: extends the right to vote to blacks
+- 14th amendment :: equal protection clause 
+#+BEGIN_QUOTE
+... nor shall any State deprive any person of life, liberty, or
+property, without due process of law; nor deny to any person within
+its jurisdiction the equal protection of the laws.
+#+END_QUOTE
+
+** The Right to Vote
+- Originally left to states to decide
+- Property requirements
+  - Dropped as the economy industrialized
+- Poll taxes (repealed by 24th amendment)
+  - Texas had one 1902 - 1964
+  - In 1964, $1.75 is $13.38 in today's dollars
+  - In 1902 $1.75 is $48.33 in today's dollars
+
+** Women's Suffrage 
+
+***                                                                   :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: .5
+    :END:
+ - The US inherited economic and political system from Britain, where
+   the rights of women were severely restricted
+ - Minor advances as the US expanded
+ - 1848 - Seneca Falls and the Declaration of Sentiments and
+   Resolutions
+   - Asserts that women were entitled to equal rights as men
+
+***                                                                   :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+ #+ATTR_LATEX: width=\textwidth
+ [[file:../images/womens-suffrage-propaganda.jpg]]
+
+** Women's Suffrage 
+- 1869: National Women's Suffrage Association (NWSA) formed in NY
+- 1869: Wyoming grants women's suffrage
+- 1916: Montana elects a woman to US Congress
+- 1918: All western states + MI + NY have women's suffrage
+- 1919: 19th amendment proposed by Congress
+- 1920: 19th amendment ratified by 3/4 of states 
+- 1920: Women vote
+
+** Right to vote for black people
+- Granted by 15th amendment
+- Enforced while federal troops occupied the South
+- After Reconstruction, states began to limit blacks' participation
+  - White primary
+  - Poll taxes
+  - Literacy tests
+  - Registration list purges
+
+** Right to vote for black people
+- Supreme Court intervened
+  - Struck down White Primary[fn:7]
+  - Can't draw district boundaries to discriminate against minorities
+- Congress finally passes Voting Rights Act 1965 that prohibits racial
+  discrimination in voting
+  - Has been amended five times to extend protections
+- Mississippi black voter turnout in 1964: 6%
+- Mississippi black voter turnout in 1969: 59%
+
+** Racial discrimination in Education
+- /Plessy v. Ferguson/ 1896 - *separate but equal* - the Supreme Court
+  upholds Louisiana statue that requires segregation in schools and
+  public places
+  - Several minor challenges to this but nothing major
+- /Brown v. Board of Education/ 1954 - reverses /Plessy/
+  - Segregation no longer allowed under the law, but remains prevalent anyway
+
+** The Little Rock Nine
+- The Little Rock Nine were the first black students who registered to
+  attend Little Rock Central High School
+- Arkansas Governor mobilizes the AK National Guard and prevents the
+  Little Rock Nine from entering the school
+- Monday Sep 4th 1957 Elizabeth Eckford attempts to go to school 
+
+** The Little Rock Nine
+#+ATTR_LATEX: width=\textwidth
+[[file:../images/Little_Rock_Desegregation_1957.jpg]]
+
+** The Little Rock Nine
+- September 24th - President Eisenhower sends the Army to Little Rock
+  and federalizes the AK National Guard
+
+** 1963
+- April - Letter from a Birmingham Jail
+  - Outlines nonviolent resistance as a response to racist laws
+- June - JFK switches course, endorsing strong civil rights legislation 
+- August - March on Washington
+  - ~250,000 march on Washington DC
+  - MLK delivers "[[https://www.youtube.com/watch?v=3vDWWy4CMhE][I Have a Dream]]"
+- November - JFK assassinated in Dallas
+  - LBJ asserts strong support for civil rights legislation 
+
+** 1964 - 1968
+- Civil rights act of 1964 - outlaws discrimination based on race,
+  color, religion, sex, or national origin in schools, workplaces, and
+  public accommodations
+- Selma Voting Rights march - 1965
+- Voting Rights Act of 1965 - prohibits racial discrimination in
+  voting
+- War on poverty
+- King assassinated 1968 in Memphis
+
+** Other groups
+- Women (esp. economic)
+  - 1972 proposal of ERA, fell three states short in 1982
+  - Sexual harassment
+- Latinos
+  - Generally registration rates far below that of whites or blacks
+- Asian Americans
+- Immigrants
+- Americans with disabilities
+- LGBT community 
+* Footnotes
+
+[fn:7] /Smith v. Allwright/
+
+[fn:6] /Roe v. Wade/
+
+[fn:5] Data [[http://www.deathpenaltyinfo.org/number-executions-state-and-region-1976][available online]]
+
+[fn:4] /Gideon v. Wainwright/
+
+[fn:3] /Miranda v. Arizona/
+
+[fn:2] /McDonald v. Chicago/
+
+[fn:1] /New York Times v. United States/
