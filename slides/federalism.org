@@ -1,0 +1,182 @@
+#+TITLE:     Federalism and Separation of Powers
+#+AUTHOR:    J. Alexander Branham
+#+EMAIL:     branham@utexas.edu
+#+DATE:      Spring 2016
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LATEX_CMD: xelatex
+#+OPTIONS: toc:nil H:2
+#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue]
+#+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
+
+* Introduction
+
+** Federalism and the separation of powers
+
+*** Federalism                                                        :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+*Federalism*
+- Limits government 
+- Divides government into two levels
+- National and state
+
+*** Separation of powers                                              :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+*Separation of powers*
+- Limits government
+- Divides government against itself
+- Share powers across branches 
+
+
+* Federalism
+
+** Who does what?
+- Federalism  :: system of government that divides power between a
+     central government and regional governments
+- Sovereignty :: supreme and independent political authority
+
+** National government
+- Expressed powers :: given directly in Constitution
+- Implied powers :: necessary and proper clause
+- Supremacy clause :: national laws trump state laws
+
+** State governments
+- Reserved powers :: tenth amendment reserves powers not specified in
+     the Constitution to the states
+- Police power :: power to regulate health, safety, welfare, and
+     morals of citizens
+- Concurrent powers :: power possessed by both the state and national
+     government (e.g. taxation)
+
+** Obligations of states to each other
+- Full faith and credit clause
+  - States must honor other states' laws
+- Privileges and immunities 
+  - No special treatment of residents
+- Extradition
+
+* Evolution of Federalism in the US
+
+** Dual federalism 
+- Up through the 1930s
+- Fundamental government powers shared by national and state governments
+- State governments more important
+
+** Dual federalism
+- Necessary and proper clause interpreted widely in /McCulloch v.
+  Maryland/
+- Interstate commerce clause in /Gibbons v. Ogden/
+- Both granted much power to national government
+- Little growth of the national government up through 1930s
+- Judiciary dominated by states rights interpretations post Marshall
+
+** The New Deal
+- FDR elected in 1932
+- New Deal: greatly expanded scope and power of national government
+- FDIC, TVA, SEC, FHA, NLRB, social security, etc
+
+** Cooperative federalism 
+- Post 1930s through 1960s
+- Federal government uses subsidies to encourage states to pursue
+  federal goals
+- Subsidies called grants-in-aid
+
+** Dual vs cooperative federalism
+- Layer cake - marble cake
+- Federal aid to states makes up roughly 30-35% of states budgets
+
+** Regulated federalism
+- 1960s to present
+- More active federal government
+- Threaten to withhold funding if states don't conform to national
+  standards
+  - E.g. American with disabilities act
+- Unfunded mandates
+- Conditional grants, block grants
+* Separation of Powers
+
+** Separation of powers
+#+BEGIN_QUOTE
+There can be no liberty where the legislative and executive powers are
+united in the same person... [or] if the power of judging be not
+separated from the legislative and executive powers 
+#+END_QUOTE
+- Baron de Montesquieu 
+
+** Separation of powers
+- Separate functions of government to preserve liberty
+- Legislative
+- Executive
+- Judicial
+
+** Federalist 51
+#+BEGIN_QUOTE
+Ambition must be made to counteract ambition
+#+END_QUOTE
+
+** Checks and balances
+- Violates separation of powers
+- Each branch may "check" the two others
+- National policy represents views of all three branches
+- "Separated institutions sharing power"
+
+** Legislative checks
+
+*** Against executive                                                 :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- *Executive*
+- Override veto
+- Impeach and remove president
+- Senate can reject nominees/treaties
+- Conduct investigations
+- Refuse to pass laws/funding president requests
+*** Against judicial                                                  :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- *Judicial*
+- Change size of court & # of justices
+- Constitutional amendments
+- Reject nominees
+- Impeach and remove justices
+- Amend court jurisdictions
+- Appropriations
+** Executive checks
+*** against legislative                                               :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- *Legislative*
+- Veto
+- Special sessions
+- Carries out laws
+- Vice president casts tiebreaking vote in Senate
+*** against judicial                                                  :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- *Judicial*
+- Nominates justices
+- Pardons
+- Executes decisions
+** Judicial checks
+*** Against legislative                                               :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- *Legislative*
+- Declares laws unconstitutional
+- Chief justice presides over Senate hearings to impeach president 
+*** against executive                                                 :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- *Executive*
+- Declare executive actions unconstitutional
+- Issue warrants 
