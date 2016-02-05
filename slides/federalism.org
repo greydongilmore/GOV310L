@@ -114,6 +114,7 @@ separated from the legislative and executive powers
 - Judicial
 
 ** Federalist 51
+#+BEAMER: \pause 
 #+BEGIN_QUOTE
 Ambition must be made to counteract ambition
 #+END_QUOTE
@@ -180,3 +181,80 @@ Ambition must be made to counteract ambition
 - *Executive*
 - Declare executive actions unconstitutional
 - Issue warrants 
+
+** Vetos
+
+#+BEGIN_SRC R :session R-session :results value silent :exports results
+  library(rvest)
+  library(dplyr)
+  library(ggplot2)
+
+  url <- "https://en.wikipedia.org/wiki/List_of_United_States_presidential_vetoes"
+
+  temp <- url %>%
+    read_html %>%
+    html_nodes("table")
+
+  vetos <- html_table(temp[1])
+  vetos <- vetos[[1]]
+
+  names(vetos) <- c("president", "regular", "pocket", "total",
+                    "total_override", "percent_override",
+                    "regular_override")
+
+  vetos <- vetos[2:dim(vetos)[1], ]
+
+  vetos <- vetos %>% 
+    mutate(order_prez = factor(president, levels = president, ordered = TRUE))
+
+#+END_SRC
+
+** Vetos over time
+#+BEGIN_SRC R :session R-session :results value graphics :file ../figures/vetos.pdf :exports results 
+  vetos %>%
+    ggplot(aes(order_prez, total)) +
+    geom_bar(stat = "identity")
+#+END_SRC
+
+#+ATTR_LATEX: :width 0.6\textwidth :float t
+#+RESULTS:
+[[file:../figures/vetos.pdf]]
+
+** Recent vetos
+#+BEGIN_SRC R :session R-session :results value graphics :file ../figures/vetos-recent.pdf :exports results 
+  vetos[(dim(vetos)[1] - 5):dim(vetos)[1], ] %>%
+  ggplot(aes(order_prez, total)) +
+    geom_bar(stat = "identity")
+#+END_SRC
+
+#+ATTR_LATEX: :width 0.6\textwidth :float t
+#+RESULTS:
+[[file:../figures/vetos-recent.pdf]]
+
+** Veto overrides - total number
+#+BEGIN_SRC  R :session R-session :results value graphics :file ../figures/veto-overrides.pdf :exports results 
+  vetos %>%
+    ggplot(aes(president, total_override)) +
+    geom_bar(stat = "identity")
+#+END_SRC
+
+#+ATTR_LATEX: :width 0.6\textwidth :float t
+#+RESULTS:
+[[file:../figures/veto-overrides.pdf]]
+
+** Veto overrides - percentage 
+#+BEGIN_SRC R :session R-session :results value silent :exports results
+  vetos <- vetos %>%
+    mutate(regular_override = as.numeric(sub("%", "", regular_override)))
+#+END_SRC
+
+#+BEGIN_SRC  R :session R-session :results value graphics :file ../figures/veto-override-percent.pdf :exports results 
+  vetos %>%
+    ggplot(aes(president, regular_override)) +
+    geom_bar(stat = "identity")
+#+END_SRC
+
+#+ATTR_LATEX: :width 0.6\textwidth :float t
+#+RESULTS:
+[[file:../figures/veto-override-percent.pdf]]
+
