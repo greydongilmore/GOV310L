@@ -144,7 +144,38 @@
 ** Committee chairs
 - Decides on a committees agenda
 - Usually (though not always) the senior member of the majority party
-  
+** How do committees decide?
+- By vote!
+- Median voter examples
+
+* How a bill becomes a law
+
+** Introduction
+- Bill received by Speaker/president of Senate
+- Assigned to a committee, and/or subcommittee
+- (Sub)committee markup 
+- (House) Rules committee
+  - closed rule versus open rule
+- Floor debate
+  - Senate: filibuster, cloture, and 60-vote Senate
+  - Senate: holds and amendments
+- Floor vote (possible conference committee)
+- Presidential action (sign or veto)
+  - If veto, return for another vote, two-thirds of both houses needed
+    to override
+
+* What kinds of bills pass Congress?
+
+** How does Congress decide?
+- Constituency
+- Interest groups
+- Party discipline
+- Committee assignments
+- Access to the floor
+- Whips
+- Logrolling
+- President
+
 ** Increased polarization - House
 [[file:../images/house_party_means_1879-2015.png]]
 
