@@ -145,6 +145,21 @@
 - Decides on a committees agenda
 - Usually (though not always) the senior member of the majority party
   
+** Increased polarization - House
+[[file:../images/house_party_means_1879-2015.png]]
+
+Graph from Poole & Rosenthal, voteview.com
+
+** Increased polarization - Senate
+[[file:../images/senate_party_means_1879-2015.png]]
+
+Graph from Poole & Rosenthal, voteview.com
+
+** Increased polarization
+[[file:../images/polar_house_and_senate_1879-2015.png]]
+
+Graph from Poole & Rosenthal, voteview.com
+
 * Footnotes
 
 [fn:1] Supreme Court later orders TX to redraw lines as the plan
