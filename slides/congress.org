@@ -19,13 +19,15 @@
 - Trustee :: represents based on what the MC thinks is best
 
 ** Descriptive representation
-|           | Congress/House/Senate | US population |
-| Age       |                       |               |
-| Education |                       |               |
-| Religion  |                       |               |
-| Gender    |                       |               |
-| Race      |                       |               |
-|           |                       |               |
+#+ATTR_LATEX: :align lrrr
+|          | House | Senate | US population |
+|----------+-------+--------+---------------|
+| Age      |    57 |     61 |            37 |
+| Women    |   20% |    20% |           50% |
+| Black    |   10% |     2% |           12% |
+| Hispanic |    8% |     4% |           16% |
+| LGBT     |  1.3% |     1% |    ????[fn:2] |
+|----------+-------+--------+---------------|
 
 ** Principal - Agent 
 
@@ -98,16 +100,19 @@
 - President
 
 ** Increased polarization - House
+#+ATTR_LATEX: :float t
 [[file:../images/house_party_means_1879-2015.png]]
 
 Graph from Poole & Rosenthal, voteview.com
 
 ** Increased polarization - Senate
+#+ATTR_LATEX: :float t
 [[file:../images/senate_party_means_1879-2015.png]]
 
 Graph from Poole & Rosenthal, voteview.com
 
 ** Increased polarization
+#+ATTR_LATEX: :float t
 [[file:../images/polar_house_and_senate_1879-2015.png]]
 
 Graph from Poole & Rosenthal, voteview.com
@@ -216,7 +221,11 @@ Graph from Poole & Rosenthal, voteview.com
 
 * How a bill becomes a law
 
-** Introduction
+** Schoolhouse Rock a little simplified
+#+ATTR_LATEX: :float t
+[[file:~/Teaching/GOV310L/images/howlawsmade.jpg]]
+
+** Regular procedure 
 - Bill received by Speaker/president of Senate
 - Assigned to a committee, and/or subcommittee
 - (Sub)committee markup 
@@ -230,7 +239,28 @@ Graph from Poole & Rosenthal, voteview.com
   - If veto, return for another vote, two-thirds of both houses needed
     to override
 
+** Unorthodox procedure
+*** Obamacare                                               :B_example:BMCOL:
+    :PROPERTIES:
+    :BEAMER_env: example
+    :BEAMER_col: 0.5
+    :END:
+- House passes
+- Scott Walker
+- House passes Senate (as amended)
+- "Reconciliation"
+*** Omnibus bills                                           :B_example:BMCOL:
+    :PROPERTIES:
+    :BEAMER_env: example
+    :BEAMER_col: 0.5
+    :END:
+- Usually pass 13 separate appropriations
+- More common to package them all together as one omnibus bill
+- "Omnibus bill not great, but gvt shutdown otherwise"
+
 * Footnotes
+
+[fn:2] Probably somewhere between 1 and 10%
 
 [fn:1] Supreme Court later orders TX to redraw lines as the plan
 violated rights of Latino voters
