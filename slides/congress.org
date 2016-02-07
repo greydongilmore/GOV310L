@@ -46,7 +46,7 @@
 |-----------------------+-----------------+--------------------|
 
 ** House and senate - differences 
-*** house                                                             :BMCOL:
+*** House                                                             :BMCOL:
     :PROPERTIES:
     :BEAMER_col: 0.5
     :END:
@@ -85,6 +85,33 @@
   - 2004: Republicans gain five seats, defeating 4 Democratic
     incumbents[fn:1]
 
+* What kinds of bills pass Congress?
+
+** How does Congress decide?
+- Constituency
+- Interest groups
+- Party discipline
+- Committee assignments
+- Access to the floor
+- Whips
+- Logrolling
+- President
+
+** Increased polarization - House
+[[file:../images/house_party_means_1879-2015.png]]
+
+Graph from Poole & Rosenthal, voteview.com
+
+** Increased polarization - Senate
+[[file:../images/senate_party_means_1879-2015.png]]
+
+Graph from Poole & Rosenthal, voteview.com
+
+** Increased polarization
+[[file:../images/polar_house_and_senate_1879-2015.png]]
+
+Graph from Poole & Rosenthal, voteview.com
+
 * Congressional organization
 
 ** Leadership in the House
@@ -103,7 +130,7 @@
     :BEAMER_col: 0.5
     :END:
 - *Republicans*
-- Speaker: Paul Ryan (WI)
+- Speaker:: Paul Ryan (WI)
 - Majority leader: Kevin McCarthy (CA); Mitch McConnell (KY)
 - Whip: Steven Scalise (LA); John Cornyn (TX)
 *** Democrats                                                         :BMCOL:
@@ -118,20 +145,59 @@
   committee system to allow for specialization
 - Standing committee - permanent committee with formal rules
 ** Standing committees - House
-| Agriculture            | Appropriations         | Armed services             |
-| Budget                 | Education & workforce  | Energy & commerce          |
-| Ethics                 | Financial services     | Foreign affairs            |
-| Homeland security      | House administration   | Judiciary                  |
-| Natural resources      | Oversight & gvt reform | Rules                      |
-| Science, space, & tech | Small business         | Transport & Infrastructure |
-| Veteran's affairs      | Ways & Means           |                            |
+*** half                                                              :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- Agriculture
+- Appropriations
+- Armed services
+- Budget
+- Education & workforce
+- Energy & commerce
+- Ethics
+- Financial services
+- Foreign affairs
+- Homeland security
+*** half                                                              :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- House administration
+- Judiciary
+- Natural resources
+- Oversight & gvt reform
+- Rules
+- Science, space, & tech
+- Small business
+- Transport & Infrastructure
+- Veteran's affairs
+- Ways & Means                                       
 ** Standing committees - Senate
-| Agriculture, nutrition, & forestry | Appropriations                       | Armed services                           |
-| Banking, housing, & urban affairs  | Budget                               | Commerce, science, & transportation      |
-| Energy & natural resources         | Environment & public works           | Finance                                  |
-| Foreign relations                  | Health, education, labor, & pensions | Homeland security & governmental affairs |
-| Judiciary                          | Rules & administration               | Small business & entrepreneurship        |
-| Veterans' affairs                  |                                      |                                          |
+*** half                                                              :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- Agriculture, nutrition, & forestry
+- Appropriations
+- Armed services
+- Banking, housing, & urban affairs
+- Budget
+- Commerce, science, & transportation
+- Energy & natural resources
+- Environment & public works
+*** half                                                              :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- Finance
+- Foreign relations
+- Health, education, labor, & pensions
+- Homeland security & governmental affairs
+- Judiciary
+- Rules & administration
+- Small business & entrepreneurship
+- Veterans' affairs                                          
 ** The committee system
 - Jurisdiction is important in determining which committee has power
   over an issue
@@ -163,33 +229,6 @@
 - Presidential action (sign or veto)
   - If veto, return for another vote, two-thirds of both houses needed
     to override
-
-* What kinds of bills pass Congress?
-
-** How does Congress decide?
-- Constituency
-- Interest groups
-- Party discipline
-- Committee assignments
-- Access to the floor
-- Whips
-- Logrolling
-- President
-
-** Increased polarization - House
-[[file:../images/house_party_means_1879-2015.png]]
-
-Graph from Poole & Rosenthal, voteview.com
-
-** Increased polarization - Senate
-[[file:../images/senate_party_means_1879-2015.png]]
-
-Graph from Poole & Rosenthal, voteview.com
-
-** Increased polarization
-[[file:../images/polar_house_and_senate_1879-2015.png]]
-
-Graph from Poole & Rosenthal, voteview.com
 
 * Footnotes
 
