@@ -12,7 +12,7 @@ These will be updated with links to the slides.
 1. [Intro and the founding](/GOV310L/slides/intro-and-founding.pdf)
 2. [Liberties and rights](/GOV310L/slides/liberties-and-rights.pdf)
 3. [Federalism and separation of powers](/GOV310L/slides/federalism.pdf)
-4. Congress
+4. [Congress](/GOV310L/slides/congress.pdf)
 5. The Presidency & Executive
 6. The Courts
 7. Issue spotlight #1
