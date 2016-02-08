@@ -1,0 +1,16 @@
+#+TITLE:     License info
+#+AUTHOR:    J. Alexander Branham
+#+EMAIL:     branham@utexas.edu
+#+DATE:      Spring 2016
+
+This list is intended to give license information about the files in
+this folder
+
+- house_party_means_1879-2015.png :: unclear license. from voteview.org
+- howlawsaremade.jpg :: CC license, information included in file
+- Little_Rock_Desegregation_1957.jpg :: copyrighted. I believe that I am
+     using it under the fair use policy
+- polar_house_and_senate_1879-2015.png :: unclear license. from voteview.org
+- senate_party_means_1879-2015.png :: unclear license. from voteview.org
+- womens-suffrage-propaganda.jpg :: CC CCO 1.0 universal public domain
+     [[https://commons.wikimedia.org/wiki/File:Milhousdrawing.jpg][more information here]] 

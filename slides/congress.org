@@ -1,0 +1,275 @@
+#+TITLE:     Congress
+#+AUTHOR:    J. Alexander Branham
+#+EMAIL:     branham@utexas.edu
+#+DATE:      Spring 2016
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LATEX_CMD: xelatex
+#+LANGUAGE: en
+#+OPTIONS: toc:nil H:2
+#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue]
+#+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
+
+* Representation
+
+** Who elects representatives? 
+- Constituency :: the people in the district that an MC represents
+** Principal - Agent 
+- Principal :: constituency
+- Agent :: elected representative 
+** Representational styles
+- Delegate :: represents preferences of the constituency
+- Trustee :: represents based on what the MC thinks is best
+
+** Descriptive representation
+#+ATTR_LATEX: :align lrrr
+|          | House | Senate | US population |
+|----------+-------+--------+---------------|
+| Age      |    57 |     61 |            37 |
+| Women    |   20% |    20% |           50% |
+| Black    |   10% |     2% |           12% |
+| Hispanic |    8% |     4% |           16% |
+| LGBT     |  1.3% |     1% |    ????[fn:2] |
+|----------+-------+--------+---------------|
+
+** House and senate - differences
+- Bicameral legislature 
+- House is "closer" to the people
+- Money bills in House 
+- 435 members, of House, 100 in Senate 
+
+** House and Senate: differences
+|                       | House           | Senate             |
+|-----------------------+-----------------+--------------------|
+| Minimum age           | 25 years        | 30 years           |
+| Length of citizenship | 7 years         | 9 years            |
+| Term length           | 2 years         | 6 years (rotates)  |
+| Represents how many?  | ~700,000 today  | max: CA 39 million |
+|                       | ~30,000 in 1789 | min: WY 500,000    |
+|-----------------------+-----------------+--------------------|
+
+** House and senate - differences 
+*** House                                                             :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- *House of Representatives*
+- Organized 
+- Centralized
+- Strong leadership
+- Members specialized
+*** Senate                                                            :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- *Senate*
+- Senate more deliberative (historically)
+- Leadership weaker
+- Less specialization
+
+** The electoral system
+- Who runs?
+  - Don't really know. The ambitious?
+- Incumbency - provides an advantage through
+  - Casework - constituency services
+  - Patronage - pork-barrel legislation
+  - Franking privilege
+
+** The electoral system
+- House districts redrawn every 10 years
+- House fixed at 435 members since 1929 law
+- West and South generally gain seats, NE and Midwest generally lose
+  - TX gained 4 seats post-2010
+
+** The electoral system
+- Gerrymandering - drawing districts to (dis)favor a party or incumbents
+- 2003: TX Republicans redraw districts
+  - Democrats fled to Oklahoma to delay vote
+  - 2004: Republicans gain five seats, defeating 4 Democratic
+    incumbents[fn:1]
+
+* What kinds of bills pass Congress?
+
+** How does Congress decide?
+- Constituency
+- Interest groups
+- Party discipline
+- Committee assignments
+- Access to the floor
+- Whips
+- Logrolling
+- President
+
+** Increased polarization - House
+#+ATTR_LATEX: :float t
+[[file:../images/house_party_means_1879-2015.png]]
+
+Graph from Poole & Rosenthal, voteview.com
+
+** Increased polarization - Senate
+#+ATTR_LATEX: :float t
+[[file:../images/senate_party_means_1879-2015.png]]
+
+Graph from Poole & Rosenthal, voteview.com
+
+** Increased polarization
+#+ATTR_LATEX: :float t
+[[file:../images/polar_house_and_senate_1879-2015.png]]
+
+Graph from Poole & Rosenthal, voteview.com
+
+* Congressional organization
+
+** Leadership in the House
+- Party caucus/conference at the beginning of each Congressional
+  session to select nomination for Speaker
+- Speaker of the House chosen at the beginning of each Congress
+  - Presides over House meetings
+  - Most important leader of House and party
+- Majority leader, minority leader, whips
+
+** Leadership in the House and Senate - current
+- Republicans have held the House since 2010
+- Republicans have held the Senate since 2014
+*** Republicans                                                       :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- *Republicans*
+- Speaker: Paul Ryan (WI)
+- Majority leader:
+  - House: Kevin McCarthy (CA)
+  - Senate: Mitch McConnell (KY)
+- Whip:
+  - House: Steven Scalise (LA)
+  - Senate: John Cornyn (TX)
+*** Democrats                                                         :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- *Democrats*
+- Minority leader:
+  - House: Nancy Pelosi (CA)
+  - Senate: Harry Reid (NV)
+- Whip:
+  - House: Steny Hoyer (MA)
+  - Senate: Dick Durbin (IL)
+** The committee system 
+- Congress has to deal with a huge number of issues, so created the
+  committee system to allow for specialization
+- Standing committee - permanent committee with formal rules
+** Standing committees - House
+*** half                                                              :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- Agriculture
+- Appropriations
+- Armed services
+- Budget
+- Education & workforce
+- Energy & commerce
+- Ethics
+- Financial services
+- Foreign affairs
+- Homeland security
+*** half                                                              :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- House administration
+- Judiciary
+- Natural resources
+- Oversight & gvt reform
+- Rules
+- Science, space, & tech
+- Small business
+- Transport & Infrastructure
+- Veteran's affairs
+- Ways & Means                                       
+** Standing committees - Senate
+*** half                                                              :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- Agriculture, nutrition, & forestry
+- Appropriations
+- Armed services
+- Banking, housing, & urban affairs
+- Budget
+- Commerce, science, & transportation
+- Energy & natural resources
+- Environment & public works
+*** half                                                              :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- Finance
+- Foreign relations
+- Health, education, labor, & pensions
+- Homeland security & governmental affairs
+- Judiciary
+- Rules & administration
+- Small business & entrepreneurship
+- Veterans' affairs                                          
+** The committee system
+- Jurisdiction is important in determining which committee has power
+  over an issue
+  - Does tobacco regulation go to the health committee or the
+    agriculture committee?
+- Gatekeepers - decides if a bill will make it out of committee
+  - Can also amend
+- Responsible for oversight
+- Subcommittees
+** Committee chairs
+- Decides on a committees agenda
+- Usually (though not always) the senior member of the majority party
+** How do committees decide?
+- By vote!
+- Median voter examples
+
+* How a bill becomes a law
+
+** Schoolhouse Rock a little simplified
+#+ATTR_LATEX: :float t
+[[file:~/Teaching/GOV310L/images/howlawsmade.jpg]]
+
+** Regular procedure 
+- Bill received by Speaker/president of Senate
+- Assigned to a committee, and/or subcommittee
+- (Sub)committee markup 
+- (House) Rules committee
+  - closed rule versus open rule
+- Floor debate
+  - Senate: filibuster, cloture, and 60-vote Senate
+  - Senate: holds and amendments
+- Floor vote (possible conference committee)
+- Presidential action (sign or veto)
+  - If veto, return for another vote, two-thirds of both houses needed
+    to override
+
+** Unorthodox procedure
+*** Obamacare                                               :B_example:BMCOL:
+    :PROPERTIES:
+    :BEAMER_env: example
+    :BEAMER_col: 0.5
+    :END:
+- House passes
+- Scott Walker
+- House passes Senate (as amended)
+- "Reconciliation"
+*** Omnibus bills                                           :B_example:BMCOL:
+    :PROPERTIES:
+    :BEAMER_env: example
+    :BEAMER_col: 0.5
+    :END:
+- Usually pass 13 separate appropriations
+- More common to package them all together as one omnibus bill
+- "Omnibus bill not great, but gvt shutdown otherwise"
+
+* Footnotes
+
+[fn:2] Probably somewhere between 1 and 10%
+
+[fn:1] Supreme Court later orders TX to redraw lines as the plan
+violated rights of Latino voters
