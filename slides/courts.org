@@ -18,13 +18,13 @@
 #+BEGIN_LaTeX
 \begin{tikzpicture}[node distance=2cm]
 \node (supreme-court) [startstop] {Supreme Court}; 
-\node (court-appeals) [startstop, below left of=  supreme-court] {Court of
+\node (court-appeals) [startstop, below left = 0.75cm and 0.75cm of  supreme-court] {Court of
   Appeals} ; 
 \node (district-courts) [startstop, below of =  court-appeals] {District
   Courts} ;
 \draw [arrow] (district-courts) -- (court-appeals);
 \draw [arrow] (court-appeals) -- (supreme-court);
-\node (state-supreme) [startstop, below right= 2cm and 2cm of supreme-court] {State supreme court};
+\node (state-supreme) [startstop, below right= 0.75cm and 0.75cm of supreme-court] {State supreme court};
 \node (state-appeals) [startstop, below of = state-supreme] {State appellate courts}; 
 \node (state-trial) [startstop, below of =  state-appeals] {State
   trial courts};
