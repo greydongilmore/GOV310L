@@ -1,0 +1,163 @@
+#+TITLE:     The Courts
+#+AUTHOR:    J. Alexander Branham
+#+EMAIL:     branham@utexas.edu
+#+DATE:      Spring 2016
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LATEX_CMD: xelatex
+#+OPTIONS: toc:nil H:2
+#+LATEX_HEADER: \usepackage{tikz}
+#+LATEX_HEADER: \usetikzlibrary{shapes.geometric, arrows, positioning}
+#+LATEX_HEADER: \tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
+#+LATEX_HEADER: \tikzstyle{arrow} = [thick,->,>=stealth]
+#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue, aspectratio=169]
+#+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
+
+* Judicial Process
+
+** Types of disputes
+- Criminal law :: Government charges an individual with a violation of
+     a statue that has been enacted to protect the public health,
+     safety, morals, or welfare
+  - Defendants found guilty fined and/or sent to prison 
+- Civil law :: Disputes between two parties (gvt can be one) where no
+     crime is alleged 
+  - Contracts and torts most common
+  - Defendants who lose can't be fined or sent to jail but can be
+    forced to pay damages 
+- Public law :: cases that involve the rights of the citizens or
+     powers of government 
+  - Constitutional law
+
+* Organization of the Courts
+
+** The court system 
+- Two court systems: federal and state
+- Most cases at state level
+- Federal: 94 district courts, 13 Court of Appeals, Supreme Court
+- State: district courts, state appellate courts, state supreme court (or
+  court of criminal appeals), US
+  Supreme Court 
+** The court system 
+#+BEGIN_LaTeX
+\begin{tikzpicture}%[node distance=1cm]
+\node (district-courts) [startstop] {District
+  Courts} ;
+\node (court-appeals) [startstop, above = 2.25cm of district-courts] {Court of
+  Appeals} ; 
+\node (supreme-court) [startstop, above right = 2cm and 0.5 cm of  court-appeals] {Supreme Court}; 
+\node (state-supreme) [startstop, right = 1cm of court-appeals] {State
+  Supreme Court};
+\node (state-criminal) [startstop, right = 1cm of state-supreme] {Texas Court of Criminal Appeals};
+\node (state-appeals) [startstop, below right = 1cm and 0.25cm of state-supreme] {State appellate courts}; 
+\node (state-trial) [startstop, below = 0.5cm of state-appeals] {State
+  trial courts};
+\draw [arrow] (district-courts) -- (court-appeals);
+\draw [arrow] (court-appeals) -- (supreme-court);
+\draw [arrow] (state-supreme) -- (supreme-court);
+\draw [arrow] (state-trial) -- (state-appeals);
+\draw [arrow] (state-appeals) -- (state-supreme); 
+\draw [arrow] (state-appeals) -- (state-criminal);
+\draw [arrow] (state-criminal) -- (supreme-court);
+\end{tikzpicture}
+#+END_LaTeX
+
+** Federal jurisdiction 
+- Federal laws
+- Treaties with other nations
+- US Constitution
+- If the US government is a party
+- Civil cases involving people in more than one state and money
+  greater than $75,000
+- Appeals from state supreme courts
+  - Due process
+  - Federal law
+** Federal district courts
+- (Usually) one judge per case
+- Grand jury
+- 12 person jury
+- Unanimous verdict
+** Federal circuit courts
+- Hears appeals from the lower courts
+- (Usually) 3 judge panel
+- 13 Courts of Appeal, 12 of which are geographic in nature
+  - Texas is in the 5th circuit, based in New Orleans
+  - 9th circuit covers about 20% of Americans
+** Circuits 
+#+ATTR_LATEX: :float t :scale 0.6
+[[file:../images/circuit-courts.jpg]]
+** The Supreme Court
+- One chief justice + eight associate justices
+  - Congress can change this
+  - Has been 9 since 1869
+** Appointing a Supreme Court judge 
+- *Lifetime appointments*
+- Huge political battles 
+- Nominated by the President
+  - Usually prominent legal scholars, federal judges, or prosecutors
+  - Usually like-minded
+- Considered by Senate Judiciary Committee
+  - Currently chaired by Chuck Grassley (R-IA)
+  - Grills nominees on wide range of issues 
+- Vote by full Senate
+  - Filibuster and cloture 
+
+* Courts as political actors
+** Landmark cases
+- Marbury v. Madison (1803) :: Establishes judicial review
+- McCulloch v. Maryland (1819) :: Justifies "implied powers"
+- Gibbons v. Ogden (1824) :: Supremacy of federal government over states
+- Dred Scott v. Sandford (1857) :: Slaves weren't citizens & had no
+     Constitutional rights
+- Plessy v. Ferguson (1896) :: Separate but equal
+- Brown v. Board of Education (1954) :: Ends segregation
+- Baker v. Carr (1962) :: Courts get involved in districting
+- Griswold v. Connecticut (1965) :: right to privacy
+- Roe v. Wade (1973) :: Legalizes abortion
+** 
+- Dispute resolution
+- Coordination
+- Rule interpretation
+** Judicial Review 
+- Acts of Congress
+- State actions
+- Federal agency actions
+- Presidential power
+* The Supreme Court's Caseload 
+** Original Jurisdiction
+- Cases between the US and a one or several states
+- *Cases between two or more states*
+- Cases involving foreign ambassadors or other ministers
+- Cases brought by one state against citizens of another or against a
+  foreign country
+- *ALL ELSE* is appeals-only
+** Rules of Access
+- Cases and controversies
+  - No hypotheticals
+  - *ripeness* - two truely adversarial parties
+- *Standing* - parties must have a substantial stake in the outcome of
+  the case (injury)
+- *Mootness* - avoid hearing cases that no longer require resolution
+- Court more likely to hear cases:
+  - with conflicting decisions by lower courts
+  - important civil rights/liberties
+  - federal government is appellant
+** /Certiorari/
+- Write of /certiorari/ is a formal request by an appellant to have
+  the Supreme Court review the decision of a lower court, must be
+  filed within 90 days
+- Clerks pool together all the petitions, write memos summarizing
+  facts and giving opinions
+- Discuss list, 4 votes needed to grant cert
+- This is usually about 90 per year, about 1% of the petitions
+  received
+** Solicitor General
+- Government's top lawyer
+- Screens cases involving the government, usually his/her decision is
+  final
+- Can write /amicus curiae/ briefs indicating the government's
+  position
+** Procedure
+- Preparation - briefs and /amicus curiae/ briefs
+- Oral arguments - 30 minutes each
+- Conference 
