@@ -13,4 +13,5 @@ this folder
 - polar_house_and_senate_1879-2015.png :: unclear license. from voteview.org
 - senate_party_means_1879-2015.png :: unclear license. from voteview.org
 - womens-suffrage-propaganda.jpg :: CC CCO 1.0 universal public domain
-     [[https://commons.wikimedia.org/wiki/File:Milhousdrawing.jpg][more information here]] 
+     [[https://commons.wikimedia.org/wiki/File:Milhousdrawing.jpg][more information here]]
+- circuit-courts.jpg :: CC- SA 2.5, [[https://en.wikipedia.org/wiki/File:US_Court_of_Appeals_and_District_Court_map.svg][more info here]]
