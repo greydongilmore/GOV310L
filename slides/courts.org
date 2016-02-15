@@ -39,23 +39,27 @@
   court of criminal appeals), US
   Supreme Court 
 ** The court system 
-
+#+ATTR_LATEX: :float t
 #+BEGIN_LaTeX
-\begin{tikzpicture}[node distance=2cm]
-\node (supreme-court) [startstop] {Supreme Court}; 
-\node (court-appeals) [startstop, below left = 0.75cm and 0.75cm of  supreme-court] {Court of
-  Appeals} ; 
-\node (district-courts) [startstop, below of =  court-appeals] {District
+\begin{tikzpicture}%[node distance=1cm]
+\node (district-courts) [startstop] {District
   Courts} ;
+\node (court-appeals) [startstop, above = 2.25cm of district-courts] {Court of
+  Appeals} ; 
+\node (supreme-court) [startstop, above right = 2.75cm and 0.5 cm of  court-appeals] {Supreme Court}; 
+\node (state-supreme) [startstop, right = 1cm of court-appeals] {State
+  Supreme Court};
+\node (state-criminal) [startstop, right = 1cm of state-supreme] {Texas Court of Criminal Appeals};
+\node (state-appeals) [startstop, below right = 1cm and 0.25cm of state-supreme] {State appellate courts}; 
+\node (state-trial) [startstop, below = 0.5cm of state-appeals] {State
+  trial courts};
 \draw [arrow] (district-courts) -- (court-appeals);
 \draw [arrow] (court-appeals) -- (supreme-court);
-\node (state-supreme) [startstop, below right= 0.75cm and 0.75cm of supreme-court] {State supreme court};
-\node (state-appeals) [startstop, below of = state-supreme] {State appellate courts}; 
-\node (state-trial) [startstop, below of =  state-appeals] {State
-  trial courts};
 \draw [arrow] (state-supreme) -- (supreme-court);
 \draw [arrow] (state-trial) -- (state-appeals);
 \draw [arrow] (state-appeals) -- (state-supreme); 
+\draw [arrow] (state-appeals) -- (state-criminal);
+\draw [arrow] (state-criminal) -- (supreme-court);
 \end{tikzpicture}
 #+END_LaTeX
 
