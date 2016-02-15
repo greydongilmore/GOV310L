@@ -10,7 +10,7 @@
 #+LATEX_HEADER: \usetikzlibrary{shapes.geometric, arrows, positioning}
 #+LATEX_HEADER: \tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
 #+LATEX_HEADER: \tikzstyle{arrow} = [thick,->,>=stealth]
-#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue]
+#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue, aspectratio=169]
 #+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
 
 * Judicial Process
@@ -39,14 +39,13 @@
   court of criminal appeals), US
   Supreme Court 
 ** The court system 
-#+ATTR_LATEX: :float t
 #+BEGIN_LaTeX
 \begin{tikzpicture}%[node distance=1cm]
 \node (district-courts) [startstop] {District
   Courts} ;
 \node (court-appeals) [startstop, above = 2.25cm of district-courts] {Court of
   Appeals} ; 
-\node (supreme-court) [startstop, above right = 2.75cm and 0.5 cm of  court-appeals] {Supreme Court}; 
+\node (supreme-court) [startstop, above right = 2cm and 0.5 cm of  court-appeals] {Supreme Court}; 
 \node (state-supreme) [startstop, right = 1cm of court-appeals] {State
   Supreme Court};
 \node (state-criminal) [startstop, right = 1cm of state-supreme] {Texas Court of Criminal Appeals};
@@ -84,6 +83,9 @@
 - 13 Courts of Appeal, 12 of which are geographic in nature
   - Texas is in the 5th circuit, based in New Orleans
   - 9th circuit covers about 20% of Americans
+** Circuits 
+#+ATTR_LATEX: :float t :scale 0.6
+[[file:../images/circuit-courts.jpg]]
 ** The Supreme Court
 - One chief justice + eight associate justices
   - Congress can change this
