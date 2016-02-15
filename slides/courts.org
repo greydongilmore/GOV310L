@@ -7,7 +7,7 @@
 #+LATEX_CMD: xelatex
 #+OPTIONS: toc:nil H:2
 #+LATEX_HEADER: \usepackage{tikz}
-#+LATEX_HEADER: \usetikzlibrary{shapes.geometric, arrows}
+#+LATEX_HEADER: \usetikzlibrary{shapes.geometric, arrows, positioning}
 #+LATEX_HEADER: \tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
 #+LATEX_HEADER: \tikzstyle{arrow} = [thick,->,>=stealth]
 #+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue]
@@ -18,15 +18,17 @@
 #+BEGIN_LaTeX
 \begin{tikzpicture}[node distance=2cm]
 \node (supreme-court) [startstop] {Supreme Court}; 
-\node (court-appeals) [startstop, below of=  supreme-court] {Court of
+\node (court-appeals) [startstop, below left of=  supreme-court] {Court of
   Appeals} ; 
 \node (district-courts) [startstop, below of =  court-appeals] {District
   Courts} ;
 \draw [arrow] (district-courts) -- (court-appeals);
 \draw [arrow] (court-appeals) -- (supreme-court);
-\node (state-supreme) [startstop, right of = supreme-court] {State supreme court};
+\node (state-supreme) [startstop, below right= 2cm and 2cm of supreme-court] {State supreme court};
 \node (state-appeals) [startstop, below of = state-supreme] {State appellate courts}; 
-\node (state-trial) [startstop, below of =  state-appeals] {State trial courts};
+\node (state-trial) [startstop, below of =  state-appeals] {State
+  trial courts};
+\draw [arrow] (state-supreme) -- (supreme-court);
 \draw [arrow] (state-trial) -- (state-appeals);
 \draw [arrow] (state-appeals) -- (state-supreme); 
 \end{tikzpicture}
