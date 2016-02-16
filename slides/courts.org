@@ -100,29 +100,19 @@
   - Currently chaired by Chuck Grassley (R-IA)
   - Grills nominees on wide range of issues 
 - Vote by full Senate
-  - Filibuster and cloture 
-
-* Courts as political actors
-** Landmark cases
-- Marbury v. Madison (1803) :: Establishes judicial review
-- McCulloch v. Maryland (1819) :: Justifies "implied powers"
-- Gibbons v. Ogden (1824) :: Supremacy of federal government over states
-- Dred Scott v. Sandford (1857) :: Slaves weren't citizens & had no
-     Constitutional rights
-- Plessy v. Ferguson (1896) :: Separate but equal
-- Brown v. Board of Education (1954) :: Ends segregation
-- Baker v. Carr (1962) :: Courts get involved in districting
-- Griswold v. Connecticut (1965) :: right to privacy
-- Roe v. Wade (1973) :: Legalizes abortion
-** 
-- Dispute resolution
-- Coordination
-- Rule interpretation
-** Judicial Review 
-- Acts of Congress
-- State actions
-- Federal agency actions
-- Presidential power
+  - Filibuster and cloture
+** Current justices
+| Name                | Birth year | Prior experience  | Appointed by | Year of appt |
+|---------------------+------------+-------------------+--------------+--------------|
+| John Roberts        |       1955 | Federal judge     | Bush (2)     |         2005 |
+| Anthony Kennedy     |       1936 | Federal judge     | Reagan       |         1988 |
+| Clarence Thomas     |       1948 | Federal judge     | Bush (1)     |         1991 |
+| Ruth Bader Ginsburg |       1933 | Federal judge     | Clinton      |         1993 |
+| Stephen Breyer      |       1938 | Federal judge     | Clinton      |         1994 |
+| Samuel Alito        |       1950 | Federal judge     | Bush (2)     |         2006 |
+| Sonia Sotomayor     |       1954 | Federal judge     | Obama        |         2009 |
+| Elena Kagan         |       1960 | Solicitor general | Obama        |         2010 |
+|---------------------+------------+-------------------+--------------+--------------|
 * The Supreme Court's Caseload 
 ** Original Jurisdiction
 - Cases between the US and a one or several states
@@ -160,4 +150,52 @@
 ** Procedure
 - Preparation - briefs and /amicus curiae/ briefs
 - Oral arguments - 30 minutes each
-- Conference 
+- Conference
+- Opinion writing
+  - Majority opinion
+  - Concurrence
+  - Dissent
+
+* Courts as political actors
+
+** Landmark cases
+- Marbury v. Madison (1803) :: Establishes judicial review
+- McCulloch v. Maryland (1819) :: Justifies "implied powers"
+- Gibbons v. Ogden (1824) :: Supremacy of federal government over states
+- Dred Scott v. Sandford (1857) :: Slaves weren't citizens & had no
+     Constitutional rights
+- Plessy v. Ferguson (1896) :: Separate but equal
+- Brown v. Board of Education (1954) :: Ends segregation
+- Baker v. Carr (1962) :: Courts get involved in districting
+- Griswold v. Connecticut (1965) :: right to privacy
+- Roe v. Wade (1973) :: Legalizes abortion
+** What functions do courts serve?
+- Dispute resolution
+- Coordination
+- Rule interpretation
+** Judicial Review 
+- Acts of Congress
+- State actions
+- Federal agency actions
+- Presidential power
+** Interactions with Congress
+- Strikes down administrative action based on statutory authority
+  (statutory rationale)
+- Strikes down statues based on Constitution (constitutional rationale)
+** Interactions with the President 
+- President nominates judges
+  - Close to their policy preferences
+  - Increasingly with an eye to diversity
+** No teeth
+- How to implement decisions? 
+- Obstruction by lower courts
+  - Apply the case narrowly
+  - "dicta"
+- Obstruction by state legislatures and governors
+- Obstruction by the President
+  - "John Marshall has made his decision. Now let him enforce it."
+    -Jackson
+** Expanding power
+- Liberalizing policies 
+- Expanding rules of standing 
+- Structural remedies
