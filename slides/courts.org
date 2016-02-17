@@ -122,9 +122,9 @@
   foreign country
 - *ALL ELSE* is appeals-only
 ** Rules of Access
-- Cases and controversies
+- *Ripeness*
   - No hypotheticals
-  - *ripeness* - two truely adversarial parties
+  - Two truely adversarial parties
 - *Standing* - parties must have a substantial stake in the outcome of
   the case (injury)
 - *Mootness* - avoid hearing cases that no longer require resolution
