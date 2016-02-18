@@ -6,7 +6,7 @@
 #+LaTeX_CLASS: beamer
 #+LATEX_CMD: xelatex
 #+OPTIONS: toc:nil H:2
-#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue]
+#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue, aspectratio=169]
 #+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
 
 * The Presidency
@@ -26,8 +26,43 @@ Qualifications:
 - Resident of US for 14 years
 
 ** Presidential power
-- Expressed powers :: enumerated in the Constitution (make treaties,
-     grant pardons, nominate judges, etc)
+- Expressed powers :: enumerated in the Constitution
 - Delegated powers :: power assigned to Congress that Congress gives
      to the executive branch
-- Inherent powers :: 
+- Inherent powers :: Powers claimed by the President not specified in
+     Constitution or given by Congress
+  - Usually war powers
+
+** Expressed powers
+- Military - commander in chief
+- Judicial - pardons and amnesty 
+- Diplomatic - treaties and executive agreements
+- Executive - focus of executive power, executive privilege 
+- Legislative - SotU, veto
+  - Veto
+  - Pocket veto
+  - Line-item veto (1906-1998, unconstitutional after)
+
+** Delegated powers
+- Congress passes a lot of laws
+- Too many for them to act on directly
+- Create federal agencies to work towards the goals Congress sets out
+- Congressional legislation can be detailed (tax law and the IRS)
+- Or not
+  - "to assure so far as is possible every working man and woman in
+    the nation safe and healthful working conditions"
+  - What are those conditions and how to achieve them?
+- Shifts power from Congress to executive branch
+
+** Inherent powers
+- Congress has power to declare war...
+- But presidents deploy troops all the time
+- War last declared in December 1941
+- War Powers Resolution passed over Nixon's veto
+  - Presidents generally ignore it
+
+** Legislative initiative 
+- Brings the agenda to Congress
+  - Especially if unified control of government
+- SotU 
+- Executive orders 
