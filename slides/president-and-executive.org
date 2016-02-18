@@ -8,3 +8,26 @@
 #+OPTIONS: toc:nil H:2
 #+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue]
 #+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
+
+* The Presidency
+
+** Constitutional debates
+- Unitary or collective actor?
+- Elected by Congress or the people? 
+
+** Constitutional origins
+#+BEGIN_QUOTE
+The executive Power shall be vested in a President of the United
+States of America
+#+END_QUOTE
+Qualifications: 
+- "Natural born citizen"
+- 35 years old
+- Resident of US for 14 years
+
+** Presidential power
+- Expressed powers :: enumerated in the Constitution (make treaties,
+     grant pardons, nominate judges, etc)
+- Delegated powers :: power assigned to Congress that Congress gives
+     to the executive branch
+- Inherent powers :: 
