@@ -116,4 +116,10 @@ Cabinet-rank officials
 ** White House Staff
 - Chief of Staff
 - Press secretary
-- Special assistants / senior advisers 
+- Special assistants / senior advisers
+** Executive office of the president
+- Executive Office of the President
+- Permanent agencies that perform defined management tasks for the President
+- Office of Management and Budget (OMB)
+- Council of Economic Advisers (CEA)
+- Others
