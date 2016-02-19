@@ -65,4 +65,55 @@ Qualifications:
 - Brings the agenda to Congress
   - Especially if unified control of government
 - SotU 
-- Executive orders 
+- Executive orders
+
+** The rise of presidential power
+- Congressional government 1800 - 1930s
+  - Weak presidents
+  - America's chief clerk 
+#+BEAMER: \pause
+- The New Deal
+
+** Presidential power
+- The Cabinet: 
+*** left                                                              :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- Vice President
+- Secretary of State
+- Secretary of the Treasury
+- Secretary of Defense
+- Attorney General
+- Secretary of the Interior
+- Secretary of Agriculture
+- Secretary of Commetce
+*** right                                                             :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- Secretary of Labor
+- Secretary of Health and Human Services
+- Secretary of Housing and Urban Development
+- Secretary of Transportation
+- Secretary of Energy
+- Secretary of Education
+- Secretary of Veterans Affairs
+- Secretary of Homeland Security 
+** Cabinet, continued
+Cabinet-rank officials
+- White House Chief of Staff
+- Director of the OMB
+- Administrator of EPA
+- Trade Representative
+- Ambassador to the United Nations
+- Chairman of the Council of Economic Advisers
+- Administrator of the Small Business Administration
+** National Security Council 
+- Smaller than the Cabinet
+- President, VP, Secs of State, Defense, Treasury, Attorney General, & others
+- Has own staff separate from Cabinet
+** White House Staff
+- Chief of Staff
+- Press secretary
+- Special assistants / senior advisers 
