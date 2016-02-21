@@ -123,3 +123,55 @@ Cabinet-rank officials
 - Office of Management and Budget (OMB)
 - Council of Economic Advisers (CEA)
 - Others
+** Bases of presidential power
+- Party
+- Popular mobilization
+- Administration 
+** Party as power
+- President is generally more successful when their own party controls Congress
+  - But the president can't control members of congress
+  - Sometimes their own party revolts
+- If opposing party controls Congress, much more difficult
+  - Majority controls /what/ is on the floor
+  - Filibusters in the Senate hard to overcome
+** Popular mobilization
+- "Going public"
+- President tries to forge a direct link between him/herself and the public
+- Tries to convince the public to support their policies
+- White House Communications Office
+- FDR's fireside chats
+- Policy speech tours
+- Tweets
+** Limitations on going public
+- Hard to reach those who aren't interested
+- Media fragmentation
+- Honeymoon period decline
+** Administration 
+- Appointments - hundreds of political appointments to the bureaucracy
+  that the president fills with like-minded supporters
+- Regulatory review - OMB function of reviewing all agency regulations
+  and other rule making before they become public policy
+- Recent presidents issue directives to agencies that the agency has
+  to comply with
+** Administratoin, cntd
+- Executive orders: presidential decrees
+- Examples: Louisiana purchase, annexation of Texas, emancipation
+  proclamation, Japanese internment, EPA, FDA, Peace Corps
+- Are subject to judicial review like any other law
+** Administration, cntd
+- Signing statements - an announcement by a president while signing a
+  bill into law, usually concerned with how the president interprets
+  the law
+- Some presidents have tried to declare parts of a law
+  unconstitutional with mixed success from the courts
+- Others direct the executive branch to deal with the law in various ways
+- Of questionable legal status even though used by all modern
+  presidents
+** Presidential power: Arguments for 
+#+BEAMER: \pause
+- Emergency powers
+  - ... But hard to find a case where Congress wouldn't have acted
+- The public interest
+  - ... But presidents have particular interests as well
+- Presidential power and democracy
+  - ... But Congress may be more democratic 
