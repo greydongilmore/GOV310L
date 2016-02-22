@@ -1,0 +1,349 @@
+#+TITLE:     The Presidency and Executive Branch
+#+AUTHOR:    J. Alexander Branham
+#+EMAIL:     branham@utexas.edu
+#+DATE:      Spring 2016
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LATEX_CMD: xelatex
+#+OPTIONS: toc:nil H:2
+#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue, aspectratio=169]
+#+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
+
+* The Presidency
+
+** Constitutional debates
+- Unitary or collective actor?
+- Elected by Congress or the people? 
+
+** Constitutional origins
+#+BEGIN_QUOTE
+The executive Power shall be vested in a President of the United
+States of America
+#+END_QUOTE
+Qualifications: 
+- "Natural born citizen"
+- 35 years old
+- Resident of US for 14 years
+
+** Presidential power
+- Expressed powers :: enumerated in the Constitution
+- Delegated powers :: power assigned to Congress that Congress gives
+     to the executive branch
+- Inherent powers :: Powers claimed by the President not specified in
+     Constitution or given by Congress
+  - Usually war powers
+
+** Expressed powers
+- Military - commander in chief
+- Judicial - pardons and amnesty 
+- Diplomatic - treaties and executive agreements
+- Executive - focus of executive power, executive privilege 
+- Legislative - SotU, veto
+  - Veto
+  - Pocket veto
+  - Line-item veto (1906-1998, unconstitutional after)
+
+** Delegated powers
+- Congress passes a lot of laws
+- Too many for them to act on directly
+- Create federal agencies to work towards the goals Congress sets out
+- Congressional legislation can be detailed (tax law and the IRS)
+- Or not
+  - "to assure so far as is possible every working man and woman in
+    the nation safe and healthful working conditions"
+  - What are those conditions and how to achieve them?
+- Shifts power from Congress to executive branch
+
+** Inherent powers
+- Congress has power to declare war...
+- But presidents deploy troops all the time
+- War last declared in December 1941
+- War Powers Resolution passed over Nixon's veto
+  - Presidents generally ignore it
+
+** Legislative initiative 
+- Brings the agenda to Congress
+  - Especially if unified control of government
+- SotU 
+- Executive orders
+
+** The rise of presidential power
+- Congressional government 1800 - 1930s
+  - Weak presidents
+  - America's chief clerk 
+#+BEAMER: \pause
+- The New Deal
+
+** Presidential power
+- The Cabinet: 
+*** left                                                              :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- Vice President
+- Secretary of State
+- Secretary of the Treasury
+- Secretary of Defense
+- Attorney General
+- Secretary of the Interior
+- Secretary of Agriculture
+- Secretary of Commetce
+*** right                                                             :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- Secretary of Labor
+- Secretary of Health and Human Services
+- Secretary of Housing and Urban Development
+- Secretary of Transportation
+- Secretary of Energy
+- Secretary of Education
+- Secretary of Veterans Affairs
+- Secretary of Homeland Security 
+** Cabinet, continued
+Cabinet-rank officials
+- White House Chief of Staff
+- Director of the OMB
+- Administrator of EPA
+- Trade Representative
+- Ambassador to the United Nations
+- Chairman of the Council of Economic Advisers
+- Administrator of the Small Business Administration
+** National Security Council 
+- Smaller than the Cabinet
+- President, VP, Secs of State, Defense, Treasury, Attorney General, & others
+- Has own staff separate from Cabinet
+** White House Staff
+- Chief of Staff
+- Press secretary
+- Special assistants / senior advisers
+** Executive office of the president
+- Executive Office of the President
+- Permanent agencies that perform defined management tasks for the President
+- Office of Management and Budget (OMB)
+- Council of Economic Advisers (CEA)
+- Others
+** Bases of presidential power
+- Party
+- Popular mobilization
+- Administration 
+** Party as power
+- President is generally more successful when their own party controls Congress
+  - But the president can't control members of congress
+  - Sometimes their own party revolts
+- If opposing party controls Congress, much more difficult
+  - Majority controls /what/ is on the floor
+  - Filibusters in the Senate hard to overcome
+** Popular mobilization
+- "Going public"
+- President tries to forge a direct link between him/herself and the public
+- Tries to convince the public to support their policies
+- White House Communications Office
+- FDR's fireside chats
+- Policy speech tours
+- Tweets
+** Limitations on going public
+- Hard to reach those who aren't interested
+- Media fragmentation
+- Honeymoon period decline
+** Administration 
+- Appointments - hundreds of political appointments to the bureaucracy
+  that the president fills with like-minded supporters
+- Regulatory review - OMB function of reviewing all agency regulations
+  and other rule making before they become public policy
+- Recent presidents issue directives to agencies that the agency has
+  to comply with
+** Administratoin, cntd
+- Executive orders: presidential decrees
+- Examples: Louisiana purchase, annexation of Texas, emancipation
+  proclamation, Japanese internment, EPA, FDA, Peace Corps
+- Are subject to judicial review like any other law
+** Administration, cntd
+- Signing statements - an announcement by a president while signing a
+  bill into law, usually concerned with how the president interprets
+  the law
+- Some presidents have tried to declare parts of a law
+  unconstitutional with mixed success from the courts
+- Others direct the executive branch to deal with the law in various ways
+- Of questionable legal status even though used by all modern
+  presidents
+** Presidential power: Arguments for 
+#+BEAMER: \pause
+- Emergency powers
+  - ... But hard to find a case where Congress wouldn't have acted
+- The public interest
+  - ... But presidents have particular interests as well
+- Presidential power and democracy
+  - ... But Congress may be more democratic
+
+* The Executive Branch AKA the Bureaucracy 
+** 
+#+BEGIN_QUOTE
+The bureaucracy is expanding, to meet the needs of the expanding
+bureaucracy. 
+#+END_QUOTE
+Oscar Wilde
+
+#+BEGIN_QUOTE
+The only thing that saves us from the bureaucracy is its inefficiency.
+#+END_QUOTE
+Eugene McCarthy 
+
+** Why Bureaucracy?
+- Bureaucracy - the structure of offices, tasks, rules, and principles
+  of organization that are employed by all large-scale institutions to
+  coordinate the work of their personnel 
+- Bureaucracy is where government actually performs
+  - Collecting garbage, policing, mailing Social Security checks, etc
+- Routine ensures services are delivered regularly
+** Bureaucracy enhances efficiency
+- Generally pyramidal in shape
+- Many workers at the bottom with fewest skills, specializations, and experience
+- Fewer at top, tend to oversee a large number
+** Bureaucracy enables government to operate
+- Bureaucracy enables us to accomplish tasks that would
+  otherwise be unimaginable
+  - Dividing up tasks, matching them to an appropriately trained
+  labor force, routinizing procedure, and providing right incentive
+  structure
+- Bureaucracies are insulated from politicians
+** Bureaucrats fulfill important roles
+- Bureaucrats implement laws
+- Bureaucrats make and enforce rules
+  - Rules issued provide more details and specifics about what a
+    policy will actually mean
+  - Have a brief period of public comment before going into effect
+** Bureaucrats settle disputes 
+- Administrative adjudication - application of rules and precedents to
+  specific cases to settle disputes with regulated parties
+  - NLRB for union certifications
+  - FCC for licenses
+** Bureaucracies serve politicians 
+- Congress delegates authority to the bureaucracy to save time and energy
+- Then provides direction with congressional oversight
+  - Bureaucratic agencies monitored by the staff of relevant
+    legislative committees
+** Organization of the executive branch 
+Four kinds of bureaucratic agencies: 
+1. cabinet departments
+2. independent agencies
+3. government corporations
+4. independent regulatory commissions
+** Cabinet departments
+- Mostly structured the same
+- Headed by a Secretary
+- Deputy Secretary directly under
+- Then comes many top administrators (general counsel, chief
+  economist, etc)
+- Undersecretaries are in charge of several agencies (bureaus)
+  - FBI, Forest Service, IRS, etc
+- Bureaus organized into divisions, offices, services, units, etc
+** Independent agencies 
+- Set up by Congress outside the cabinet structure
+- Usually very important or expensive
+- NASA, CIA, EPA, FCC, NLRB, SSA
+** Government corporations
+- These provide a service and charge for it similar to a private
+  corporation
+- Amtrak, TVA
+** Independent regulatory commission 
+- These are set up as mini-legislatures but are confined to a small
+  (usually very technical) topic
+- None created 1970 - 2008 financial crisis
+** Functions that agencies serve
+1. Clientele agencies
+2. Agencies for the maintenance of the union
+3. Regulatory agencies
+4. Redistributive agencies
+** Clientele agencies
+- Mission is to promote, serve, or represent a particular interest
+- Depts of Agriculture, the Interior, Labor, Commerce, Housing and
+  Urban Development, Transportation, Energy, Education, Health and
+  Human Services
+** Agencies for maintenance of the union
+- Revenue agencies (IRS)
+- Internal security
+  - Depts of Justice (FBI, etc) and Homeland Security (TSA, etc)
+** Agencies for maintenance of the union
+- External security
+  - "Negotiations" (State) and "Aggressive Negotiations" (Defense)
+- State - composed of geographic bureaus as well as functional bureaus
+  (economic, intelligence, etc) and IOs
+- Defense
+  - Huge budgetary item
+  - Many lucrative contracts in districts, making downsizing
+    politically difficult 
+** Regulatory agencies
+- A dept, bureau, or independent agency whose purpose is to eliminate
+  or restrict certain behaviors deemed negative in themselves or in
+  their consequences
+- Mostly date from 1930s and after
+- FDA, OSHA, FTC, etc
+- Rules have the force of law and are called *administrative
+  legislation*
+** Redistributive agencies
+- Fiscal and monetary policy agencies
+  - Fiscal policy - taxing and spending (Treasury Dept)
+  - Monetary policy - regulates supply/price of money and
+    availability of credit
+- Federal Reserve System AKA "The Fed"
+  - Authority over credit rates and lending activity of banks
+  - "Banker's bank"
+** Redistributive agencies
+- Welfare agencies
+- Designed to provide a social security net and/or transfer wealth
+  from the rich to the poor
+- Social Security Administration by far the largest
+- Others:
+  - TANF - Dept HHS
+  - Medicaid - Dept HHS
+  - Food stamps - Dept Agriculture
+- Usually means-tested programs
+  - Total income must fall below a certain line
+** Problem of bureaucratic control 
+- Bureaucrats are motivated
+  - More budget = higher salaries, more personnel, benefits, etc
+  - Prestige and power
+  - Personal (political) beliefs
+- But they don't always get what they want - Congress evaluates
+  bureaus' performance
+- High level bureaucrats are politicians
+** Bureaucracies and the principal-agent problem 
+- Congress and the president (principal) "hire" bureaus (agents) to
+  accomplish their goals
+- Beneficial because the principal can now turn attention to other
+  issues
+- Agent can propose policies that aren't at principals' ideal points
+- *Bureaucratic drift* - bureaucratic implementation that produces
+  policies closer to the bureaucracy's preferences than what the
+  original legislation intended, but without political reaction
+** Congressional oversight 
+- Oversight - an effort by Congress to exercise control over the
+  activities of executive agencies
+  - Usually hearings or investigations
+- Public hearings the most important indication
+- (PAP examples)
+** Reforming the bureaucracy
+- A popular campaign promise
+- Americans don't like big government and think the government is
+  wasteful ideal point
+- Difficult to do because most people like individual programs
+** Reforming - termination
+- Elimination of an agency
+- Extremely rare since most agencies have large supportive groups
+- Deregulation easier - reducing/eliminating restraints on the conduct
+  of individuals or private institutions
+** Reforming - devolution
+- Removing a program from the federal level and passing it to the
+  states or local level
+- Often aimed to provide more flexible/efficient services
+  - At the cost of heterogeneous policy outputs
+** Reforming - privatization 
+- Moving all/part of a program from the public sector to the private
+- Doesn't really downsize government, since we still pay for it
+- Simply removes employees from government payroll and adds them to
+  private
+- Private sector corporations can provide similar services for cheaper
+- But private sector employees often provide lower pay and fewer
+  benefits
+
