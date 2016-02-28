@@ -1,0 +1,102 @@
+#+TITLE:     The Primary System
+#+AUTHOR:    J. Alexander Branham
+#+EMAIL:     branham@utexas.edu
+#+DATE:      Spring 2016
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LATEX_CMD: xelatex
+#+OPTIONS: toc:nil H:2
+#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue, aspectratio=169]
+#+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
+* The Path to the Nomination
+** Timeline
+- Invisible primary (? - ?, January?)
+  - Oftentimes at least a year before official campaigning 
+- Primaries and caucuses (January - June)
+- National conventions (July/August)
+- Election campaign (July/August - November)
+  - Technically Election Day is the first Tuesday after the first
+    Monday in November 
+* The Invisible Primary
+** The Invisible Primary
+- When? - before January
+- Purposes
+  - Fund raising
+  - Alliance building
+  - Party support
+- Polling to determine popularity
+- Press!
+* Primaries & Caucuses 
+** Timeline
+- Iowa and New Hampshire go first (in that order)
+- Usually in mid-January
+- A few states in February or early March (Nevada, South Carolina)
+- Super Tuesday
+  - One or more Tuesdays in which many states have a primary/caucus
+  - In 2016, March 1st and about $\frac{1}{2}$ of Republican delegates
+    are at stake, and about $\frac{1}{3}$ of Democratic delegates
+** 2016 - the race through March (Democrats)
+|         |  Iowa |    NH | Nevada |    SC | Total delegates | W/O Super |
+|---------+-------+-------+--------+-------+-----------------+-----------|
+| Clinton | 49.9% | 38.0% |  52.7% | 73.5% |             543 |        90 |
+| Sanders | 49.6% | 60.4% |  47.3% | 26.0% |              85 |        65 |
+|---------+-------+-------+--------+-------+-----------------+-----------|
+2,382 delegates needed to secure nomination
+
+** 2016 - the race though March (Republicans)
+|        |  Iowa |    NH |    SC | Nevada | Total delegates |
+|--------+-------+-------+-------+--------+-----------------|
+| Trump  | 24.3% | 35.3% | 32.5% |  45.9% |              81 |
+| Cruz   | 27.6% | 11.7% | 22.3% |  21.4% |              17 |
+| Rubio  | 23.1% | 10.6% | 22.5% |  23.9% |              17 |
+| Kasich |  1.9% | 15.8% |  7.6% |   3.6% |               6 | 
+|--------+-------+-------+-------+--------+-----------------| 
+1,237 delegates needed to secure nomination  
+** Super Tuesday 2016
+
+#+LATEX_ATTR: :float t
+[[file:../images/super-tuesday-2016.png]]
+
+** Super Tuesday 2016 - Democrats
+#+ATTR_LATEX: :font \footnotesize
+|                    | Type | Number delegates | Pred - Clinton | Pred - Sanders |
+|--------------------+------+------------------+----------------+----------------|
+| Alabama            | O    |               53 |                |                |
+| American Samoa (C) | C    |                6 |                |                |
+| Arkansas           | O    |               32 |             64 |             32 |
+| Colorado (C)       | C    |               66 |                |                |
+| Georgia            | O    |              102 |             70 |             26 |
+| Massachusetts      | SC   |               91 |           51.8 |           45.2 |
+| Minnesota   (C)    | O    |               77 |                |                |
+| Oklahoma           | SC   |               38 |           52.1 |           44.3 |
+| Tennessee          | O    |               67 |           65.1 |           31.6 |
+| Texas              | O    |              222 |           65.5 |           31.6 |
+| Vermont            | O    |               16 |           86.6 |           11.1 |
+| Virginia           | O    |               95 |           62.7 |           34.3 |
+|--------------------+------+------------------+----------------+----------------|
+| Total              |      |              865 |                |                |
+|--------------------+------+------------------+----------------+----------------|
+About 20% of the total delegates at stake
+
+** Super Tuesday 2016 - Republicans 
+#+ATTR_LATEX: :font \footnotesize
+|                   | Type | Number delegates | Pred - Trump | Pred - Rubio | Pred - Cruz |
+|-------------------+------+------------------+--------------+--------------+-------------|
+| Alabama           | O    |               50 |         36.4 |         26.3 |        15.5 |
+| Alaska    (C)     | C    |               28 |              |              |             |
+| Arkansas          | O    |               40 |              |              |             |
+| Colorado (C)      | C    |               37 |   (delegates | unbound)     |             |
+| Georgia           | O    |               76 |         35.9 |           26 |        21.2 |
+| Massachusetts     | SO   |               42 |         43.2 |         23.3 |        18.5 |
+| Minnesota   (C)   | O    |               38 |              |              |             |
+| Oklahoma          | C    |               43 |         31.5 |         29.1 |        23.2 |
+| Tennessee         | O    |               58 |        (Win) |              |             |
+| Texas             | O    |              155 |         24.9 |         23.3 |        38.1 |
+| Vermont           | O    |               16 |         24.9 |         23.3 |        38.1 |
+| Virginia          | O    |               49 |         37.8 |         30.4 |        17.5 |
+| Wyoming     (Con) | O    |               29 |              |              |             |
+|-------------------+------+------------------+--------------+--------------+-------------|
+| Total             |      |              661 |              |              |             |
+|-------------------+------+------------------+--------------+--------------+-------------|
+About 25% of the total delegates at stake
+  
