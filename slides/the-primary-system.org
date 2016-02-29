@@ -1,4 +1,4 @@
-#+TITLE:     The Primary System
+#+TITLE:     Presidential Elections
 #+AUTHOR:    J. Alexander Branham
 #+EMAIL:     branham@utexas.edu
 #+DATE:      Spring 2016
@@ -8,12 +8,45 @@
 #+OPTIONS: toc:nil H:2
 #+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue, aspectratio=169]
 #+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
-* The Path to the Nomination
+* Nominating candidates, quick history 
+** National Conventions
+- Usually national conventions controlled the nominations
+- Neither democratic nor transparent
+- Party bosses played a large role
+- "Smoke-filled rooms"
+** The Progressives
+- Progressives in the 1920s pushed for more open government (generally)
+- Part of this was opening the nomination process
+- Some states opted in, but the primary didn't gain much momentum
+** Rise of the primary
+- Primaries became more important throughout the 1970s - 1980s
+  - Especially after disastrous 1968 Democratic Convention in Chicago
+- Today the primary system is the most important path to the
+  nomination
+** Strengths of the primary system
+- More democratic
+  - Voter turnout usually around 20% (in earlier states)
+- Greater choice of candidates
+- Allows outsiders a chance
+- Campaign experience
+** Weaknesses of the primary system
+- Voter apathy
+- Weird voters
+  - Highly ideological
+- Very long
+- Very expensive
+- Dominated by the media
+- Lack of party vetting 
+
+* The Path to the Nomination - today
 ** Timeline
 - Invisible primary (? - ?, January?)
   - Oftentimes at least a year before official campaigning 
 - Primaries and caucuses (January - June)
 - National conventions (July/August)
+  - "Selection" of presidential nominee
+  - VP nominee
+  - Party platform 
 - Election campaign (July/August - November)
   - Technically Election Day is the first Tuesday after the first
     Monday in November 
@@ -35,6 +68,7 @@
   - One or more Tuesdays in which many states have a primary/caucus
   - In 2016, March 1st and about $\frac{1}{2}$ of Republican delegates
     are at stake, and about $\frac{1}{3}$ of Democratic delegates
+- Timing is super important
 ** 2016 - the race through March (Democrats)
 |         |  Iowa |    NH | Nevada |    SC | Total delegates | W/O Super |
 |---------+-------+-------+--------+-------+-----------------+-----------|
@@ -99,4 +133,18 @@ About 20% of the total delegates at stake
 | Total             |      |              661 |              |              |             |
 |-------------------+------+------------------+--------------+--------------+-------------|
 About 25% of the total delegates at stake
-  
+
+* Characteristics of primaries
+** Primary vs caucus
+** Who can vote?
+- Closed
+- Open
+- Mixed
+  - Semi-open
+  - Semi-closed 
+- Blanket
+** How are delegates awarded?
+- Winner-take-all
+- Proportional
+  - Democrats use this almost exclusively
+- Republicans use a more complicated system 
