@@ -108,7 +108,7 @@
 |--------------------+------+------------------+----------------+----------------|
 | Total              |      |              865 |                |                |
 |--------------------+------+------------------+----------------+----------------|
-About 20% of the total delegates at stake
+Predictions from 538, About 20% of the total delegates at stake
 
 ** Super Tuesday 2016 - Republicans 
 #+ATTR_LATEX: :font \footnotesize
@@ -132,20 +132,98 @@ About 20% of the total delegates at stake
 |-------------------+------+------------------+--------------+--------------+-------------|
 About 25% of the total delegates at stake
 
+* Super Tuesday 2016 results
+** Democrats - Voteshare and delegates won
+|                    | Number delegates | Clinton | Sanders |
+|--------------------+------------------+---------+---------|
+| Alabama            |               53 |         |         |
+| American Samoa (C) |                6 |         |         |
+| Arkansas           |               32 |         |         |
+| Colorado (C)       |               66 |         |         |
+| Georgia            |              102 |         |         |
+| Massachusetts      |               91 |         |         |
+| Minnesota   (C)    |               77 |         |         |
+| Oklahoma           |               38 |         |         |
+| Tennessee          |               67 |         |         |
+| Texas              |              222 |         |         |
+| Vermont            |               16 |         |         |
+| Virginia           |               95 |         |         |
+|--------------------+------------------+---------+---------|
+| Total              |              865 |         |         |
+|--------------------+------------------+---------+---------|
+** Democrats - where we stand
+|         | Total delegates | W/O Super | Percentage |
+|---------+-----------------+-----------+------------|
+| Clinton |                 |           |            |
+| Sanders |                 |           |            |
+|---------+-----------------+-----------+------------|
+| Total   |                 |           |            |
+
+** Republicans - voteshare and delegates won
+|                   | # delegates | Trump | Rubio | Cruz |
+|-------------------+-------------+-------+-------+------|
+| Alabama           |          50 |       |       |      |
+| Alaska    (C)     |          28 |       |       |      |
+| Arkansas          |          40 |       |       |      |
+| Colorado (C)      |          37 |       |       |      |
+| Georgia           |          76 |       |       |      |
+| Massachusetts     |          42 |       |       |      |
+| Minnesota   (C)   |          38 |       |       |      |
+| Oklahoma          |          43 |       |       |      |
+| Tennessee         |          58 |       |       |      |
+| Texas             |         155 |       |       |      |
+| Vermont           |          16 |       |       |      |
+| Virginia          |          49 |       |       |      |
+| Wyoming     (Con) |          29 |       |       |      |
+|-------------------+-------------+-------+-------+------|
+| Total             |         661 |       |       |      |
+|-------------------+-------------+-------+-------+------|
+
+** Republicans - where we stand
+|       | Total delegates | Percentage |
+|-------+-----------------+------------|
+| Trump |                 |            |
+| Rubio |                 |            |
+| Cruz  |                 |            |
+|-------+-----------------+------------|
+| Total |                 |            |
+
+
 * Characteristics of primaries
 ** Primary vs caucus
+- Primary more like an election
+- Caucus more "town hall" style
+  - Listen to speeches by supporters of each candidate
+- Caucus asks more of people (time)
+- Some people prefer caucuses because of the deliberative aspect
+- Texas uses a primary 
 ** Who can vote?
 - Closed
+  - Only registered partisans can vote (and only in their party's primary)
 - Open
+  - Texas is open
+  - All registered voters can vote in either party's primary
 - Mixed
-  - Semi-open
-  - Semi-closed 
+  - Varies, but usually lets independents vote in either primary contest
 - Blanket
+  - Not used for presidential primaries
+  - First election all candidates listed together (all parties)
+  - If one candidate secures 50% or more of the vote, they're elected
+  - Otherwise, have a runoff election between the top two votegetters 
 ** How are delegates awarded?
 - Winner-take-all
 - Proportional
   - Democrats use this almost exclusively
-- Republicans use a more complicated system
+  - Based on statewide vote and congressional districts
+  - Republicans use a more complicated system
+** Texas delegate allocation
+- Democrats - Basically proportional. [[http://www.txdemocrats.org/2016DraftDelegateSelectionPlan.pdf][Here's]] a 39 page document that
+  describes the full process 
+- Republicans: Proportional, 20% threshold – If a candidate wins more
+  than 50% of the statewide vote, he or she is awarded all of the
+  state's at-large delegates. If a candidate wins more than 50% of the
+  vote in a district, he or she is awarded all of the district's
+  delegates.
 ** What are these "super" delegates!?! 
 - Democrats have "super" delegates
 - Not bound to any particular candidate
