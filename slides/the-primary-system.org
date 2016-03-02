@@ -98,9 +98,9 @@
 | Arkansas           | O    |               32 |             64 |             32 |
 | Colorado (C)       | C    |               66 |                |                |
 | Georgia            | O    |              102 |             70 |             26 |
-| Massachusetts      | SC   |               91 |           51.8 |           45.2 |
+| Massachusetts      | M    |               91 |           51.8 |           45.2 |
 | Minnesota   (C)    | O    |               77 |                |                |
-| Oklahoma           | SC   |               38 |           52.1 |           44.3 |
+| Oklahoma           |      |               38 |           52.1 |           44.3 |
 | Tennessee          | O    |               67 |           65.1 |           31.6 |
 | Texas              | O    |              222 |           65.5 |           31.6 |
 | Vermont            | O    |               16 |           86.6 |           11.1 |
@@ -117,9 +117,9 @@ Predictions from 538, About 20% of the total delegates at stake
 | Alabama           | O    |               50 |         36.4 |         26.3 |        15.5 |
 | Alaska    (C)     | C    |               28 |              |              |             |
 | Arkansas          | O    |               40 |              |              |             |
-| Colorado (C)      | C    |               37 |   (delegates | unbound)     |             |
+| Colorado (C)      | C    |               37 |   (delegates |     unbound) |             |
 | Georgia           | O    |               76 |         35.9 |           26 |        21.2 |
-| Massachusetts     | SO   |               42 |         43.2 |         23.3 |        18.5 |
+| Massachusetts     | M    |               42 |         43.2 |         23.3 |        18.5 |
 | Minnesota   (C)   | O    |               38 |              |              |             |
 | Oklahoma          | C    |               43 |         31.5 |         29.1 |        23.2 |
 | Tennessee         | O    |               58 |        (Win) |              |             |
@@ -134,60 +134,65 @@ About 25% of the total delegates at stake
 
 * Super Tuesday 2016 results
 ** Democrats - Voteshare and delegates won
-|                    | Number delegates | Clinton | Sanders |
-|--------------------+------------------+---------+---------|
-| Alabama            |               53 |         |         |
-| American Samoa (C) |                6 |         |         |
-| Arkansas           |               32 |         |         |
-| Colorado (C)       |               66 |         |         |
-| Georgia            |              102 |         |         |
-| Massachusetts      |               91 |         |         |
-| Minnesota   (C)    |               77 |         |         |
-| Oklahoma           |               38 |         |         |
-| Tennessee          |               67 |         |         |
-| Texas              |              222 |         |         |
-| Vermont            |               16 |         |         |
-| Virginia           |               95 |         |         |
-|--------------------+------------------+---------+---------|
-| Total              |              865 |         |         |
-|--------------------+------------------+---------+---------|
+|                    | Number delegates | Clinton  | Sanders |
+|--------------------+------------------+----------+---------|
+| Alabama            |               53 | *78-37*  |    19-4 |
+| American Samoa (C) |                6 |          |         |
+| Arkansas           |               32 | *66-18*  |    30-7 |
+| Colorado (C)       |               66 | 40-24    | *59-33* |
+| Georgia            |              102 | *71-66*  |   28-23 |
+| Massachusetts      |               91 | *50-45*  |   49-43 |
+| Minnesota   (C)    |               77 | 38-24    | *62-42* |
+| Oklahoma           |               38 | 42-16    | *52-20* |
+| Tennessee          |               67 | *66-40*  |   32-22 |
+| Texas              |              222 | *66-122* |   32-48 |
+| Vermont            |               16 | 14-0     | *86-10* |
+| Virginia           |               95 | *64-61*  |   35-32 |
+|--------------------+------------------+----------+---------|
 ** Democrats - where we stand
-|         | Total delegates | W/O Super | Percentage |
-|---------+-----------------+-----------+------------|
-| Clinton |                 |           |            |
-| Sanders |                 |           |            |
-|---------+-----------------+-----------+------------|
-| Total   |                 |           |            |
+|         | Total delegates | W/O Super | Percentage  | Percent of votes |
+|---------+-----------------+-----------+-------------+------------------|
+| Clinton |            1000 |       543 | 21% (13.4%) |            60.7% |
+| Sanders |             371 |       349 | 7.8% (8.6%) |            39.3% |
+|---------+-----------------+-----------+-------------+------------------|
+| Total   |            4763 |      4051 |             |                  |
+
+Vote total includes only votes case for either Clinton or Sanders 
 
 ** Republicans - voteshare and delegates won
-|                   | # delegates | Trump | Rubio | Cruz |
-|-------------------+-------------+-------+-------+------|
-| Alabama           |          50 |       |       |      |
-| Alaska    (C)     |          28 |       |       |      |
-| Arkansas          |          40 |       |       |      |
-| Colorado (C)      |          37 |       |       |      |
-| Georgia           |          76 |       |       |      |
-| Massachusetts     |          42 |       |       |      |
-| Minnesota   (C)   |          38 |       |       |      |
-| Oklahoma          |          43 |       |       |      |
-| Tennessee         |          58 |       |       |      |
-| Texas             |         155 |       |       |      |
-| Vermont           |          16 |       |       |      |
-| Virginia          |          49 |       |       |      |
-| Wyoming     (Con) |          29 |       |       |      |
-|-------------------+-------------+-------+-------+------|
-| Total             |         661 |       |       |      |
-|-------------------+-------------+-------+-------+------|
+|                 | # delegates | Trump   |   Rubio |    Cruz |
+|-----------------+-------------+---------+---------+---------|
+| Alabama         |          50 | *43-36* |    19-1 |   21-13 |
+| Alaska    (C)   |          28 | 34-11   |    15-5 | *36-12* |
+| Arkansas        |          40 | *33-16* |    25-9 |   31-14 |
+| Georgia         |          76 | *39-40* |   25-14 |   24-18 |
+| Massachusetts   |          42 | *49-22* |    18-8 |    10-4 |
+| Minnesota   (C) |          38 | 21-10   | *37-14* |   29-13 |
+| Oklahoma        |          43 | 28-12   |   26-11 | *34-14* |
+| Tennessee       |          58 | *39-31* |    21-9 |   25-14 |
+| Texas           |         155 | 27-33   |    18-3 | *44-99* |
+| Vermont         |          16 | *33-6*  |    19-0 |    10-0 |
+| Virginia        |          49 | *35-17* |   32-16 |    17-8 |
+|-----------------+-------------+---------+---------+---------|
 
 ** Republicans - where we stand
-|       | Total delegates | Percentage |
-|-------+-----------------+------------|
-| Trump |                 |            |
-| Rubio |                 |            |
-| Cruz  |                 |            |
-|-------+-----------------+------------|
-| Total |                 |            |
+|       | Total delegates | Percentage | Percent of votes |
+|-------+-----------------+------------+------------------|
+| Trump |             316 |      12.8% |            40.7% |
+| Rubio |             106 |       4.3% |            25.8% |
+| Cruz  |             226 |       9.1% |            33.5% |
+|-------+-----------------+------------+------------------|
+| Total |            2472 |            |                  | 
+Vote total includes only votes case for one of those three candidates  
 
+** The next primaries
+- March 5: Kansas, Kentucky (R), Louisiana, Maine (R), Nebraska (D)
+- March 6: Maine (D), Puerto Rico (R),
+- March 8: Hawaii (R), Idaho (R), Michigan, Mississippi
+- March 12: DC (R), North Mariana Islands (D)
+- March 15: Florida[fn:1], Illinois, Missouri, North Mariana
+  Islands[fn:2], North Carolina, Ohio[fn:3]
+- March 19: Virgin Islands (R)
 
 * Characteristics of primaries
 ** Primary vs caucus
@@ -203,7 +208,7 @@ About 25% of the total delegates at stake
 - Open
   - Texas is open
   - All registered voters can vote in either party's primary
-- Mixed
+- Mixed or Hybrid 
   - Varies, but usually lets independents vote in either primary contest
 - Blanket
   - Not used for presidential primaries
@@ -212,10 +217,17 @@ About 25% of the total delegates at stake
   - Otherwise, have a runoff election between the top two votegetters 
 ** How are delegates awarded?
 - Winner-take-all
+  - Plurality winner takes all of a state's delegates
 - Proportional
-  - Democrats use this almost exclusively
-  - Based on statewide vote and congressional districts
-  - Republicans use a more complicated system
+  - Candidates receive delegates proportional to their share of the vote
+  - Can include thresholds (e.g. must get above x% of the vote)
+  - Can include winner-take-all triggers (e.g. if a candidate gets
+    more than x% of the statewide vote, they get all the candidates)
+** Delegate allocation
+- Democrats use proportional system almost exclusively 
+- Republicans use a more complicated system
+  - Proportional before March 15th (mostly...), allows winner take
+      all after that
 ** Texas delegate allocation
 - Democrats - Basically proportional. [[http://www.txdemocrats.org/2016DraftDelegateSelectionPlan.pdf][Here's]] a 39 page document that
   describes the full process 
@@ -231,4 +243,85 @@ About 25% of the total delegates at stake
 - But that can change (2008)
 - Instituted after several disastrous nominees
 - Way for the party to weight the nomination process against/for
-  certain candidates 
+  certain candidates
+* The National Conventions
+** Timing
+- Usually the out party holds their convention in July and the
+  incumbent party in August
+- In 2016, both are in July (because of the Olympics)
+** Hosts
+- Conventions are large, so cities compete to host them
+- Parties may also be strategic about where they are held
+  - For example, to get more votes in a battleground state
+- In 2016, Republicans are in Cleveland and Democrats are in
+  Philadelphia
+** Purposes - Platform
+- The party *platform* contains its goals and proposals (/planks/)
+- Usually pretty generic language appealing to traditional party
+  supporters
+- Ideological, /not/ specific policy proposals
+** Purposes - "Selection" of nominees
+- Voting occurs to select the party's nominee for president
+- This is usually a foregone conclusion since candidates can
+  mathematically secure the nomination several months prior
+- Possible to have a *brokered convention* where no candidate secured
+  a majority of delegates
+  - These are few and far between, party rules for delegate selection
+    make this unlikely
+** Purposes - Speeches and media coverage
+- Major purpose of the convention is media coverage
+- Many speeches given by former party leaders (e.g. past presidents,
+  past senators, etc), current party leaders, highly-regarded
+  citizens, nominees
+- Free media coverage
+- Acts as the official start of the campaign season in many ways
+- Unlike many campaign events, conventions can actually affect the
+  outcome of the election
+# * The Campaign
+# * The Election
+# ** Election Day
+# - Election day is the first Tuesday after the first Monday in November
+# - In 2016, that makes it November 8th
+# - What it takes to win:
+#   - 270 electoral votes
+# ** What is an electoral vote?
+# - The founders liked democracy but were afraid of too much democracy
+# - The Electoral College is one way the devised to dilute the passions
+#   of the masses
+# - In November, we elect Electors to the Electoral College
+# - These Electors then gather later on and elect the new President
+# ** The Electoral College
+# - Each state gets as many Electors as it has representatives in Congress
+#   - So the minimum is three (1 Representative + 2 Senators)
+#   - California has the most (55 as of 2016)
+#   - DC also gets three
+# - Need an absolute majority to win (270 of 538)
+# - States (with the exception of Nebraska and Maine) give /all/ of
+#   their electoral votes to the candidate with the most votes in their state
+# - So if Candidate X gets 49% of the vote and Candidate Y gets 51% of
+#   the vote, Candidate Y receives 100% of the state's electoral votes
+# ** The Electoral College, continued 
+# - Because of the winner-take-all allocation rules of most states, this
+#   makes campaigning in some states /much/ more important than others
+# - Why?
+# ** The Electoral College, continued
+# - Consider Texas - do the Democrats have a chance of receiving Texas's
+#   38 electoral votes in 2016?
+# - Do the Republicans have a chance of getting California's 55?
+
+# ** The Electoral College, continued 
+# - Some states closer than others
+#   - These states considered *battleground* states
+#   - Which states are considered battleground states varies a bit from
+#     year to year 
+# ** Advantages of the Electoral College
+# ** Disadvantages of the Electoral College
+# ** Proposals to reform Electoral College 
+* Footnotes
+
+
+[fn:3] Winner take all for Republicans
+
+[fn:2] Winner take all for Republicans
+
+[fn:1] Winner take all for Republicans
