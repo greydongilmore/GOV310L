@@ -277,46 +277,46 @@ Vote total includes only votes case for one of those three candidates
 - Acts as the official start of the campaign season in many ways
 - Unlike many campaign events, conventions can actually affect the
   outcome of the election
-# * The Campaign
-# * The Election
-# ** Election Day
-# - Election day is the first Tuesday after the first Monday in November
-# - In 2016, that makes it November 8th
-# - What it takes to win:
-#   - 270 electoral votes
-# ** What is an electoral vote?
-# - The founders liked democracy but were afraid of too much democracy
-# - The Electoral College is one way the devised to dilute the passions
-#   of the masses
-# - In November, we elect Electors to the Electoral College
-# - These Electors then gather later on and elect the new President
-# ** The Electoral College
-# - Each state gets as many Electors as it has representatives in Congress
-#   - So the minimum is three (1 Representative + 2 Senators)
-#   - California has the most (55 as of 2016)
-#   - DC also gets three
-# - Need an absolute majority to win (270 of 538)
-# - States (with the exception of Nebraska and Maine) give /all/ of
-#   their electoral votes to the candidate with the most votes in their state
-# - So if Candidate X gets 49% of the vote and Candidate Y gets 51% of
-#   the vote, Candidate Y receives 100% of the state's electoral votes
-# ** The Electoral College, continued 
-# - Because of the winner-take-all allocation rules of most states, this
-#   makes campaigning in some states /much/ more important than others
-# - Why?
-# ** The Electoral College, continued
-# - Consider Texas - do the Democrats have a chance of receiving Texas's
-#   38 electoral votes in 2016?
-# - Do the Republicans have a chance of getting California's 55?
+* The Campaign
+* The Election
+** Election Day
+- Election day is the first Tuesday after the first Monday in November
+- In 2016, that makes it November 8th
+- What it takes to win:
+  - 270 electoral votes
+** What is an electoral vote?
+- The founders liked democracy but were afraid of too much democracy
+- The Electoral College is one way the devised to dilute the passions
+  of the masses
+- In November, we elect Electors to the Electoral College
+- These Electors then gather later on and elect the new President
+** The Electoral College
+- Each state gets as many Electors as it has representatives in Congress
+  - So the minimum is three (1 Representative + 2 Senators)
+  - California has the most (55 as of 2016)
+  - DC also gets three
+- Need an absolute majority to win (270 of 538)
+- States (with the exception of Nebraska and Maine) give /all/ of
+  their electoral votes to the candidate with the most votes in their state
+- So if Candidate X gets 49% of the vote and Candidate Y gets 51% of
+  the vote, Candidate Y receives 100% of the state's electoral votes
+** The Electoral College, continued 
+- Because of the winner-take-all allocation rules of most states, this
+  makes campaigning in some states /much/ more important than others
+- Why?
+** The Electoral College, continued
+- Consider Texas - do the Democrats have a chance of receiving Texas's
+  38 electoral votes in 2016?
+- Do the Republicans have a chance of getting California's 55?
 
-# ** The Electoral College, continued 
-# - Some states closer than others
-#   - These states considered *battleground* states
-#   - Which states are considered battleground states varies a bit from
-#     year to year 
-# ** Advantages of the Electoral College
-# ** Disadvantages of the Electoral College
-# ** Proposals to reform Electoral College 
+** The Electoral College, continued 
+- Some states closer than others
+  - These states considered *battleground* states
+  - Which states are considered battleground states varies a bit from
+    year to year 
+** Advantages of the Electoral College
+** Disadvantages of the Electoral College
+** Proposals to reform Electoral College 
 * Footnotes
 
 
