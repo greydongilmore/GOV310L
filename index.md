@@ -15,7 +15,7 @@ These will be updated with links to the slides.
 4. [Congress](/GOV310L/slides/congress.pdf)
 5. [The President and Executive](/GOV310L/slides/president-and-executive.pdf)
 6. [The Courts](/GOV310L/slides/courts.pdf)
-7. Issue spotlight #1
+7. Issue spotlight #1 - [Presidential elections](/GOV310L/slides/the-primary-system.pdf)
 8. Public opinion
 9. Political parties
 10. Campaigns and elections
