@@ -302,6 +302,15 @@ Vote total includes only votes case for one of those three candidates
 - So if Candidate X gets 49% of the vote and Candidate Y gets 51% of
   the vote, Candidate Y receives 100% of the state's electoral votes
 ** The Electoral College, continued 
+- It takes *270* to win
+- What happens if no candidate gets 270?
+- What /should/ happen?
+#+BEAMER: \pause
+- The *newly elected* Congress meets and counts the votes
+- If no one gets a majority, then the House elects the President and
+  the Senate elects the Vice President
+- *HOWEVER* each /state/ gets *one* vote 
+** The Electoral College, continued 
 - Because of the winner-take-all allocation rules of most states, this
   makes campaigning in some states /much/ more important than others
 - Why?
@@ -331,7 +340,9 @@ Vote total includes only votes case for one of those three candidates
 - Encourages a two-party system
 - Less populated areas are overrepresented
 - Complicated and seems undemocratic in modern times
-- "Faithless" electors 
+- "Faithless" electors
+  - About half the states have laws requiring electors to vote for the
+    popular vote winner
 ** Proposals to reform Electoral College 
 - Individual state reforms
   - Nebraska and Maine award votes by congressional district winners
