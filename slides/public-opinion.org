@@ -1,0 +1,155 @@
+#+TITLE:     Public Opinion
+#+AUTHOR:    J. Alexander Branham
+#+EMAIL:     branham@utexas.edu
+#+DATE:      Spring 2016
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LATEX_CMD: xelatex
+#+OPTIONS: toc:nil H:2
+#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue]
+#+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
+
+* What is public opinion?
+** Why is it important? 
+- Constrains political actors (the President, Congress, the Courts)
+- Standard by which we judge how democracy is functioning
+  - Does policy reflect what people want?
+** What is public opinion? 
+- Individual people have opinions
+- We refer to the aggregation of individuals' opinions as *public opinion*
+- Many different methods for this aggregation:
+  - For example, elections, town hall meetings, protests, polls
+** Individual political opinion
+- Individuals' political opinions depend on three things:
+- Basic *preferences* (what they want)
+- *Beliefs* about the current circumstances and consequences of actions
+- *Choices* presented
+** Preferences
+- Preferences reflect what people want
+  - Material: money, power, income 
+  - Values: justice, morality
+- Economic self-interest and social/moral values often taken as the
+  basis for political preferences
+- Preference /intensity/ also important
+  - Do you care more about LGBT rights or tax rates?
+** Beliefs 
+- What people know (or think they know)
+- What they believe the consequences of their actions will be
+- Individuals who spend more time on a subject generally have stronger
+  beliefs
+- Beliefs don't have to be based in fact - can be grounded in (e.g.)
+  political ideology or religion
+** Choices 
+- We never observe preferences or beliefs, only choices
+- In an election, the choices are the candidates
+- In a public opinion survey, these are the answer choices
+- Adding (or deleting) choices may change individuals' responses
+** Choices (continued)
+- Some issues that people care about may not be presented
+- For example, the Democratic party kept race off the agenda for a
+  long time to keep Southern Democrats in the party
+- These are referred to as *latent* issues
+* Variety of opinion 
+** Public opinion is varied
+- Politicians often say that "public opinion" is on their side
+- But public opinion is varied - all Americans don't hold the same
+  opinion
+- We agree on some of the basics:
+  - legitimacy of the Constitution, equality of opportunity, liberty,
+    democracy
+- But most issues the government deals with are areas where the public
+  doesn't hold a single view
+** Expression of public opinion
+- Individuals express opinion in a variety of ways
+  - Contacting member of Congress (letters, phone calls, etc)
+  - Blogs, letters to newspapers, conversations with peers
+  - Lawn signs, bumper stickers
+  - Volunteering for campaigns, giving money to candidates
+  - Voting
+- Not always easy to interpret
+** Interpretation of public opinion
+- If someone votes against their Representative, why did they do so?
+  - A decision the Representative made?
+  - Party?
+  - Something else?
+- Where does majority support lie? How intense is that support?
+** Interpretation of public opinion, continued
+- Often helpful to think about as support/oppose a policy
+- But this can mask important variation
+- Example:
+  - Abortion pro-life vs pro-choice
+  - But people have more refined opinions (in cases of rape, incest,
+    parental consent, endangering the life of the mother, etc)
+** Examples of opinions
+- Evaluations of actors and institutions
+  - presidential approval, congressional approval, etc
+- Assessments of public policies
+  - Support or oppose a policy, most important problem, etc
+- Assessments of current circumstances
+  - How is the economy performing? How's your personal outlook?
+- Political orientations
+  - Party ID and ideology 
+** Party id (2014 General Social Survey)
+#+BEGIN_SRC python :session python-session :results value silent :exports results
+  import os.path
+  if os.path.exists('gss2014/'):
+      break
+      else:
+          import urllib.request
+          import zipfile
+        
+          # Download the file from `url` and save it locally under `file_name`:
+          urllib.request.urlretrieve('http://gss.norc.org/documents/stata/2014_stata.zip', 'gss2014.zip')
+
+          zip_ref = zipfile.ZipFile('gss2014.zip', 'r')
+          zip_ref.extractall('gss2014')
+          zip_ref.close()
+#+END_SRC
+#+BEGIN_SRC python :session python-session :results value silent :exports results
+  import pandas as pd
+  import numpy as np
+  pd.set_option('max_columns', 50)
+  from scipy import stats, integrate
+  #import matplotlib.pyplot as plt
+  #from matplotlib import interactive
+  import seaborn as sns
+  sns.set(color_codes=True, palette='muted', style='dark')
+
+  gss = pd.read_stata('gss2014/GSS2014.DTA', convert_categoricals=False)
+  gss['pid'] = gss['partyid'].astype('category', ordered=True)
+  gss.pid.cat.categories = ['Strong D', 'Weak D', 'Lean D', 'I', 'Lean R', 'Weak R', 'Strong R', 'Other']
+
+  party_id_plot = sns.countplot(x='pid', data=gss).get_figure()
+  party_id_plot.savefig('../figures/partyid-2014-gss.pdf')
+
+  #partyid_plot.figure.clf()
+
+  gss['equal_wealth'] = gss['eqwlth'].astype('category')
+  gss.equal_wealth.cat.categories = ['Gvt reduce\n differences', '2', '3', '4', '5', 'No gvt action', 'NA']
+  equal_wealth_plot = sns.countplot(x='equal_wealth', data=gss).get_figure()
+  equal_wealth_plot.savefig('../figures/equalwealth-2014-gss.pdf')
+#+END_SRC
+** Party id (2014 General Social Survey)
+#+ATTR_LATEX: :float t
+#+RESULTS:
+[[file:../figures/partyid-2014-gss.pdf]]
+
+** Equal wealth 
+#+BEGIN_QUOTE
+Some people think that the government in Washington ought 
+to reduce the income differences between the rich and the poor, 
+perhaps by raising the taxes of wealthy families or by giving 
+income assistance to the poor. Others think that the government 
+should not concern itself with reducing this income difference 
+between the rich and the poor. Here is a card with a scale from 
+1 to 7. Think of a score of 1 as meaning that the government 
+ought to reduce the income differences between rich and poor, 
+and a score of 7 meaning that the government should not concern 
+itself with reducing income differences. What score between 1 
+and 7 comes closest to the way you feel?
+#+END_QUOTE
+
+** Equal wealth (2014 GSS)
+#+ATTR_LATEX: :float t
+#+RESULTS:
+[[file:~/teaching/GOV310L/figures/equalwealth-2014-gss.pdf]]
