@@ -8,6 +8,9 @@
 #+OPTIONS: toc:nil H:2
 #+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue]
 #+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
+#+LATEX_HEADER: \usepackage{caption}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage{subcaption}
 
 * What is public opinion?
 ** Why is it important? 
@@ -451,3 +454,69 @@ and the woman takes care of the home and family.
 [[http://iscap.upenn.edu/][Source]]
 
 * Measuring Public Opinion
+** Constructing opinion from surveys 
+- By and large, *public opinion polls* are the most widely-used method
+  of gauging public opinion
+- These rely on choosing a *sample* from the *population* we're
+  interested in studying
+  - The population here is oftentimes all Americans (or at least those
+    over 18)
+- The sample needs to accurately reflect the population
+** Dewey defeats Truman!
+** Techniques and selection bias
+- Probability sampling is great if you know the entire population
+- But this usually isn't the case with voters
+- So we use *random-digit dialing* instead
+- *Selection bias* can skew the results of a poll
+  - This happens when we make an error where our sample is not
+    representative of the population we're trying to learn about
+** Sample Size
+- The more people you survey, the more accurate you can be
+- *Sampling error* or *margin of error* is polling error that arises
+  from the size of the sample
+** Survey design 
+- The way that we ask questions influences the way people answer
+- Consider welfare. Do we ask about welfare or assistance to the poor?
+#+BEGIN_QUOTE
+Do you think we're spending too much, too little, or about the right
+amount on (welfare) or (assistance to the poor)? 
+#+END_QUOTE
+
+#+BEGIN_SRC python :session python-session :results value silent :exports results
+  gss.natfare = gss.natfare.astype('category')
+  gss.natfare.cat.categories = ['too little',
+                              'about right',
+                              'too much']
+  gss.natfarey = gss.natfarey.astype('category')
+  gss.natfarey.cat.categories = ['too little',
+                              'about right',
+                              'too much']
+
+  plt.figure()
+  welfare_plot = sns.countplot(x='natfare', data=gss).get_figure()
+  welfare_plot.savefig('../figures/welfare-2014-gss.pdf')
+
+  plt.figure()
+  assist_poor_plot = sns.countplot(x='natfarey', data=gss).get_figure()
+  assist_poor_plot.savefig('../figures/assist-poor-2014-gss.pdf')
+#+END_SRC
+
+** Welfare vs Assistance to the poor (2014 GSS)
+#+BEGIN_LaTeX
+\begin{figure}[h]
+  \centering
+  \begin{subfigure}[h]{0.47\textwidth}
+    \centering
+\includegraphics[width=\textwidth]{../figures/assist-poor-2014-gss.pdf}
+\caption{Assistance to poor}
+  \end{subfigure}
+~
+\begin{subfigure}[h]{0.47\textwidth}
+\centering
+\includegraphics[width=\textwidth]{../figures/welfare-2014-gss.pdf}
+\caption{Welfare}
+\end{subfigure}
+\caption{Question wording effects}
+\end{figure}
+#+END_LaTeX
+
