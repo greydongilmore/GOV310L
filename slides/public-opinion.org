@@ -110,7 +110,7 @@
   import numpy as np
   pd.set_option('max_columns', 50)
   from scipy import stats, integrate
-  #import matplotlib.pyplot as plt
+  import matplotlib.pyplot as plt
   #from matplotlib import interactive
   import seaborn as sns
   sns.set(color_codes=True, palette='muted', style='dark')
@@ -119,15 +119,18 @@
   gss['pid'] = gss['partyid'].astype('category', ordered=True)
   gss.pid.cat.categories = ['Strong D', 'Weak D', 'Lean D', 'I', 'Lean R', 'Weak R', 'Strong R', 'Other']
 
-  party_id_plot = sns.countplot(x='pid', data=gss).get_figure()
-  party_id_plot.savefig('../figures/partyid-2014-gss.pdf')
+  plt.figure()
+  party_id_plot = sns.countplot(x='pid', data=gss)
+  plt.savefig('../figures/partyid-2014-gss.pdf')
 
   #partyid_plot.figure.clf()
 
   gss['equal_wealth'] = gss['eqwlth'].astype('category')
   gss.equal_wealth.cat.categories = ['Gvt reduce\n differences', '2', '3', '4', '5', 'No gvt action', 'NA']
+
+  plt.figure()
   equal_wealth_plot = sns.countplot(x='equal_wealth', data=gss).get_figure()
-  equal_wealth_plot.savefig('../figures/equalwealth-2014-gss.pdf')
+  plt.savefig('../figures/equalwealth-2014-gss.pdf')
 #+END_SRC
 ** Party id (2014 General Social Survey)
 #+ATTR_LATEX: :float t
