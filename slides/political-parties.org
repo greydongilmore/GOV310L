@@ -202,4 +202,144 @@
 - The Northeast and far West tend to be heavily Democrat
 - The Midwest is a battleground
 
-* Parties as institutions 
+* Parties as institutions
+
+** Contemporary party organizations 
+- The national conventions
+  - Draft the platform
+  - Nominate presidential and VP candidates
+  - Lots of media coverage, of little practical importance 
+- National Committee
+  - The DNC and RNC head the parties between conventions
+  - Raise funds, deals with factional disputes
+  - Primarily deal with the presidential campaign 
+
+** Contemporary party organizations (continued)
+- Congressional Campaign Committees
+  - Republicans have National Republican Campaign Committee (NRCC -
+    House) and National Republican Senatorial Committee (NRSC - Senate)
+  - Democrats have Democratic Congressional Campaign Committee (DCCC -
+    House) and Democratic Senatorial Campaign Committee (DSCC -
+    Senate)
+  - These committees help raise funds, developing strategies,
+    recruiting candidates, training newly-elected officials, etc
+
+** Contemporary party organizations (continued)
+- Finally, each party has a head committee in each state
+  - Then county committees, state senate district committees, judicial
+    district committees, citywide party committees, wards, precincts,
+    etc
+
+** Contemporary party organizations (continued)
+- Party organizations today are more professional, better financed and
+  organized than at any point in the past
+- They function as service providers to candidates, supplying things
+  like information (lists of supporters, for example) and workers
+- They also provide assistance in tight races
+- This is fairly new - since the early 90s (ish)
+
+* Party Systems 
+** Party systems
+- The *party system* for any country at any point in time
+  characterizes the number of parties, their organization, the balance
+  of power between the parties, the parties' bases of power, and the
+  issues and policies around which the parties organize
+- These systems tend to be stable (in /equilibrium/) and slow to
+  change.
+- When they do change, it can be either suddenly or gradually
+- The US has had six party systems in its history
+** Federalists versus Democratic-Republicans
+- 1790 - 1816
+- NOT mass-based parties
+*** Federalists                                                       :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- Federalists
+- Northeastern mercantile
+- Supportive of tariffs
+- creation of national bank
+- diplomacy with England
+- Gradually dwindle in power and dies after the War of 1812 
+*** Democrat-Republicans                                              :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- Southern agrarian
+- free trade
+- promotion of agriculture
+- ties with France
+** Era of Good Feelings
+- 1816 - 1830s
+- Only the Democrat-Republican party existed
+- Intense factional competition
+  - Pro-Jackson versus anti-Jackson
+- Jackson and supporters greatly expanded the electorate
+- Sets the stage for mass-based political parties (conventions, etc)
+** Democrats versus Whigs
+- 1830s - 1850s
+
+*** Democrats                                                         :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- Pro-Jacksonites
+- Supporters of the south and agriculture
+
+*** Whigs                                                             :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+- Anti-Jackson
+- Not many clear policies
+- Ran candidates on personality and favorability
+- Breaks up under strain of different interests
+
+** Republicans versus Democrats
+- 1860 - 1896
+- 1860: Republican Abraham Lincoln elected, civil war begins soon
+  after
+- 1865: war ends, Reconstruction in the South
+- During this time, *party machines* emerge as local party
+  organizations that control politics through patronage and the
+  nomination process
+  - Tammany Hall, etc
+
+** Republicans versus Democrats
+- 1896 - 1932
+- In 1896, the Democrats absorbed the Populists (third party) and
+  nominated William Jennings Bryan (cross of gold speech guy)
+  - Northern and midwestern business go all-out to defeat Bryan
+  - Republicans (McKinley) win
+- During this time, Republicans dominated the presidency (7 of 9) and
+  Congress (control of both houses in 15 of 18 contests)
+
+** Republicans versus Democrats
+- 1932 - 1968
+- The Republicans were blamed with not doing enough to combat the
+  Great Depression
+- In 1932, FDR was elected with the New Deal 
+- The federal government /greatly/ expanded in size and scope
+- The New Deal coalition kept the Democrats in power for 36 years
+  - Unionized workers, upper-middle class professionals, southern
+    farmers, Jews, Catholics, and northern African Americans
+- In the 1960s, the Great Society program, the Vietnam War, and
+  advances in civil rights broke up the New Deal coalition
+
+** Republicans versus Democrats 
+- In 1968, Nixon added the South to the Republican coalition
+- In the 80s, Reagan added religious conservatives
+- Since the passage of the Voting Rights Act (1965), the parties are
+  basically at a stalemate
+- Bases of support have shifted, though, with Republicans taking the
+  South and Democrats the northeast
+- Today's parties are relatively ideologically homogeneous
+
+** Third parties
+- There are always more than two parties
+- Usually these third parties die out or are absorbed by one of the
+  larger two
+- A third party hurts themselves by putting up candidates
+  - Examples with Greens and Democrats
+- Single-member plurality districts also make it very difficult for
+  minor parties to win anything 
