@@ -16,3 +16,4 @@ this folder
      [[https://commons.wikimedia.org/wiki/File:Milhousdrawing.jpg][more information here]]
 - circuit-courts.jpg :: CC- SA 2.5, [[https://en.wikipedia.org/wiki/File:US_Court_of_Appeals_and_District_Court_map.svg][more info here]]
 - super-tuesday-2016.png CC-BY-CA 4.0 [[https://commons.wikimedia.org/wiki/File:Supertuesday_2016_Map.png][more info here]]
+- republican-coverage.png :: unclear license, [[http://iscap.upenn.edu/][source]]
