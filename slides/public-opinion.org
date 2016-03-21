@@ -337,7 +337,7 @@ and the woman takes care of the home and family.
 
 ** Identity politics - sex
 #+ATTR_LATEX: :float t
-[[file:~/Teaching/GOV310L/figures/female-equalwealth-2014-gss.pdf]]
+[[file:../figures/female-equalwealth-2014-gss.pdf]]
 
 ** Identity politics - sex
 - Overall, women tend to be less supportive of militaristic policies,
@@ -450,7 +450,7 @@ and the woman takes care of the home and family.
   flowing freely 
 ** Trump's media coverage
 #+ATTR_LATEX: :float t
-[[file:~/Teaching/GOV310L/images/republican-coverage.png]]
+[[file:../images/republican-coverage.png]]
 [[http://iscap.upenn.edu/][Source]]
 
 * Measuring Public Opinion
