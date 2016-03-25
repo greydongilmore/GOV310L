@@ -128,9 +128,7 @@
   # partyid_plot.figure.clf()
 
   gss['equal_wealth'] = gss['eqwlth'].astype('category')
-  gss.equal_wealth.cat.categories = ['Gvt reduce\n differences', '2', '3', '4', '5', 'No gvt action', 'NA']
-
-  gss.equal_wealth = gss.equal_wealth.cat.remove_categories(['NA'])
+  gss.equal_wealth.cat.categories = ['Gvt reduce\n differences', '2', '3', '4', '5', '6', 'No gvt action']
 
   plt.figure()
   equal_wealth_plot = sns.countplot(x='equal_wealth', data=gss).get_figure()
@@ -264,6 +262,8 @@ and 7 comes closest to the way you feel?
 - These groups can be broad
   - For example, most consider themselves "American" and root for the
     US during the World Cup
+
+** Identity politics (continued)
 - Political party
   - Usually stable, attachment developed in childhood and carried
     throughout life
@@ -493,12 +493,15 @@ amount on (welfare) or (assistance to the poor)?
                               'too much']
 
   plt.figure()
-  welfare_plot = sns.countplot(x='natfare', data=gss).get_figure()
-  welfare_plot.savefig('../figures/welfare-2014-gss.pdf')
+  sns.countplot(x='natfare',
+                data=gss)
+  plt.ylim(0, 800)
+  plt.savefig('../figures/welfare-2014-gss.pdf')
 
   plt.figure()
-  assist_poor_plot = sns.countplot(x='natfarey', data=gss).get_figure()
-  assist_poor_plot.savefig('../figures/assist-poor-2014-gss.pdf')
+  sns.countplot(x='natfarey', data=gss)
+  plt.ylim(0, 800)
+  plt.savefig('../figures/assist-poor-2014-gss.pdf')
 #+END_SRC
 
 ** Welfare vs Assistance to the poor (2014 GSS)
