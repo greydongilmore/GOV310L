@@ -23,7 +23,7 @@
   "faction"
 - Washington's infamous farewell address warns against the evils of
   party
-- /However,/ it is difficult to see how government could function
+- /However/, it is difficult to see how government could function
   without parties
 
 ** Parties are inevitable (& good?)
@@ -66,6 +66,8 @@
 - These could be large, well-organized and financed groups
   - Like the AFL-CIO with the Democrats or the Chamber of Commerce
     with the Republicans
+
+** Collective action (continued)
 - Or large groups without much finance
   - Women's groups with the Republicans originally, now with the Democrats
   - Immigrant groups (with both parties, depending on the group)
