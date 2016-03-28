@@ -17,7 +17,7 @@ These will be updated with links to the slides.
 6. [The Courts](/GOV310L/slides/courts.pdf)
 7. Issue spotlight #1 - [Presidential elections](/GOV310L/slides/the-primary-system.pdf)
 8. [Public Opinion](/GOV310L/slides/public-opinion.pdf)
-9. Political parties
+9. [Political Parties](/GOV310L/slides/political-parties.pdf)
 10. Campaigns and elections
 11. Interest groups
 12. The media
