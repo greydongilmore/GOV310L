@@ -1,0 +1,522 @@
+#+TITLE:     Public Opinion
+#+AUTHOR:    J. Alexander Branham
+#+EMAIL:     branham@utexas.edu
+#+DATE:      Spring 2016
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LATEX_CMD: xelatex
+#+OPTIONS: toc:nil H:2
+#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue]
+#+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
+#+LATEX_HEADER: \usepackage{caption}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage{subcaption}
+
+* What is public opinion?
+** Why is it important? 
+- Constrains political actors (the President, Congress, the Courts)
+- Standard by which we judge how democracy is functioning
+  - Does policy reflect what people want?
+** What is public opinion? 
+- Individual people have opinions
+- We refer to the aggregation of individuals' opinions as *public opinion*
+- Many different methods for this aggregation:
+  - For example, elections, town hall meetings, protests, polls
+** Individual political opinion
+- Individuals' political opinions depend on three things:
+- Basic *preferences* (what they want)
+- *Beliefs* about the current circumstances and consequences of actions
+- *Choices* presented
+** Preferences
+- Preferences reflect what people want
+  - Material: money, power, income 
+  - Values: justice, morality
+- Economic self-interest and social/moral values often taken as the
+  basis for political preferences
+- Preference /intensity/ also important
+  - Do you care more about LGBT rights or tax rates?
+** Beliefs 
+- What people know (or think they know)
+- What they believe the consequences of their actions will be
+- Individuals who spend more time on a subject generally have stronger
+  beliefs
+- Beliefs don't have to be based in fact - can be grounded in (e.g.)
+  political ideology or religion
+** Choices 
+- We never observe preferences or beliefs, only choices
+- In an election, the choices are the candidates
+- In a public opinion survey, these are the answer choices
+- Adding (or deleting) choices may change individuals' responses
+** Choices (continued)
+- Some issues that people care about may not be presented
+- For example, the Democratic party kept race off the agenda for a
+  long time to keep Southern Democrats in the party
+- These are referred to as *latent* issues
+* Variety of opinion 
+** Public opinion is varied
+- Politicians often say that "public opinion" is on their side
+- But public opinion is varied - all Americans don't hold the same
+  opinion
+- We agree on some of the basics:
+  - legitimacy of the Constitution, equality of opportunity, liberty,
+    democracy
+- But most issues the government deals with are areas where the public
+  doesn't hold a single view
+** Expression of public opinion
+- Individuals express opinion in a variety of ways
+  - Contacting member of Congress (letters, phone calls, etc)
+  - Blogs, letters to newspapers, conversations with peers
+  - Lawn signs, bumper stickers
+  - Volunteering for campaigns, giving money to candidates
+  - Voting
+- Not always easy to interpret
+** Interpretation of public opinion
+- If someone votes against their Representative, why did they do so?
+  - A decision the Representative made?
+  - Party?
+  - Something else?
+- Where does majority support lie? How intense is that support?
+** Interpretation of public opinion, continued
+- Often helpful to think about as support/oppose a policy
+- But this can mask important variation
+- Example:
+  - Abortion pro-life vs pro-choice
+  - But people have more refined opinions (in cases of rape, incest,
+    parental consent, endangering the life of the mother, etc)
+** Examples of opinions
+- Evaluations of actors and institutions
+  - presidential approval, congressional approval, etc
+- Assessments of public policies
+  - Support or oppose a policy, most important problem, etc
+- Assessments of current circumstances
+  - How is the economy performing? How's your personal outlook?
+- Political orientations
+  - Party ID and ideology 
+** Party id (2014 General Social Survey)
+#+BEGIN_SRC python :session python-session :results value silent :exports results
+  import os.path
+  if os.path.exists('gss2014/') == False:
+      import urllib.request
+      import zipfile
+    
+      # Download the file from `url` and save it locally under `file_name`:
+      urllib.request.urlretrieve('http://gss.norc.org/documents/stata/2014_stata.zip', 'gss2014.zip')
+
+      zip_ref = zipfile.ZipFile('gss2014.zip', 'r')
+      zip_ref.extractall('gss2014')
+      zip_ref.close()
+#+END_SRC
+
+#+BEGIN_SRC python :session python-session :results value silent :exports results
+  import pandas as pd
+  import numpy as np
+  pd.set_option('max_columns', 50)
+  from scipy import stats, integrate
+  import matplotlib.pyplot as plt
+  from matplotlib import interactive
+  import seaborn as sns
+  sns.set(color_codes=True, palette='muted', style='dark')
+
+  gss = pd.read_stata('gss2014/GSS2014.DTA', convert_categoricals=False)
+  gss['pid'] = gss['partyid'].astype('category', ordered=True)
+  gss.pid.cat.categories = ['Strong D', 'Weak D', 'Lean D', 'I', 'Lean R', 'Weak R', 'Strong R', 'Other']
+
+  plt.figure()
+  party_id_plot = sns.countplot(x='pid', data=gss).get_figure()
+  party_id_plot.savefig('../figures/partyid-2014-gss.pdf')
+
+  # partyid_plot.figure.clf()
+
+  gss['equal_wealth'] = gss['eqwlth'].astype('category')
+  gss.equal_wealth.cat.categories = ['Gvt reduce\n differences', '2', '3', '4', '5', 'No gvt action', 'NA']
+
+  gss.equal_wealth = gss.equal_wealth.cat.remove_categories(['NA'])
+
+  plt.figure()
+  equal_wealth_plot = sns.countplot(x='equal_wealth', data=gss).get_figure()
+  plt.savefig('../figures/equalwealth-2014-gss.pdf')
+#+END_SRC
+** Party id (2014 General Social Survey)
+#+ATTR_LATEX: :float t
+#+RESULTS:
+[[file:../figures/partyid-2014-gss.pdf]]
+
+** Polarization 
+- Recall from the first half of the semester that elites seem to be
+  highly polarized
+- Pundits and journalists oftentimes suggest that the public is highly
+  polarized as well
+- However, political science suggests that the public, /unlike
+  political elites/, is not highly polarized.
+- Why is that the case?
+
+* Origins and Nature of Public Opinion
+
+** Foundations of Preferences 
+- Self-interest
+- Values
+- Social groups
+
+** Foundations - Self-Interest 
+- Economic
+  - Taxes, for example
+- Regulations
+  - Clean air, property rights, etc
+- Labor
+  - About 19 million people work for federal, state, or local government
+  - This is about 12% of the labor force
+  - Another million are in the armed forces
+  - Federal government expenditures account for about 20% of GDP
+- Zoning laws, urban development, family laws, etc
+
+** Foundations - values
+- What is right and wrong?
+- Our /value systems/ help determine what we want government to do
+- We develop value systems from many different places - family,
+  religion, school, social groups, etc
+- Economic justice
+  - Equality of opportunity
+- Criminal justice 
+  - What's a crime and what is an appropriate punishment
+- What's marriage?
+  - Economic arrangement, interracial marriage, gay marriage 
+
+** Equal wealth 
+#+BEGIN_QUOTE
+Some people think that the government in Washington ought 
+to reduce the income differences between the rich and the poor, 
+perhaps by raising the taxes of wealthy families or by giving 
+income assistance to the poor. Others think that the government 
+should not concern itself with reducing this income difference 
+between the rich and the poor. Here is a card with a scale from 
+1 to 7. Think of a score of 1 as meaning that the government 
+ought to reduce the income differences between rich and poor, 
+and a score of 7 meaning that the government should not concern 
+itself with reducing income differences. What score between 1 
+and 7 comes closest to the way you feel?
+#+END_QUOTE
+
+** Equal wealth (2014 GSS)
+#+ATTR_LATEX: :float t
+#+RESULTS:
+[[file:../figures/equalwealth-2014-gss.pdf]]
+
+** Foundations - social groups
+- The people we interact with - family, neighbors, race, religion, etc
+- People tend to support policies that benefit the group they belong
+  to
+  - And thus, indirectly, themselves
+- People can change opinions simply by joining an organization
+  - People can internalize the collective value
+  - For example, when our company does well we feel good
+- *Socialization* is the process through which individuals assimilate
+  collective preferences and norms through social interactions
+  - This usually occurs relatively early in life (before 18), but
+    continues at a slower pace throughout life
+
+** Political ideology 
+- Politics and political decisions are very complicated
+- Ideology is a simplification of the political world
+- In the US, we use *liberal* and *conservative* to describe
+  individuals' ideologies
+- Generally, liberals support political and social reform; government
+  intervention in the economy; the expansion of federal social
+  services; more vigorous efforts on behalf of the poor, minorities,
+  and women; and greater concern for consumers and the environment
+- Generally, conservatives support the social and economic status quo,
+  favor markets as solutions to social problems, and believe that
+  large and powerful government pose a threat to citizens' freedoms
+
+** Ideology (continued)
+- Oftentimes we think of ideology as a spectrum with those on the left
+  favoring more liberal policies and those on the right favoring more
+  conservative ones
+- In general, the Democrats represent more liberal views and the
+  Republicans more conservative 
+
+
+#+BEGIN_SRC python :session python-session :results value silent :exports results
+  gss.polviews = gss.polviews.astype('category')
+  gss.polviews.cat.categories = ['Ext liberal',
+                                 'Lib',
+                                 'Slight lib',
+                                 'Moderate',
+                                 'Slight cons',
+                                 'Cons',
+                                 'Ext cons']
+
+  plt.figure()
+  ideology_plot = sns.countplot(x='polviews', data=gss).get_figure()
+  plt.savefig('../figures/ideology-2014-gss.pdf')
+#+END_SRC
+
+** Ideology (2014 GSS)
+#+ATTR_LATEX: :float t
+[[file:../figures/ideology-2014-gss.pdf]]
+
+** Identity Politics
+- Just as ideology helps us simplify the political world, identity can
+  play the same role
+- People identify with certain groups because of shared social
+  connections or values and interests
+- Harms/benefits to one member of that group are harms/benefits for
+  all members
+- These groups can be broad
+  - For example, most consider themselves "American" and root for the
+    US during the World Cup
+- Political party
+  - Usually stable, attachment developed in childhood and carried
+    throughout life
+  - The best predictor of how people will vote, even after taking into
+    account self-interest, economics, and other identities
+- Oftentimes identity politics refers to historically underrepresented
+  groups
+
+** Identity politics - Blacks
+- Slavery created a large divide between whites and blacks in our society
+- This manifests in many different ways
+- For example, among whites income and conservatism are positively
+  correlated (as income goes up, whites tend to be more conservative)
+- But among black people, this correlation does not exist
+- Nearly all black people support the Democratic party
+
+** Identity politics - Hispanics 
+- Tend to prioritize different issues from non-Hispanics
+- Education, immigration instead of the economy
+- More heterogeneity among Hispanics than Blacks due to different
+  communities (Cuban, Mexican, Puerto Rican, etc)
+- Hispanics tend to be Democrats, though not to the extent that black
+  people are
+
+** Identity politics - sex
+- Men and women express different opinions as well
+- These can be easy to understand why:
+#+BEGIN_QUOTE
+Now I'm going to read several more statements. As I read 
+each one, please tell me whether you strongly agree, agree, 
+disagree, or strongly disagree with it. d. It is much better for 
+everyone involved if the man is the achiever outside the home 
+and the woman takes care of the home and family.
+#+END_QUOTE
+
+
+#+BEGIN_SRC python :session python-session :results value silent :exports results
+  gss.sex = gss.sex.astype('category')
+  gss.sex.cat.categories = ['Male',
+                            'Female']
+
+  gss.fefam = gss.fefam.astype('category')
+  gss.fefam.cat.categories = ['Str agree',
+                              'Agree',
+                              'Disagree',
+                              'Str disagree']
+
+  plt.figure()
+  female_home_plot = sns.countplot(hue='fefam',
+                                   x='sex',
+                                   data=gss).get_figure()
+  female_home_plot.savefig('../figures/females-home-2014-gss.pdf')
+
+
+  plt.figure()
+  female_equalwealth_plot = sns.countplot(x='sex', 
+                                          hue='equal_wealth',
+                                          data=gss).get_figure()
+  female_equalwealth_plot.savefig('../figures/female-equalwealth-2014-gss.pdf')
+#+END_SRC
+
+** Identity politics - sex
+#+ATTR_LATEX: :float t
+[[file:../figures/females-home-2014-gss.pdf]]
+
+** Identity politics - sex
+- Or they can be more difficult to understand why women and men have
+  different views:
+  - Question from several slides ago about government's role in
+    reducing income differences 
+
+** Identity politics - sex
+#+ATTR_LATEX: :float t
+[[file:../figures/female-equalwealth-2014-gss.pdf]]
+
+** Identity politics - sex
+- Overall, women tend to be less supportive of militaristic policies,
+  more likely to favor environmental protections, and more supportive
+  of government-run social and health care programs
+- Unsurprisingly, then, women tend to support the Democratic party
+- This difference is relatively small - usually between 5 and 10
+  percentage points
+
+** Identity politics - religion
+- Perhaps not as strong in the US as in other countries
+- But people are more likely to vote for candidates who share their religion
+  - Catholics for Kennedy
+  - Born-again Christians for Carter
+  - Mormons for Romney
+- Catholics more likely to be Democrats
+
+** Identity politics - geography 
+- We already talked about one geographic group - Americans
+- There are other clear divisions - North versus South
+- Urban versus rural
+  - Urban areas heavily Democrat, rural areas heavily Republican
+- Even neighborhoods that we live in or come from
+
+* Public Opinion and Political Knowledge
+
+** Political knowledge & preference stability
+- The average American knows little about current events or basic
+  facts of American government
+- However, they can express (relatively) clear preferences across a
+  broad range of issues
+- The reason for this general ignorance is clear:
+- It is costly (time, etc) to learn about politics, especially when
+  there's little to no benefit in doing so
+
+** Shortcuts
+- Since becoming knowledgeable about politics requires a lot of time
+  and energy, most people rely on shortcuts, labels, and stereotypes
+- One such shortcut is relying on others' judgment
+  - Ministers, TV personalities, politicians, etc
+- Another is to view policy proposals through the lens of ideology
+
+** Dangers of political inattentiveness 
+- Some argue that low levels of political knowledge harm democracy
+- Those with low political knowledge may not understand where their
+  interests are
+- People with low levels of political knowledge are easier to
+  manipulate
+
+** Stability
+- Although political knowledge for any one individual is low, public
+  opinion in the aggregate is quite stable
+- Most people retain one partisanship throughout life
+- Individuals' values remain basically stable
+
+** Stability and aggregation
+- One of democracy's great strengths lies in the aggregation of
+  numbers
+- Aggregation counteracts the effects of political ignorance
+((Examples))
+
+** Static?
+- Aggregate stability does not mean that opinion never changes
+- 1945 - 1970 civil rights
+- 1960s - 1970s taxation 
+- 1990 - now gay rights
+
+* Shaping Opinion 
+
+** Actors
+- MANY different actors try to convince people to their side.
+  - Government
+  - Private groups
+  - Media
+
+** Government and shaping opinion 
+- Government tries to convince citizens to think or act certain ways
+- Support for policies (wars, health campaigns, etc)
+- Oftentimes not successful
+- Polls, social media, TV, etc
+
+** Private groups and shaping opinion 
+- Interest groups try to sway public opinion to their side
+- US Chamber of Commerce, Heritage Foundation, Hoover Institution
+- AFL-CIO, Sierra Club, etc
+
+** The media and opinion 
+- The media play a large role in public opinion formation
+- Most Americans say that their primary source of information about
+  politics is from the media - newspapers, cable and broadcast TV,
+  radio, internet sites
+- The media is the conduit through which information flows
+
+** Media (continued)
+- Media act as an *agenda setter*
+  - Has the power to bring attention (or not) to particular issues and
+    problems
+- The media can also *prime* people by making them think about an
+  issue in a certain context
+  - For example, covering 
+- Finally, the media can *frame* issues in a certain way
+  - For example, covering waste in the welfare system primes people to
+    think about it in terms of governmental inefficiency
+
+** Media (continued)
+- Priming can distract people from important problems
+- Framing can make us think about issues in a biased way
+- These /usually/ aren't a problem because competing sides are trying
+  to prime/frame issues in opposing ways, resulting in information
+  flowing freely 
+** Trump's media coverage
+#+ATTR_LATEX: :float t
+[[file:../images/republican-coverage.png]]
+[[http://iscap.upenn.edu/][Source]]
+
+* Measuring Public Opinion
+** Constructing opinion from surveys 
+- By and large, *public opinion polls* are the most widely-used method
+  of gauging public opinion
+- These rely on choosing a *sample* from the *population* we're
+  interested in studying
+  - The population here is oftentimes all Americans (or at least those
+    over 18)
+- The sample needs to accurately reflect the population
+** Dewey defeats Truman!
+** Techniques and selection bias
+- Probability sampling is great if you know the entire population
+- But this usually isn't the case with voters
+- So we use *random-digit dialing* instead
+- *Selection bias* can skew the results of a poll
+  - This happens when we make an error where our sample is not
+    representative of the population we're trying to learn about
+** Sample Size
+- The more people you survey, the more accurate you can be
+- *Sampling error* or *margin of error* is polling error that arises
+  from the size of the sample
+** Survey design 
+- The way that we ask questions influences the way people answer
+- Consider welfare. Do we ask about welfare or assistance to the poor?
+#+BEGIN_QUOTE
+Do you think we're spending too much, too little, or about the right
+amount on (welfare) or (assistance to the poor)? 
+#+END_QUOTE
+
+#+BEGIN_SRC python :session python-session :results value silent :exports results
+  gss.natfare = gss.natfare.astype('category')
+  gss.natfare.cat.categories = ['too little',
+                              'about right',
+                              'too much']
+  gss.natfarey = gss.natfarey.astype('category')
+  gss.natfarey.cat.categories = ['too little',
+                              'about right',
+                              'too much']
+
+  plt.figure()
+  welfare_plot = sns.countplot(x='natfare', data=gss).get_figure()
+  welfare_plot.savefig('../figures/welfare-2014-gss.pdf')
+
+  plt.figure()
+  assist_poor_plot = sns.countplot(x='natfarey', data=gss).get_figure()
+  assist_poor_plot.savefig('../figures/assist-poor-2014-gss.pdf')
+#+END_SRC
+
+** Welfare vs Assistance to the poor (2014 GSS)
+#+BEGIN_LaTeX
+\begin{figure}[h]
+  \centering
+  \begin{subfigure}[h]{0.47\textwidth}
+    \centering
+\includegraphics[width=\textwidth]{../figures/assist-poor-2014-gss.pdf}
+\caption{Assistance to poor}
+  \end{subfigure}
+~
+\begin{subfigure}[h]{0.47\textwidth}
+\centering
+\includegraphics[width=\textwidth]{../figures/welfare-2014-gss.pdf}
+\caption{Welfare}
+\end{subfigure}
+\caption{Question wording effects}
+\end{figure}
+#+END_LaTeX
+
