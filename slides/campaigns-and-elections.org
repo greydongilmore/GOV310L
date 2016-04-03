@@ -6,7 +6,7 @@
 #+LaTeX_CLASS: beamer
 #+LATEX_CMD: xelatex
 #+OPTIONS: toc:nil H:2
-#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue]
+#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue, aspectratio=169]
 #+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
 
 * Introduction
@@ -253,4 +253,79 @@
 - When the economy is improving, people tend to vote for the party in
   power
 - When the economy is in decline, people tend to vote for the
-  opposition 
+  opposition
+
+** Candidate characteristics 
+- Voters tend to vote for people like them
+- Race, ethnicity, religion, gender, geography, and social background
+  all matter
+- Personality also matters - people tend to like candidates who appear
+  "honest," or "competent"
+
+* Campaigns
+
+** Elections in the US
+- Elections in the US are unregulated compared to other countries
+- Millions of dollars spent on elections
+- Advertising on TV, radio
+- Door-to-door canvassing and direct mail
+
+** What it takes to win 
+- Campaigns mount competitive campaigns to win votes
+- Campaigns spend millions or billions of dollars
+- Campaigns inform voters through competition
+
+** Elections in the US
+- Campaigns are long, often lasting a year or more
+- The Federal Election Commission (*FEC*) calls the election the
+  two-year period leading up to the war
+- Super expensive - in 2012, the Obama campaign spend 1.2 billion,
+  Romney spent 1.25 billion
+
+** Elections abroad
+- Many other countries have a much shorter campaign cycle
+- Government calls for election, campaign for a month or three, then
+  have an election
+- Most other democracies also limit expenditures and fundraising
+  activities
+
+** Campaign Finance Reforms
+- 1971 Congress passes the Federal Elections Campaign Act
+  - Imposes limits on (some) giving
+  - Sets up political action committees (PACs)
+  - Creates the Federal Election Commission
+  - Public funding for presidential elections
+
+** Campaign Finance Reforms
+- /Buckley v. Valeo/: the Supreme Court decides that money is a form
+  of speech - 1976
+  - Candidates, groups, and parties may spend as much as they like,
+    but the donations must come in small amounts
+
+** Campaign Finance Reforms
+- 2002: Congress enacts the Bipartisan Campaign Reform Act (BCRA,
+  McCain-Feingold Act)
+  - prohibited unlimited party spending (soft money)
+  - Banned certain sorts of political attack advertisements in the
+    last weeks of a campaign 
+
+
+** Campaign Finance Reforms
+- /Citizens United v. Federal Election Commission/: 2010
+  - Strikes down limits on independent expenditures by corporations
+  - Decides that corporations have the same right to political speech
+    as individuals
+
+** Congressional campaigns 
+- An important difference between presidential elections and
+  congressional elections is the *incumbency advantage*
+- Seems like it's around 5--10 percentage points in most
+  non-presidential elections
+
+** Effectiveness of campaigns
+- Whether campaigns are effective or not has been studied by political
+  scientists quite a bit
+- While individual ads can have a large impact, their effect tends to
+  die out relatively quickly
+- Competing campaigns also tend to cancel out each others' effects
+
