@@ -1,0 +1,256 @@
+#+TITLE:     Campaigns and Elections
+#+AUTHOR:    J. Alexander Branham
+#+EMAIL:     branham@utexas.edu
+#+DATE:      Spring 2016
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LATEX_CMD: xelatex
+#+OPTIONS: toc:nil H:2
+#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue]
+#+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
+
+* Introduction
+
+** Elections
+- The US has /very/ frequent elections
+- President, (most) governors every four years
+- Federal and state legislators every two years
+- Thousands of other offices (mayors, councilors, commissioners, etc)
+- There are somewhere around 90,000 governments in the US, most of
+  which are elected
+
+** Elections
+- A typical election asks a voter about some of the aforementioned
+  offices, bond issues, referenda, initiatives, and other issues
+- Most Americans can vote three or four times a year
+
+** Elections - potential problems
+- Incomplete information
+- Knowing what politicians will do once elected
+
+* Elections as institutions
+
+** Electoral institutions
+- Elections are run through a combination of federal and state laws
+- These laws determine everything from the timing to who can vote, how
+  votes are counted, what it takes to win, etc
+
+** Who can vote
+- Most citizens over the age of 18
+- This has changed since the founding, where oftentimes only white
+  male property owners over the age of 21 could vote
+- /Who/ can vote is different than who /actually/ votes
+  - Presidential election: usually ~60% of people eligible to vote do so
+  - Midterms: ~45%
+  - Local: ~10-20%
+
+** Who votes
+- Voting isn't mandatory
+  - It is in some other countries (e.g. Australia, Brazil, etc)
+- Should the US have mandatory voting?
+
+** Turnout rates
+- Turnout in the US is on the lower end of other comparable countries
+- *Turnout rate* is simply the number of people who vote divided by
+  the number of people who are allowed to vote
+- The denominator is actually harder to define
+- Most of the time voting age population is used
+- There's roughly 320 million people in the US
+  - Under 18 not allowed to vote (~75 million people)
+  - Noncitizens not allowed to vote (~20 million people)
+  - Prison and felons (and sometimes ex-felons) (~3 million)
+
+# #+BEGIN_SRC python :session python-session :results value silent :exports results
+#   import pandas as pd
+#   import numpy as np
+#   pd.set_option('max_columns', 50)
+#   from scipy import stats, integrate
+#   import matplotlib.pyplot as plt
+#   from matplotlib import interactive
+#   interactive(True)
+#   import seaborn as sns
+#   sns.set(color_codes=True)
+
+#   turnout = pd.read_csv('../data/voter-turnout-from-idea.csv')
+#   sns.factorplot(x='Year', y='Voter Turnout (%)',
+#                  hue='Country', col='Election type', data=turnout)
+# #+END_SRC
+
+** Other restrictions on the vote
+- Registration
+  - "Motor voter" helps since 1993
+  - Registration is atypical in a democracy
+  - Only about 80% of the electorate is registered
+  - Helps determine precincts 
+- Voter ID laws
+
+** The ballot
+- Today, voting viewed as a private matter
+- Voting is done by *secret ballot*
+- Only the case since the end of the 1800s as a way to end vote buying
+  and voter intimidation
+  - Not all votes in the US are secret - for example, town halls and
+    (some) caucuses
+
+** The ballot
+- Along with the secret ballot the US adopted the *Australian ballot*
+  - This lists the names of all candidates on a single ballot
+- This allows/encourages *split-ticket voting*
+- Also lets voters choose /candidates/ rather than /parties/
+  - Allows for the personal vote
+  - Allows for incumbency advantage
+- Produces greater fragmentation in control over government
+
+** Districts 
+- The US mostly employs *single-member districts*
+  - The House, most state legislatures, most local governments
+  - One representative per district
+  - All districts have equal population
+
+** House elections - single member districts
+- House members elected by different rules
+  - Some states used single-member districts
+  - Others elected all at large
+  - Most states from the 1840s onward use single member districts
+  - In 1967, Congress mandates single-member districts
+
+** House elections - equal population
+- The Supreme Court mandates beginning in the 1960s that House
+  districts must be equal in population
+- 1971 is the first election with single-member districts with equal
+  populations
+- Eventually, civil rights groups and the courts extend this to most
+  other elections (city councils, school districts, etc)
+
+** The Senate
+- Not single-member districts
+  - Two senators per state
+- States don't have equal population
+  - California ~ 39 million people
+  - Wyoming ~ 0.6 million people 
+
+** Senate elections
+- Senators originally elected by state legislatures
+  - 17th amendment changes this
+
+** President
+- Electoral college
+- Number of votes is number of Senators plus number of representatives
+
+** Winning a majority
+- Using single-member districts magnifies the power of the majority
+- In 2014, Republicans won about 52% of the vote but get 57% of the
+  seats in the House
+- In 2012, Barack Obama won 51% of the vote, but 62% of the electoral
+  votes
+- This makes it hard for small parties to get any seats
+- Majority tendency of districts makes it hard for minorities to get
+  representation
+
+** Districts 
+- Today, about a quarter of the US population is black or Hispanic,
+  but only about 15% of Congress is
+- *Gerrymandering* can give unfair advantage to one party
+  - Today, the bias tends to be about 5 percentage points
+  - This is down from the 1960s (~11 points)
+- Gerrymandering can dilute the influence of a group too - *cracking*
+
+** Plurality rule 
+- Most elections in the US are decided by *plurality rule*
+- Plurality rule inflates winners:
+  - 2005 in the UK: Labor gets 35% of the vote, 55% of the seats
+  - Conservatives get 31% of the vote and 31% of the seats
+  - Liberal Democrats get 22% of the vote and 8% of the seats
+- Main alternative to plurality rule is *proportional representation*
+
+** Duverger's Law 
+- *Duverger's law* states that plurality rule systems tend to produce
+  two-party systems
+- Politicians don't want to split the vote
+- Voters don't want to waste theirs
+
+** Direct Democracy 
+- Referendum :: a measure proposed by the legislature that is referred
+     to the vote of the electorate for approval or rejection
+- Initiative :: citizens may petition to place a policy proposal on
+     the ballot for vote
+- Recall :: removing a public official by vote
+
+** Direct democracy in Texas
+- Texas only allows legislatively referred proposed constitutional
+  amendments
+
+* How voters decide
+
+** Voters and nonvoters 
+- Two decisions to make in any election:
+  - Whether to vote or not
+  - Who to vote for
+- Age and education play a large role in determining whether someone
+  will vote or not
+- In 2012, about 60% of the voting eligible population voted
+- However, only 41% of those under 25 voted
+- 71% of those above 65 voted
+
+** Voters and nonvoters
+- More highly educated individuals tend to turnout more
+- More than 75% of college-educated people vote
+- Less than 40% of people without a high school degree voted,
+- 52% of people with a high-school degree
+
+** Voters and nonvoters
+- Other factors also matter
+- 51% of people who have lived in their current residence less than a year voted
+- 76% of people voted who lived there more than 5 years
+- 67% of homeowners voted, only 49% of renters
+
+** How do people vote? 
+- After deciding whether to vote, need to decide who to vote for
+- Strongest single predictor is partisanship
+
+** Partisan loyalty 
+- People tend to identify with a political party
+- Only about 10% of Americans identify as an independent
+- Partisans vote with their party about 90% of the time
+- But what is partisan identification?
+
+** Party ID as psychological attachment 
+- People identify with a party not unlike how they identify with a
+  religion or community
+- The first few presidential elections someone experiences have a
+  profound experience
+- Those 18--25 in 1984 ID with the Republicans (Reagan)
+- Those 18--25 in 2008 ID with the Democrats (Obama)
+
+** Party ID as ideological affinity
+- People ID with parties that pursue policies that they will like
+- Today's parties are much more ideologically coherent than those in
+  the 70s and 80s
+
+** Party ID as tally of experiences 
+- Party ID reflects experiences with leaders, especially the president
+- Which party is able to govern better?
+- Each president lets us update our beliefs about that
+
+** Issues 
+- Of course, partisanship doesn't totally determine individuals'
+  votes, especially in non-presidential elections
+- Voters vote for candidates based on the issues too
+- *Prospective voting*: making choices that focus on future behavior
+- *Retrospective voting*: making choices that focus on past
+  performance
+
+** Spatial issues
+- Many issues can be mapped in a continuous space
+  - e.g. tax rates, spending, abortion, etc
+- *Median voter theorem* pushes candidates towards the middle of the
+  spectrum 
+
+** Valence issues
+- *Valence issues* lack conflict about what is desirable
+  - Everyone wants less crime, better health, peace, etc
+- The economy is the most important valence issue
+- When the economy is improving, people tend to vote for the party in
+  power
+- When the economy is in decline, people tend to vote for the
+  opposition 
