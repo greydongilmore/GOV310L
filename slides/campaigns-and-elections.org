@@ -60,22 +60,6 @@
   - Noncitizens not allowed to vote (~20 million people)
   - Prison and felons (and sometimes ex-felons) (~3 million)
 
-# #+BEGIN_SRC python :session python-session :results value silent :exports results
-#   import pandas as pd
-#   import numpy as np
-#   pd.set_option('max_columns', 50)
-#   from scipy import stats, integrate
-#   import matplotlib.pyplot as plt
-#   from matplotlib import interactive
-#   interactive(True)
-#   import seaborn as sns
-#   sns.set(color_codes=True)
-
-#   turnout = pd.read_csv('../data/voter-turnout-from-idea.csv')
-#   sns.factorplot(x='Year', y='Voter Turnout (%)',
-#                  hue='Country', col='Election type', data=turnout)
-# #+END_SRC
-
 ** Other restrictions on the vote
 - Registration
   - "Motor voter" helps since 1993
