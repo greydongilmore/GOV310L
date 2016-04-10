@@ -1,0 +1,209 @@
+#+TITLE:     Interest Groups
+#+AUTHOR:    J. Alexander Branham
+#+EMAIL:     branham@utexas.edu
+#+DATE:      Spring 2016
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LATEX_CMD: xelatex
+#+OPTIONS: toc:nil H:2
+#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue, aspectratio=169]
+#+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
+
+* What are interest groups
+
+** What are interest groups?
+Evil corporate groups who exploit the democratic system...
+
+** What are interest groups?
+Or a varied system of organizations who represent the interests of
+their members?
+
+** The West Wing
+
+** Interest groups and democracy
+- Education of members on issues that affect them
+- Lobbying on behalf of members
+- Promote democratic participation (voting, etc) 
+
+** The evil of faction
+- Founders concern with faction
+- /Especially/ a majority
+
+** Pluralism
+- *Pluralism* - interests should be free to compete for influence over government
+- This will (hopefully) produce desired outcomes
+- Interests groups not equal in resources, though 
+
+** (Economic?) interests 
+- Many (most?) interest groups represent economic interests
+  - Corporate: Chamber of Commerce, Microsoft, etc
+  - Labor: AFL-CIO, Teamsters
+  - Professional organizations: The Bar Association, the American
+    Medical Association
+
+** Groups' lifelines: Members
+- Membership essential
+  - Collective action problems (and solutions)
+
+** Groups' lifelines: Money
+- Groups usually rely on membership dues
+- As well as voluntary contributions
+
+** Groups' lifelines: Leaders 
+- Leadership and organization essential
+- Can be simple
+- Or complicated - melding local chapters into states, then states
+  into national...
+
+** Membership
+- Many more upper-class citizens belong to interest groups than
+  lower-class citizens
+  - Wealthier people tend to have more money and time
+  - These groups can also provide professional contacts for their careers
+
+** Membership
+- Even groups associated with progressive politics and support for the
+  poor tend to have upper-middle and upper-class members
+
+* How and Why?
+
+** Interest groups
+- Interest groups don't represent interests in proportion to the
+  interest in the population
+- In the 1980s, 7% of adults were in managerial/administrative roles,
+  but 71% of interests groups represented them
+  - Or, 4% of the population looking for work but only 0.1% of
+    organizations 
+
+** Facilitation of cooperation 
+- Interest groups join to facilitate cooperation between their members
+- All members better off if they achieve some shared goal
+- But it's costly to obtain that goal...
+
+** Prisoner's dilemma 
+- You and your friend are accused of stealing & are kept in separate rooms
+- The police need one of you to rat the other in order to build their
+  case
+#+BEAMER: \pause 
+|              | Snitch | Don't snitch |
+|--------------+--------+--------------|
+| /            | <      |              |
+| Snitch       | (3,3)  | (0,6)        |
+| Don't snitch | (6,0)  | (1,1)        |
+
+** What's the best choice?
+#+BEAMER: \pause
+- If we're A, then we're always better off snitching
+  - If B also snitches, we get 3 instead of 6 years
+  - If B doesn't, then we go free instead of getting 1 year
+- So both end up snitching on each other, getting (3,3) instead of (1,1)
+
+** The logic of collective action 
+- The *free-rider problem* is pervasive in interest group formation
+- Large groups tend to be anonymous
+- Difficult to argue that any one person's actions will make a difference
+- Enforcement
+- Thus, it's hard for large groups to form
+
+** Collective action problem solutions 
+- *Selective benefits* - benefits of joining a group that are only
+  available to its members
+- Informational: Conferences, research
+- Material: insurance, discounts
+- Solidarity: networking, friendship
+- Purposive: advocacy & participation
+
+* (How) do interest groups influence policy?
+
+** Insider and outsider strategies
+- Insider strategies involve directly working with politicians and
+  their staff
+- Outsider strategies involve going public and using electoral tactics
+- Many groups use both of these
+
+** Lobbying 
+- *Lobbying* is attempting to influence the policy process through
+  persuasion of government officials
+- Lobbyists have to register with the government & disclose what they
+  lobby on
+- Approximately $4 billion per year is spent on lobbying at the
+  federal and state level
+
+** Lobbying members of Congress 
+- Lobbyists provide information to Congresspeople
+- Testify on behalf of clients at hearings
+- Direct members' campaign contributions
+
+** lobbying the president
+- Lobbying Congress is hard
+- Lobbying the President is harder
+- Very limited time
+
+** Lobbying the executive branch 
+- Continue to lobby after laws passed
+- Comment period on new rules is frequently used by lobbyists
+
+** Lobbying regulation 
+- Many regulations on what lobbyists must (not) do:
+  - Business can't deduct lobbying costs from taxes
+  - Associations must report percent of membership dues that goes to lobbying
+  - Registration of lobbyists
+
+** Lobbying regulation
+- Limitation of gifts to Congresspeople:
+  - $50, no more than $100 annually
+
+** Using the courts
+- Bringing suit directly
+- Financing suits brought by individuals
+- Filing /amicus curiae/ briefs
+
+** Using the courts
+- Increasingly, the courts are a battleground where various interests fight
+- E.g. the privacy and abortion fights, segregation, etc
+
+** Mobilizing public opinion
+- *Going public* - launching a campaign to raise awareness of your
+  issue and persuade people
+
+** Advertising
+- TV, newspapers, radio, etc
+- Both image-building
+- And persuasive
+
+** Grassroots lobbying
+- Direct mail & email
+- Increasingly prevalent
+
+** Protest
+- Raises public recognition for protestors
+- Can be disruptive to commerce & traffic, forcing negotiation with protestors
+- Strikes and general strikes are some of union's most powerful
+  weapons
+
+** Electoral politics - PACS
+- *PACs* - Political action committees
+- Separate and segregated from campaigns 
+- Typically focus on House races
+- Little evidence that PAC contributions "buy" votes from those members
+
+** Electoral politics - Independent expenditures
+- Independent expenditure committees - *Super PACs*
+- Allowed after 2010 /Citizens United/ case 
+- May raise unlimited amounts of money from any source
+  - must report donors
+  - may not directly coordinate
+
+** Electoral politics - campaign activism 
+- Get out the vote campaigns
+- Can have large effects in low-turnout elections
+
+** Electoral politics - the initiative
+- The *initiative* allows citizens to pass policy without going
+  through the legislature
+- Interest groups can run campaigns to get the requisite number of
+  signatures
+
+** Are interest groups effective? 
+- Lots of research shows that lobbying and such has little or no effect
+- If it is effective, why don't we see much more? 
