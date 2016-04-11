@@ -261,8 +261,8 @@
 
 ** Elections in the US
 - Campaigns are long, often lasting a year or more
-- The Federal Election Commission (*FEC*) calls the election the
-  two-year period leading up to the war
+- The Federal Election Commission (*FEC*) calls the election cycle the
+  two-year period leading up to the election
 - Super expensive - in 2012, the Obama campaign spend 1.2 billion,
   Romney spent 1.25 billion
 
