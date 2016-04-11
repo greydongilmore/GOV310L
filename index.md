@@ -19,7 +19,7 @@ These will be updated with links to the slides.
 8. [Public Opinion](/GOV310L/slides/public-opinion.pdf)
 9. [Political Parties](/GOV310L/slides/political-parties.pdf)
 10. [Campaigns and elections](/GOV310L/slides/campaigns-and-elections.pdf)
-11. Interest groups
+11. [Interest groups](/GOV310L/slides/interest-groups.pdf)
 12. The media
 13. Issue spotlight #2
 
