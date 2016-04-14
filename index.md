@@ -21,7 +21,7 @@ These will be updated with links to the slides.
 10. [Campaigns and elections](/GOV310L/slides/campaigns-and-elections.pdf)
 11. [Interest groups](/GOV310L/slides/interest-groups.pdf)
 12. The media
-13. Issue spotlight #2
+13. Issue spotlight #2 - Inequality
 
 # Source
 The source code for all the files here is available under a
