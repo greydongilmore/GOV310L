@@ -20,7 +20,7 @@ These will be updated with links to the slides.
 9. [Political Parties](/GOV310L/slides/political-parties.pdf)
 10. [Campaigns and elections](/GOV310L/slides/campaigns-and-elections.pdf)
 11. [Interest groups](/GOV310L/slides/interest-groups.pdf)
-12. The media
+12. [The media](/GOV310L/slides/the-media.pdf)
 13. Issue spotlight #2 - Inequality
 
 # Source
