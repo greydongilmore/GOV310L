@@ -212,4 +212,58 @@ Which do you use most?
 - More often high-level officials who regularly leak information to
   the press
   - Establish relationship
-  - Ensure the story is published on their terms 
+  - Ensure the story is published on their terms
+
+** Press releases
+- Companies & politicians put out *press releases* that are basically
+  pre-written news stories
+- Newspapers often publish these with little or no revision
+- Allows companies/politicians to control a story's context
+
+** Hiring reporters
+- Some governments/corporations pay reporters to write favorable
+  things about them
+- At best questionably ethical
+
+** Consumers 
+- Consumers tend to be middle-upper or upper class, so the news
+  reports tend to cater to their interests
+
+* Media effects
+
+** Media effects
+- Agenda setting
+- Priming
+- Framing 
+
+** Agenda setting
+- Media sets the agenda
+- Decides what to cover, which side(s) of the story to focus on
+
+** Priming 
+- Prime people to think of a story in a certain light
+- Cover the debt, then cover a welfare story
+- This makes people think of welfare in terms of money and expenses
+
+** Framing
+- *Framing* theory states that an issue can be viewed from a variety
+  of perspectives and have implications for multiple values and considerations
+- Small changes in the presentation of an issue can produce large
+  changes in opinion
+
+** Framing examples
+
+Do you favor or oppose allowing a hate group to hold a political
+rally?[fn:1]
+#+BEAMER: \pause
+
+Given the importance of free speech - 85% favor
+#+BEAMER: \pause
+
+Given the risk of violence - 45% favor 
+
+
+* Footnotes
+
+[fn:1] Examples from Sniderman & Theriault 2004
+
