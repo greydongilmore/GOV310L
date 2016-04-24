@@ -16,6 +16,11 @@
 * Racial Inequality
 
 ** History
+- Divisions and inequalities across racial groups has been (and
+  continues to be) one of the largest sources of inequality in
+  American politics 
+
+** History --- Blacks
 - Slavery and racism in the US has had a long and lasting impact on
   the socioeconomic status of black people
 - Major events:
@@ -24,24 +29,89 @@
   - 1863--1877: Reconstruction
   - 1960s: Civil Rights Movement
 
+** Perception of bias
+- Black are (unsurprisingly) more likely to say that systematic bias
+  exists in our socioeconomic system.
+#+BEAMER: \pause 
+- For example (2014 General Social Survey): 
+#+BEGIN_QUOTE
+On the average African-Americans have worse jobs, income, and housing
+than white people. Do you think these differences are mainly due
+to discrimination?
+#+END_QUOTE
+
+** Perception of bias 
+
+#+BEGIN_SRC R :results value silent :exports results
+  ## If you source() this file, it checks whether the gss file is in a
+  ## subdirectory "data". If so, nothing happens. If not, it creates the
+  ## directory, downloads the cumulative gss file from NORC's website,
+  ## and unzips the downloaded file
+
+  if(!file.exists("../data/GSS2014.dta")){
+    if(!dir.exists("../data/")){
+      dir.create("../data/")
+    }
+    download.file(url="http://gss.norc.org/documents/stata/2014_stata.zip",
+                  destfile="../data/GSS.zip")
+    unzip("../data/GSS.zip", exdir = "../data")
+  }
+
+  if(file.exists("../data/GSS2014.dta")){
+    print("GSS file exists!")
+  } else {
+    print("Error - GSS couldn't be found!")
+  }
+
+
+  gss <- foreign::read.dta("../data/GSS2014.dta",
+                           convert.factors = FALSE)
+
+  library(dplyr)
+  library(ggplot2)
+
+  racediff <- gss %>%
+    group_by(race) %>%
+    summarize(yes = mean(racdif1 == 1, na.rm = TRUE),
+              no = mean(racdif1 == 2, na.rm = TRUE))
+
+  racediff %>%
+    mutate(race = factor(race, levels = 1:3,
+                         labels = c("White", "Black", "Hispanic")),
+           yes = yes * 100) %>%
+    filter(race != "Hispanic") %>%
+  ggplot() +
+    geom_bar(aes(race, yes), stat = "identity") +
+    theme_minimal() +
+    labs(x = "",
+         y = "Percent agreeing")
+
+  ggsave("../figures/black-white-diff-due-to-discrim.pdf")
+#+END_SRC
+
+#+ATTR_LATEX: :width 0.5\textwidth :float t
+[[file:../figures/black-white-diff-due-to-discrim.pdf]]
+
 ** Today 
 The average black person is less well-off than the average white person
 
 |       | Median HH income | Unemployment rate | Poverty rate |
 |-------+------------------+-------------------+--------------|
-| Black | 35,416           |             11.4% |        27.2% |
-| White | 59,754           |              5.3% |         9.7% |
+| Black | $35,416          |             11.4% |        27.2% |
+| White | $59,754          |              5.3% |         9.7% |
 
 ** Education 
 - Blacks and Hispanics on average receive lower grades, are more
   likely to drop out, score lower on standardized tests, are less
-  likely to enter college, are less likely to complete college, 
+  likely to enter college, and are less likely to complete college
 
 ** Crime
-- Evidence that much of the criminal justice system is systematically
-  biased against racial minorities
+Evidence that much of the criminal justice system is systematically
+biased against racial minorities
+
 #+BEAMER: \pause
-- Example: whites and blacks use drugs at comparable rates[fn:1]
+
+Example: whites and blacks use drugs at comparable rates[fn:1]
 
 ** Drug related arrest rates 
 
@@ -70,21 +140,29 @@ The average black person is less well-off than the average white person
 #+END_SRC
 
 #+ATTR_LATEX: :width 0.5\textwidth :float t
-#+RESULTS:
 [[file:../figures/black-and-white-arrest-rates.pdf]]
 
 
+
 ** Representation 
+- Historically blacks and Hispanics have not gotten much
+  representation in Congress
+- First black person elected to Congress in 1870
 
+** Congress today
+- The current Congress (114th) is the most diverse to date
+- 17% of this Congress is non-white
+  - 20% of House, but only 6% of Senate  
+  - However, 38% of the US population is non-white
+
+** Congress today
+- 35% of black people in the population are represented by a black
+  House member[fn:2]
+- 22% of Hispanics, 12% of Asians, 8% of Native Americans 
+
+** Black representation in 2016
+[[file:~/Teaching/GOV310L/images/African_Americans_in_US_House.png]]
 ** Example: Names
-
-* Income Inequality
-
-** Income distribution
-
-** (Income) Taxes
-
-** (Possible) inequalities in outputs 
 
 * Gender Inequality
 
@@ -94,10 +172,20 @@ The average black person is less well-off than the average white person
 
 * Inequalities based on sexual orientation
 
+* Income Inequality
+
+** Income distribution
+
+** (Income) Taxes
+
+** (Possible) inequalities in outputs 
+
 * Participation inequalities
 
 * Healthcare 
 
 * Footnotes
 
-[fn:1] Data from the [[http://www.bjs.gov/index.cfm?ty=datool&surl=/arrests/index.cfm#][Bureau of Justice Statistics]]
+[fn:2] [[http://www.pewresearch.org/fact-tank/2015/01/12/114th-congress-is-most-diverse-ever/][Source]]
+
+[fn:1] Data from the Bureau of Justice Statistics
