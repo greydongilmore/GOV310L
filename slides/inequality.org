@@ -9,11 +9,74 @@
 #+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue, aspectratio=169]
 #+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
 
+** Inequality
+- Welcome to the week on inequality
+- Or, "life isn't fair"
+
 * Racial Inequality
 
 ** History
+- Slavery and racism in the US has had a long and lasting impact on
+  the socioeconomic status of black people
+- Major events:
+  - 1787: Three-fifths compromise
+  - 1861--1865: Civil War
+  - 1863--1877: Reconstruction
+  - 1960s: Civil Rights Movement
 
-** Names
+** Today 
+The average black person is less well-off than the average white person
+
+|       | Median HH income | Unemployment rate | Poverty rate |
+|-------+------------------+-------------------+--------------|
+| Black | 35,416           |             11.4% |        27.2% |
+| White | 59,754           |              5.3% |         9.7% |
+
+** Education 
+- Blacks and Hispanics on average receive lower grades, are more
+  likely to drop out, score lower on standardized tests, are less
+  likely to enter college, are less likely to complete college, 
+
+** Crime
+- Evidence that much of the criminal justice system is systematically
+  biased against racial minorities
+#+BEAMER: \pause
+- Example: whites and blacks use drugs at comparable rates[fn:1]
+
+** Drug related arrest rates 
+
+#+BEGIN_SRC R :results value silent :exports results
+  library(readr)
+  library(dplyr)
+  library(ggplot2)
+
+  whites <- read_csv("../data/BJS-white-drug-arrest-rates.csv")
+  names(whites) <- c("year", "white_total", "white_population", "white_rate")
+
+  blacks <- read_csv("../data/BJS-black-drug-arrest-rates.csv")
+  names(blacks) <- c("year", "black_total", "black_population", "black_rate")
+
+  rates <- full_join(whites, blacks)
+
+  ggplot(rates, aes(year)) +
+    geom_line(aes(y = white_rate), linetype = "dashed") + 
+    geom_line(aes(y = black_rate), linetype = "dotted") + 
+    theme_minimal() +
+    labs(x = "Year",
+         y = "Arrests per 100,000 people",
+         title = "Drug related arrest rates of whites (dashed) and blacks (dotted)")
+
+  ggsave("../figures/black-and-white-arrest-rates.pdf")
+#+END_SRC
+
+#+ATTR_LATEX: :width 0.5\textwidth :float t
+#+RESULTS:
+[[file:../figures/black-and-white-arrest-rates.pdf]]
+
+
+** Representation 
+
+** Example: Names
 
 * Income Inequality
 
@@ -25,6 +88,8 @@
 
 * Gender Inequality
 
+** Pay gap 
+
 ** In representation 
 
 * Inequalities based on sexual orientation
@@ -32,3 +97,7 @@
 * Participation inequalities
 
 * Healthcare 
+
+* Footnotes
+
+[fn:1] Data from the [[http://www.bjs.gov/index.cfm?ty=datool&surl=/arrests/index.cfm#][Bureau of Justice Statistics]]
