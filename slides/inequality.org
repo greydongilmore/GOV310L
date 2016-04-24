@@ -1,0 +1,34 @@
+#+TITLE:     Inequality
+#+AUTHOR:    J. Alexander Branham
+#+EMAIL:     branham@utexas.edu
+#+DATE:      Spring 2016
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LATEX_CMD: xelatex
+#+OPTIONS: toc:nil H:2
+#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue, aspectratio=169]
+#+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
+
+* Racial Inequality
+
+** History
+
+** Names
+
+* Income Inequality
+
+** Income distribution
+
+** (Income) Taxes
+
+** (Possible) inequalities in outputs 
+
+* Gender Inequality
+
+** In representation 
+
+* Inequalities based on sexual orientation
+
+* Participation inequalities
+
+* Healthcare 
