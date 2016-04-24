@@ -83,6 +83,7 @@ to discrimination?
   ggplot() +
     geom_bar(aes(race, yes), stat = "identity") +
     theme_minimal() +
+    coord_cartesian(ylim = c(0, 100)) + 
     labs(x = "",
          y = "Percent agreeing")
 
@@ -111,7 +112,7 @@ biased against racial minorities
 
 #+BEAMER: \pause
 
-Example: whites and blacks use drugs at comparable rates[fn:1]
+Example: whites and blacks use drugs at comparable rates, but...[fn:1]
 
 ** Drug related arrest rates 
 
@@ -129,8 +130,10 @@ Example: whites and blacks use drugs at comparable rates[fn:1]
   rates <- full_join(whites, blacks)
 
   ggplot(rates, aes(year)) +
-    geom_line(aes(y = white_rate), linetype = "dashed") + 
-    geom_line(aes(y = black_rate), linetype = "dotted") + 
+    geom_line(aes(y = white_rate), linetype = "dashed",
+              size = 1.5) + 
+    geom_line(aes(y = black_rate), linetype = "dotted",
+              size = 1.5) + 
     theme_minimal() +
     labs(x = "Year",
          y = "Arrests per 100,000 people",
@@ -143,11 +146,42 @@ Example: whites and blacks use drugs at comparable rates[fn:1]
 [[file:../figures/black-and-white-arrest-rates.pdf]]
 
 
+** #BlackLivesMatter 
+- Started in 2013 to bring attention to perceived injustices in the
+  criminal justice system
+- Specifically, that (mostly white) police officers tend to use
+  excessive, and/or lethal force on (sometimes unarmed) black people
+- Walter Scott: unarmed black man attempting to flee a (white) police
+  officer, was shot at least eight times in the back
+- Many other such stories from around the country
 
-** Representation 
+** #BlackLivesMatter: the data
+- Very little data available pertaining to police shootings
+- The Washington Post started in 2015 attempting to keep track of
+  this: [[https://www.washingtonpost.com/graphics/national/police-shootings/][link]]
+- The WP reports that 990 people were shot and killed by police in 2015
+  - 258 were black (26%)
+- To 24 April 2016, 305 people shot and killed by police in 2016
+  - 71 of whom were black (23%)
+- However, large problems with those data: can't get a good picture
+  about the context
+
+** Representation
+
 - Historically blacks and Hispanics have not gotten much
   representation in Congress
 - First black person elected to Congress in 1870
+- Historically, minorities are very under-represented in Congress
+
+** Majority-minority districts
+- *Majority-minority district* is one where the majority of residents
+  are non-white
+- About 113 of the 435 districts today 
+- Majority-minority districts one way to increase likelihood of
+  minority representation
+- Controversial, however... 
+#+BEAMER: \pause
+- What do you think? 
 
 ** Congress today
 - The current Congress (114th) is the most diverse to date
@@ -160,9 +194,17 @@ Example: whites and blacks use drugs at comparable rates[fn:1]
   House member[fn:2]
 - 22% of Hispanics, 12% of Asians, 8% of Native Americans 
 
-** Black representation in 2016
-[[file:~/Teaching/GOV310L/images/African_Americans_in_US_House.png]]
+** Map --- Black representation in 2016
+   [[file:~/Teaching/GOV310L/images/African_Americans_in_US_House.png]]
 ** Example: Names
+- Researchers sent resume's to employers
+- Everything was identical except the person's name
+- Lakisha Washington,Jamal Jones, Emily Walsh, and Greg Baker
+#+BEAMER: \pause 
+- Resume's with white-sounding names received 50 percent more
+  callbacks
+- Not different among employers who explicitly state that they are
+  Equal Opportunity Employers 
 
 * Gender Inequality
 
@@ -170,14 +212,116 @@ Example: whites and blacks use drugs at comparable rates[fn:1]
 
 ** In representation 
 
-* Inequalities based on sexual orientation
+* Inequalities based on gender identity & sexual orientation
 
+** History
+- Patchwork of regulations that varies by city/county/state
+- Occasionally large advances by Supreme Court decisions
+  - 2003: /Lawrence v. Texas/ strikes down anti-sodomy laws
+  - 2015: /Obergefell v. Hodges/ recognizes same-sex marriage
+- Overall, LGBT rights advocates have been hugely successful over the
+  past decade 
+
+** Marriage
+- Campaign began in the 1970s, but unsuccessful until 2004 when
+  Massachusetts legalized same-sex marriage
+- Between 2004 & /Obergefell/ 37 states legalized same-sex marriage
+
+** Public opinion 
+#+BEGIN_QUOTE
+Are sexual relations between two adults of the same sex:
+1. Always wrong
+2. Almost always wrong
+3. Wrong only sometimes
+4. Not wrong at all
+#+END_QUOTE
+
+** Public opinion
+
+#+BEGIN_SRC R :results value silent :exports results
+  ## If you source() this file, it checks whether the gss file is in a
+  ## subdirectory "data". If so, nothing happens. If not, it creates the
+  ## directory, downloads the cumulative gss file from NORC's website,
+  ## and unzips the downloaded file
+
+  if(!file.exists("../data/GSS7214_R5.DTA")){
+    if(!dir.exists("../data/")){
+      dir.create("../data/")
+    }
+    download.file(url="http://gss.norc.org/documents/stata/GSS_stata.zip",
+                  destfile="../data/GSS.zip")
+    unzip("../data/GSS.zip", exdir = "../data")
+  }
+
+  if(file.exists("../data/GSS7214_R5.DTA")){
+    print("GSS file exists!")
+  } else {
+    print("Error - GSS couldn't be found!")
+  }
+
+
+  gss <- foreign::read.dta("../data/GSS7214_R5.DTA",
+                           convert.factors = FALSE)
+
+  library(ggplot2)
+  library(dplyr)
+
+  gss %>%
+    filter(!is.na(homosex)) %>%
+    filter(homosex %in% 1:4) %>%
+  ggplot() +
+    geom_bar(aes(x = factor(year),
+                 fill = factor(homosex,
+                               levels = 1:4,
+                               labels = c("Always wrong", "Almost always wrong",
+                                          "Sometimes wrong", "Not wrong at all"),
+                               ordered = TRUE)),
+             position = "fill") +
+    scale_fill_manual(name = "",
+                      breaks = c("Not wrong at all", "Sometimes wrong",
+                                 "Almost always wrong", "Always wrong"),
+                      values = rainbow(4)) + 
+                        #c("firebrick1", "gold2", "forestgreen", "darkorchid3")) +
+    labs(x = "Year",
+         y = "Percent") +
+    geom_hline(yintercept = 0.5, linetype = "dashed") + 
+    theme_minimal() + 
+    theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) 
+
+  ggsave("../figures/opinion-gay-sex-by-time.pdf")
+#+END_SRC
+
+#+ATTR_LATEX: :width 0.5\textwidth :float t
+[[file:~/Teaching/GOV310L/figures/opinion-gay-sex-by-time.pdf]]
+
+** Military service 
+
+** Discrimination
+- 22 states outlaw discrimination based on sexual orientation
+- 19 based on gender identity
+- Existing protections under federal laws (Civil Rights Act) gradually
+  extended to cover sexual orientation and gender identity
+
+** Other rights
+- Texas (and ~30 other states) does not prohibit housing
+  discrimination for sexual orientation or gender identity
+  - The Dept of Housing and Urban Development prohibits this if the
+    housing provider receives HUD funding 
+- Texas (and ~30 other states) does not prohibit employment
+  discrimination based on sexual orientation or gender identity
+
+** Other
+- Men can't donate blood if they've had sex with another man within
+  the last 12 months 
 * Income Inequality
 
 ** Income distribution
 
 ** (Income) Taxes
 
+** Voter ID laws
+
+** Homer gets a tax cut 
 ** (Possible) inequalities in outputs 
 
 * Participation inequalities
