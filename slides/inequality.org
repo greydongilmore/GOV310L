@@ -195,11 +195,14 @@ Example: whites and blacks use drugs at comparable rates, but...[fn:1]
 - 22% of Hispanics, 12% of Asians, 8% of Native Americans 
 
 ** Map --- Black representation in 2016
-   [[file:~/Teaching/GOV310L/images/African_Americans_in_US_House.png]]
+   
+   #+ATR_LATEX: :float t
+   [[file:../images/African_Americans_in_US_House.png]]
+
 ** Example: Names
 - Researchers sent resume's to employers
 - Everything was identical except the person's name
-- Lakisha Washington,Jamal Jones, Emily Walsh, and Greg Baker
+- Lakisha Washington, Jamal Jones, Emily Walsh, and Greg Baker
 #+BEAMER: \pause 
 - Resume's with white-sounding names received 50 percent more
   callbacks
@@ -239,11 +242,6 @@ Are sexual relations between two adults of the same sex:
 ** Public opinion
 
 #+BEGIN_SRC R :results value silent :exports results
-  ## If you source() this file, it checks whether the gss file is in a
-  ## subdirectory "data". If so, nothing happens. If not, it creates the
-  ## directory, downloads the cumulative gss file from NORC's website,
-  ## and unzips the downloaded file
-
   if(!file.exists("../data/GSS7214_R5.DTA")){
     if(!dir.exists("../data/")){
       dir.create("../data/")
@@ -288,13 +286,17 @@ Are sexual relations between two adults of the same sex:
     theme_minimal() + 
     theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) 
 
-  ggsave("../figures/opinion-gay-sex-by-time.pdf")
+  ggsave("../figures/opinion-gay-sex-by-time.pdf", width = 7in, height = 4in)
 #+END_SRC
 
 #+ATTR_LATEX: :width 0.5\textwidth :float t
-[[file:~/Teaching/GOV310L/figures/opinion-gay-sex-by-time.pdf]]
+[[file:../figures/opinion-gay-sex-by-time.pdf]]
 
 ** Military service 
+- "Don't Ask, Don't Tell" was policy 1994--2011
+  - Signed by Clinton, repealed by Obama
+- Under DADT, openly gay people couldn't serve in the military
+- Today, they can 
 
 ** Discrimination
 - 22 states outlaw discrimination based on sexual orientation
