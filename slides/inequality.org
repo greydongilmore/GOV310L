@@ -294,8 +294,12 @@ better suited emotionally for politics than are most women.
 - Women on average earn less than men
 - In 2013, median weekly income of full-time male workers was $860,
   for females it was $706
-  - Hard to directly compare those numbers since it doesn't take into
-    consideration occupation, training, experience, etc
+
+** Pay gap
+- On average, women make 79 cents for every dollar that a man makes
+  doing the same job
+- Women make less than men for virtually all occupational categories
+  for which we have data 
 
 ** Pay gap
 - Why?
