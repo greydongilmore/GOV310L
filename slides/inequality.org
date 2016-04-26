@@ -224,8 +224,6 @@ Example: whites and blacks use drugs at comparable rates, but...[fn:1]
   - Occupational
   - Pay gap
 
-** Feminist movements
-
 ** Public opinion
 - Generally, public opinion has shifted in favor of men and women equality
 - (Problems with asking people what they think)
@@ -288,7 +286,7 @@ better suited emotionally for politics than are most women.
   ggsave("../figures/gender-opinion-female-politics.pdf")
 #+END_SRC
 
-#+ATTR_LATEX: :float t :width 0.6\textwidth
+#+ATTR_LATEX: :float t :width 0.55\textwidth
 [[file:../figures/gender-opinion-female-politics.pdf]]
 
 
@@ -314,25 +312,62 @@ better suited emotionally for politics than are most women.
 - The *Lilly Ledbetter Fair Pay Act* was passed in 2009
 
 ** Occupational 
-- Women tend to follow different careers than men do 
+- Women tend to follow different careers than men do
+- Ever seen a male dental hygienist?
+- Or a female plumber? 
 
 ** STEM 
 - Very few women in STEM fields
-- Probably due to few women choosing these fields in college 
+- Probably due to few women choosing these fields in college
+- Women earn the majority (nearly 60%) of bachelor's degrees
+- Only ~20% of computer science degrees, engineering, physics
 
 ** In representation
-- 
+- Women historically underrepresented in Congress
+- First woman elected to the House in 1917
+  - Currently 84 female Reps (19.3%)
+- First woman elected to the Senate in 1932
+  - Currently 20 female Senators
 
-** House of Representatives
+** Women in Congress
 
-   #+BEGIN_SRC R :eval never 
-     library(rvest)
+#+BEGIN_SRC R :results value silent :exports results
+  library(rvest)
+  library(ggplot2)
+  library(dplyr)
 
-     read_html("https://en.wikipedia.org/wiki/Women_in_the_United_States_House_of_Representatives") %>%
-       html_nodes(css = "table") %>%
-       html_table()
-   #+END_SRC
+  house_women <- read_html("https://en.wikipedia.org/wiki/Women_in_the_United_States_House_of_Representatives")
 
+  house_women <- house_women %>%
+    html_node("table.wikitable") %>%
+    html_table()
+
+  names(house_women) <- c("congress", "years", "number", "percentage")
+
+  house_women$congress <- gsub("th", "", house_women$congress)
+  house_women$congress <- gsub("st", "", house_women$congress)
+  house_women$congress <- gsub("nd", "", house_women$congress)
+  house_women$congress <- gsub("rd", "", house_women$congress)
+  house_women$congress <- as.numeric(house_women$congress)
+
+  house_women$percentage <- as.numeric(sub("%", "", house_women$percentage))
+
+  house_women %>%
+    filter(!is.na(percentage)) %>%
+  ggplot(aes(x = congress)) +
+    geom_line(aes(y = percentage),
+              size = 1.5) +
+    geom_hline(yintercept = 50, linetype = "dashed") +
+    theme_minimal() +
+    labs(y = "Percent of Congress that is female",
+         x = "Congress") + 
+    coord_cartesian(ylim = c(0, 100))
+
+  ggsave("../figures/women-in-congress.pdf")
+#+END_SRC
+
+#+ATTR_LATEX: :float t :width 0.5\textwidth
+[[file:../figures/women-in-congress.pdf]]
 
 ** Quotas 
 - Other countries' solution to the gender difference in representation
@@ -390,17 +425,16 @@ Are sexual relations between two adults of the same sex:
     theme_minimal() + 
     theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) 
 
-  ggsave("../figures/opinion-gay-sex-by-time.pdf", width = 7in, height = 4in)
+  ggsave("../figures/opinion-gay-sex-by-time.pdf", width = 7, height = 4)
 #+END_SRC
 
-#+ATTR_LATEX: :width 0.5\textwidth :float t
+#+ATTR_LATEX: :width 0.9\textwidth :float t
 [[file:../figures/opinion-gay-sex-by-time.pdf]]
 
 ** Military service 
 - "Don't Ask, Don't Tell" was policy 1994--2011
   - Signed by Clinton, repealed by Obama
 - Under DADT, openly gay people couldn't serve in the military
-- Today, they can 
 
 ** Discrimination
 - 22 states outlaw discrimination based on sexual orientation
@@ -416,19 +450,54 @@ Are sexual relations between two adults of the same sex:
 - Texas (and ~30 other states) does not prohibit employment
   discrimination based on sexual orientation or gender identity
 
-** Other
-- Men can't donate blood if they've had sex with another man within
-  the last 12 months 
-* Income Inequality
+* Income & Wealth Inequality
 
-** Income distribution
+** Wealth distribution
+- How do you think wealth is distributed in the US?
+  - Top 20%? Next 20? Mid 20? Next 20? Bottom 20?
+- How do you /think/ it should be?
+
+** Wealth distribution
+
+#+ATTR_LATEX: :float t :width 0.6\textwidth
+[[file:../images/us-wealth-distribution.png]]
+
+** Distribution in comparative perspective
+- Is the US an outlier here?
+- What do other comparable countries look like? 
+
+** Distribution in comparative perspective
+
+#+ATTR_LATEX: :float t :width 0.6\textwidth
+[[file:../images/us-income-and-wealth-comparative.png]]
 
 ** (Income) Taxes
+- Taxes can be *progressive* where the tax rate increases as the
+  amount increases
+  - Example: federal income tax
+- Or they can be *regressive* where the tax rate decreases as the
+  amount increases
+  - Example: sales taxes on essentials like food
+
+** Taxes
+- Progressive taxes are one way to shrink this gap
+- Other redistributive policies include food stamps and Social Security
+
+** Why progressive taxes?
+- The value of an additional dollar decreases with every dollar you
+  already have
+- So we need to tax dollars at high levels if you already have lots of
+  money to make it just as painful as the taxation of a dollar if you
+  have few
 
 ** Voter ID laws
+- Many states have passed Voter ID laws in recent years
+- Reason given usually to suppress voter fraud
+- However, many poor people & minorities don't have access to proper ID
 
-** Homer gets a tax cut 
-** (Possible) inequalities in outputs 
+** Who gets represented? 
+(Examples)
+
 
 * Participation inequalities
 
