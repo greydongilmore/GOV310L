@@ -18,3 +18,4 @@ this folder
 - super-tuesday-2016.png CC-BY-CA 4.0 [[https://commons.wikimedia.org/wiki/File:Supertuesday_2016_Map.png][more info here]]
 - republican-coverage.png :: unclear license, [[http://iscap.upenn.edu/][source]]
 - African americans in the US house from Wikipedia, CC-BY-SA [[https://commons.wikimedia.org/wiki/File:African_Americans_in_US_House.svg][source]]
+- us-income-and-wealth-comparative.png :: data from OECD, figure from [[https://www.washingtonpost.com/news/wonk/wp/2015/05/21/the-top-10-of-americans-own-76-of-the-stuff-and-its-dragging-our-economy-down/][the Washington Post]]
