@@ -211,9 +211,135 @@ Example: whites and blacks use drugs at comparable rates, but...[fn:1]
 
 * Gender Inequality
 
-** Pay gap 
+** Gender inequality
+- Inequalities based on gender
+- We aren't focusing on transgendered people even though they are
+  faced with inequalities as well
 
-** In representation 
+** (quick) history
+- Inequalities based on gender have existed throughout US history
+- Gradually diminishing, especially since 1900
+  - E.g. women now have the right to vote
+- Many inequalities remain
+  - Occupational
+  - Pay gap
+
+** Feminist movements
+
+** Public opinion
+- Generally, public opinion has shifted in favor of men and women equality
+- (Problems with asking people what they think)
+
+** Public opinion
+
+#+BEGIN_QUOTE
+Tell me if you agree or disagree with this statement: Most men are
+better suited emotionally for politics than are most women.
+#+END_QUOTE
+
+** Public opinion 
+
+#+BEGIN_SRC R R :session *R-whole-GSS* :results value silent :exports results
+  if(!file.exists("../data/GSS7214_R5.DTA")){
+    if(!dir.exists("../data/")){
+      dir.create("../data/")
+    }
+    download.file(url="http://gss.norc.org/documents/stata/GSS_stata.zip",
+                  destfile="../data/GSS.zip")
+    unzip("../data/GSS.zip", exdir = "../data")
+  }
+
+  if(file.exists("../data/GSS7214_R5.DTA")){
+    print("GSS file exists!")
+  } else {
+    print("Error - GSS couldn't be found!")
+  }
+
+
+  gss <- foreign::read.dta("../data/GSS7214_R5.DTA",
+                           convert.factors = FALSE)
+
+  library(ggplot2)
+  library(dplyr)
+
+  gss <- gss %>%
+    mutate(sex = factor(sex, levels = 1:2,
+                        labels = c("Male", "Female")))
+
+  # fepol, 
+  gss %>%
+    filter(!is.na(sex),
+           !is.na(fepol)) %>%
+    group_by(sex, year) %>%
+    summarize(prop_agree = mean(fepol == 1)) %>%
+    ggplot() +
+    geom_bar(aes(x = factor(year),
+                 y = prop_agree,
+                 fill = sex),
+             stat = "identity",
+             position = "dodge") +
+    scale_fill_manual(name = "Sex",
+                      values = c("grey", "black")) +
+    labs(x = "Year",
+         y = "Percent agree") + 
+    theme_minimal() +
+    theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) 
+
+  ggsave("../figures/gender-opinion-female-politics.pdf")
+#+END_SRC
+
+#+ATTR_LATEX: :float t :width 0.6\textwidth
+[[file:../figures/gender-opinion-female-politics.pdf]]
+
+
+** Pay gap 
+- Women on average earn less than men
+- In 2013, median weekly income of full-time male workers was $860,
+  for females it was $706
+  - Hard to directly compare those numbers since it doesn't take into
+    consideration occupation, training, experience, etc
+
+** Pay gap
+- Why?
+  - Education, hours worked, experience, occupation, etc
+- However, difference still left over after taking that into consideration
+- Typically attributed to discrimination
+- Other possible explanations:
+  - Men more likely to negotiate salary
+
+** Policy on the pay gap
+- Current policy allows women who find out that they were receiving
+  discriminatory pay to sue and receive recompense within 6 months of
+  their last paycheck 
+- The *Lilly Ledbetter Fair Pay Act* was passed in 2009
+
+** Occupational 
+- Women tend to follow different careers than men do 
+
+** STEM 
+- Very few women in STEM fields
+- Probably due to few women choosing these fields in college 
+
+** In representation
+- 
+
+** House of Representatives
+
+   #+BEGIN_SRC R :eval never 
+     library(rvest)
+
+     read_html("https://en.wikipedia.org/wiki/Women_in_the_United_States_House_of_Representatives") %>%
+       html_nodes(css = "table") %>%
+       html_table()
+   #+END_SRC
+
+
+** Quotas 
+- Other countries' solution to the gender difference in representation
+  is to implement a *quota* which sets aside a certain percentage of
+  the seats for women
+#+BEAMER: \pause
+- What do you think? 
 
 * Inequalities based on gender identity & sexual orientation
 
@@ -241,29 +367,7 @@ Are sexual relations between two adults of the same sex:
 
 ** Public opinion
 
-#+BEGIN_SRC R :results value silent :exports results
-  if(!file.exists("../data/GSS7214_R5.DTA")){
-    if(!dir.exists("../data/")){
-      dir.create("../data/")
-    }
-    download.file(url="http://gss.norc.org/documents/stata/GSS_stata.zip",
-                  destfile="../data/GSS.zip")
-    unzip("../data/GSS.zip", exdir = "../data")
-  }
-
-  if(file.exists("../data/GSS7214_R5.DTA")){
-    print("GSS file exists!")
-  } else {
-    print("Error - GSS couldn't be found!")
-  }
-
-
-  gss <- foreign::read.dta("../data/GSS7214_R5.DTA",
-                           convert.factors = FALSE)
-
-  library(ggplot2)
-  library(dplyr)
-
+#+BEGIN_SRC R :session *R-whole-GSS* :results value silent :exports results
   gss %>%
     filter(!is.na(homosex)) %>%
     filter(homosex %in% 1:4) %>%
