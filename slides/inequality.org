@@ -1,0 +1,509 @@
+#+TITLE:     Inequality
+#+AUTHOR:    J. Alexander Branham
+#+EMAIL:     branham@utexas.edu
+#+DATE:      Spring 2016
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LATEX_CMD: xelatex
+#+OPTIONS: toc:nil H:2
+#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue, aspectratio=169]
+#+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
+
+** Inequality
+- Welcome to the week on inequality
+- Or, "life isn't fair"
+
+* Racial Inequality
+
+** History
+- Divisions and inequalities across racial groups has been (and
+  continues to be) one of the largest sources of inequality in
+  American politics 
+
+** History --- Blacks
+- Slavery and racism in the US has had a long and lasting impact on
+  the socioeconomic status of black people
+- Major events:
+  - 1787: Three-fifths compromise
+  - 1861--1865: Civil War
+  - 1863--1877: Reconstruction
+  - 1960s: Civil Rights Movement
+
+** Perception of bias
+- Black are (unsurprisingly) more likely to say that systematic bias
+  exists in our socioeconomic system.
+#+BEAMER: \pause 
+- For example (2014 General Social Survey): 
+#+BEGIN_QUOTE
+On the average African-Americans have worse jobs, income, and housing
+than white people. Do you think these differences are mainly due
+to discrimination?
+#+END_QUOTE
+
+** Perception of bias 
+
+#+BEGIN_SRC R :results value silent :exports results
+  ## If you source() this file, it checks whether the gss file is in a
+  ## subdirectory "data". If so, nothing happens. If not, it creates the
+  ## directory, downloads the cumulative gss file from NORC's website,
+  ## and unzips the downloaded file
+
+  if(!file.exists("../data/GSS2014.dta")){
+    if(!dir.exists("../data/")){
+      dir.create("../data/")
+    }
+    download.file(url="http://gss.norc.org/documents/stata/2014_stata.zip",
+                  destfile="../data/GSS.zip")
+    unzip("../data/GSS.zip", exdir = "../data")
+  }
+
+  if(file.exists("../data/GSS2014.dta")){
+    print("GSS file exists!")
+  } else {
+    print("Error - GSS couldn't be found!")
+  }
+
+
+  gss <- foreign::read.dta("../data/GSS2014.dta",
+                           convert.factors = FALSE)
+
+  library(dplyr)
+  library(ggplot2)
+
+  racediff <- gss %>%
+    group_by(race) %>%
+    summarize(yes = mean(racdif1 == 1, na.rm = TRUE),
+              no = mean(racdif1 == 2, na.rm = TRUE))
+
+  racediff %>%
+    mutate(race = factor(race, levels = 1:3,
+                         labels = c("White", "Black", "Hispanic")),
+           yes = yes * 100) %>%
+    filter(race != "Hispanic") %>%
+  ggplot() +
+    geom_bar(aes(race, yes), stat = "identity") +
+    theme_minimal() +
+    coord_cartesian(ylim = c(0, 100)) + 
+    labs(x = "",
+         y = "Percent agreeing")
+
+  ggsave("../figures/black-white-diff-due-to-discrim.pdf")
+#+END_SRC
+
+#+ATTR_LATEX: :width 0.5\textwidth :float t
+[[file:../figures/black-white-diff-due-to-discrim.pdf]]
+
+** Today 
+The average black person is less well-off than the average white person
+
+|       | Median HH income | Unemployment rate | Poverty rate |
+|-------+------------------+-------------------+--------------|
+| Black | $35,416          |             11.4% |        27.2% |
+| White | $59,754          |              5.3% |         9.7% |
+
+** Education 
+- Blacks and Hispanics on average receive lower grades, are more
+  likely to drop out, score lower on standardized tests, are less
+  likely to enter college, and are less likely to complete college
+
+** Crime
+Evidence that much of the criminal justice system is systematically
+biased against racial minorities
+
+#+BEAMER: \pause
+
+Example: whites and blacks use drugs at comparable rates, but...[fn:1]
+
+** Drug related arrest rates 
+
+#+BEGIN_SRC R :results value silent :exports results
+  library(readr)
+  library(dplyr)
+  library(ggplot2)
+
+  whites <- read_csv("../data/BJS-white-drug-arrest-rates.csv")
+  names(whites) <- c("year", "white_total", "white_population", "white_rate")
+
+  blacks <- read_csv("../data/BJS-black-drug-arrest-rates.csv")
+  names(blacks) <- c("year", "black_total", "black_population", "black_rate")
+
+  rates <- full_join(whites, blacks)
+
+  ggplot(rates, aes(year)) +
+    geom_line(aes(y = white_rate), linetype = "dashed",
+              size = 1.5) + 
+    geom_line(aes(y = black_rate), linetype = "dotted",
+              size = 1.5) + 
+    theme_minimal() +
+    labs(x = "Year",
+         y = "Arrests per 100,000 people",
+         title = "Drug related arrest rates of whites (dashed) and blacks (dotted)")
+
+  ggsave("../figures/black-and-white-arrest-rates.pdf")
+#+END_SRC
+
+#+ATTR_LATEX: :width 0.5\textwidth :float t
+[[file:../figures/black-and-white-arrest-rates.pdf]]
+
+
+** #BlackLivesMatter 
+- Started in 2013 to bring attention to perceived injustices in the
+  criminal justice system
+- Specifically, that (mostly white) police officers tend to use
+  excessive, and/or lethal force on (sometimes unarmed) black people
+- Walter Scott: unarmed black man attempting to flee a (white) police
+  officer, was shot at least eight times in the back
+- Many other such stories from around the country
+
+** #BlackLivesMatter: the data
+- Very little data available pertaining to police shootings
+- The Washington Post started in 2015 attempting to keep track of
+  this: [[https://www.washingtonpost.com/graphics/national/police-shootings/][link]]
+- The WP reports that 990 people were shot and killed by police in 2015
+  - 258 were black (26%)
+- To 24 April 2016, 305 people shot and killed by police in 2016
+  - 71 of whom were black (23%)
+- However, large problems with those data: can't get a good picture
+  about the context
+
+** Representation
+
+- Historically blacks and Hispanics have not gotten much
+  representation in Congress
+- First black person elected to Congress in 1870
+- Historically, minorities are very under-represented in Congress
+
+** Majority-minority districts
+- *Majority-minority district* is one where the majority of residents
+  are non-white
+- About 113 of the 435 districts today 
+- Majority-minority districts one way to increase likelihood of
+  minority representation
+- Controversial, however... 
+#+BEAMER: \pause
+- What do you think? 
+
+** Congress today
+- The current Congress (114th) is the most diverse to date
+- 17% of this Congress is non-white
+  - 20% of House, but only 6% of Senate  
+  - However, 38% of the US population is non-white
+
+** Congress today
+- 35% of black people in the population are represented by a black
+  House member[fn:2]
+- 22% of Hispanics, 12% of Asians, 8% of Native Americans 
+
+** Map --- Black representation in 2016
+   
+   #+ATR_LATEX: :float t
+   [[file:../images/African_Americans_in_US_House.png]]
+
+** Example: Names
+- Researchers sent resume's to employers
+- Everything was identical except the person's name
+- Lakisha Washington, Jamal Jones, Emily Walsh, and Greg Baker
+#+BEAMER: \pause 
+- Resume's with white-sounding names received 50 percent more
+  callbacks
+- Not different among employers who explicitly state that they are
+  Equal Opportunity Employers 
+
+* Gender Inequality
+
+** Gender inequality
+- Inequalities based on gender
+- We aren't focusing on transgendered people even though they are
+  faced with inequalities as well
+
+** (quick) history
+- Inequalities based on gender have existed throughout US history
+- Gradually diminishing, especially since 1900
+  - E.g. women now have the right to vote
+- Many inequalities remain
+  - Occupational
+  - Pay gap
+
+** Public opinion
+- Generally, public opinion has shifted in favor of men and women equality
+- (Problems with asking people what they think)
+
+** Public opinion
+
+#+BEGIN_QUOTE
+Tell me if you agree or disagree with this statement: Most men are
+better suited emotionally for politics than are most women.
+#+END_QUOTE
+
+** Public opinion 
+
+#+BEGIN_SRC R R :session *R-whole-GSS* :results value silent :exports results
+  if(!file.exists("../data/GSS7214_R5.DTA")){
+    if(!dir.exists("../data/")){
+      dir.create("../data/")
+    }
+    download.file(url="http://gss.norc.org/documents/stata/GSS_stata.zip",
+                  destfile="../data/GSS.zip")
+    unzip("../data/GSS.zip", exdir = "../data")
+  }
+
+  if(file.exists("../data/GSS7214_R5.DTA")){
+    print("GSS file exists!")
+  } else {
+    print("Error - GSS couldn't be found!")
+  }
+
+
+  gss <- foreign::read.dta("../data/GSS7214_R5.DTA",
+                           convert.factors = FALSE)
+
+  library(ggplot2)
+  library(dplyr)
+
+  gss <- gss %>%
+    mutate(sex = factor(sex, levels = 1:2,
+                        labels = c("Male", "Female")))
+
+  # fepol, 
+  gss %>%
+    filter(!is.na(sex),
+           !is.na(fepol)) %>%
+    group_by(sex, year) %>%
+    summarize(prop_agree = mean(fepol == 1)) %>%
+    ggplot() +
+    geom_bar(aes(x = factor(year),
+                 y = prop_agree,
+                 fill = sex),
+             stat = "identity",
+             position = "dodge") +
+    scale_fill_manual(name = "Sex",
+                      values = c("grey", "black")) +
+    labs(x = "Year",
+         y = "Percent agree") + 
+    theme_minimal() +
+    theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) 
+
+  ggsave("../figures/gender-opinion-female-politics.pdf")
+#+END_SRC
+
+#+ATTR_LATEX: :float t :width 0.55\textwidth
+[[file:../figures/gender-opinion-female-politics.pdf]]
+
+
+** Pay gap 
+- Women on average earn less than men
+- In 2013, median weekly income of full-time male workers was $860,
+  for females it was $706
+
+** Pay gap
+- On average, women make 79 cents for every dollar that a man makes
+  doing the same job
+- Women make less than men for virtually all occupational categories
+  for which we have data 
+
+** Pay gap
+- Why?
+  - Education, hours worked, experience, occupation, etc
+- However, difference still left over after taking that into consideration
+- Typically attributed to discrimination
+- Other possible explanations:
+  - Men more likely to negotiate salary
+
+** Policy on the pay gap
+- Current policy allows women who find out that they were receiving
+  discriminatory pay to sue and receive recompense within 6 months of
+  their last paycheck 
+- The *Lilly Ledbetter Fair Pay Act* was passed in 2009
+
+** Occupational 
+- Women tend to follow different careers than men do
+- Ever seen a male dental hygienist?
+- Or a female plumber? 
+
+** STEM 
+- Very few women in STEM fields
+- Probably due to few women choosing these fields in college
+- Women earn the majority (nearly 60%) of bachelor's degrees
+- Only ~20% of computer science degrees, engineering, physics
+
+** In representation
+- Women historically underrepresented in Congress
+- First woman elected to the House in 1917
+  - Currently 84 female Reps (19.3%)
+- First woman elected to the Senate in 1932
+  - Currently 20 female Senators
+
+** Women in Congress
+
+#+BEGIN_SRC R :results value silent :exports results
+  library(rvest)
+  library(ggplot2)
+  library(dplyr)
+
+  house_women <- read_html("https://en.wikipedia.org/wiki/Women_in_the_United_States_House_of_Representatives")
+
+  house_women <- house_women %>%
+    html_node("table.wikitable") %>%
+    html_table()
+
+  names(house_women) <- c("congress", "years", "number", "percentage")
+
+  house_women$congress <- gsub("th", "", house_women$congress)
+  house_women$congress <- gsub("st", "", house_women$congress)
+  house_women$congress <- gsub("nd", "", house_women$congress)
+  house_women$congress <- gsub("rd", "", house_women$congress)
+  house_women$congress <- as.numeric(house_women$congress)
+
+  house_women$percentage <- as.numeric(sub("%", "", house_women$percentage))
+
+  house_women %>%
+    filter(!is.na(percentage)) %>%
+  ggplot(aes(x = congress)) +
+    geom_line(aes(y = percentage),
+              size = 1.5) +
+    geom_hline(yintercept = 50, linetype = "dashed") +
+    theme_minimal() +
+    labs(y = "Percent of Congress that is female",
+         x = "Congress") + 
+    coord_cartesian(ylim = c(0, 100))
+
+  ggsave("../figures/women-in-congress.pdf")
+#+END_SRC
+
+#+ATTR_LATEX: :float t :width 0.5\textwidth
+[[file:../figures/women-in-congress.pdf]]
+
+** Quotas 
+- Other countries' solution to the gender difference in representation
+  is to implement a *quota* which sets aside a certain percentage of
+  the seats for women
+#+BEAMER: \pause
+- What do you think? 
+
+* Inequalities based on gender identity & sexual orientation
+
+** History
+- Patchwork of regulations that varies by city/county/state
+- Occasionally large advances by Supreme Court decisions
+  - 2003: /Lawrence v. Texas/ strikes down anti-sodomy laws
+  - 2015: /Obergefell v. Hodges/ recognizes same-sex marriage
+- Overall, LGBT rights advocates have been hugely successful over the
+  past decade 
+
+** Marriage
+- Campaign began in the 1970s, but unsuccessful until 2004 when
+  Massachusetts legalized same-sex marriage
+- Between 2004 & /Obergefell/ 37 states legalized same-sex marriage
+
+** Public opinion 
+#+BEGIN_QUOTE
+Are sexual relations between two adults of the same sex:
+1. Always wrong
+2. Almost always wrong
+3. Wrong only sometimes
+4. Not wrong at all
+#+END_QUOTE
+
+** Public opinion
+
+#+BEGIN_SRC R :session *R-whole-GSS* :results value silent :exports results
+  gss %>%
+    filter(!is.na(homosex)) %>%
+    filter(homosex %in% 1:4) %>%
+  ggplot() +
+    geom_bar(aes(x = factor(year),
+                 fill = factor(homosex,
+                               levels = 1:4,
+                               labels = c("Always wrong", "Almost always wrong",
+                                          "Sometimes wrong", "Not wrong at all"),
+                               ordered = TRUE)),
+             position = "fill") +
+    scale_fill_manual(name = "",
+                      breaks = c("Not wrong at all", "Sometimes wrong",
+                                 "Almost always wrong", "Always wrong"),
+                      values = rainbow(4)) + 
+                        #c("firebrick1", "gold2", "forestgreen", "darkorchid3")) +
+    labs(x = "Year",
+         y = "Percent") +
+    geom_hline(yintercept = 0.5, linetype = "dashed") + 
+    theme_minimal() + 
+    theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) 
+
+  ggsave("../figures/opinion-gay-sex-by-time.pdf", width = 7, height = 4)
+#+END_SRC
+
+#+ATTR_LATEX: :width 0.9\textwidth :float t
+[[file:../figures/opinion-gay-sex-by-time.pdf]]
+
+** Military service 
+- "Don't Ask, Don't Tell" was policy 1994--2011
+  - Signed by Clinton, repealed by Obama
+- Under DADT, openly gay people couldn't serve in the military
+
+** Discrimination
+- 22 states outlaw discrimination based on sexual orientation
+- 19 based on gender identity
+- Existing protections under federal laws (Civil Rights Act) gradually
+  extended to cover sexual orientation and gender identity
+
+** Other rights
+- Texas (and ~30 other states) does not prohibit housing
+  discrimination for sexual orientation or gender identity
+  - The Dept of Housing and Urban Development prohibits this if the
+    housing provider receives HUD funding 
+- Texas (and ~30 other states) does not prohibit employment
+  discrimination based on sexual orientation or gender identity
+
+* Income & Wealth Inequality
+
+** Wealth distribution
+- How do you think wealth is distributed in the US?
+  - Top 20%? Next 20? Mid 20? Next 20? Bottom 20?
+- How do you /think/ it should be?
+
+** Wealth distribution
+
+#+ATTR_LATEX: :float t :width 0.6\textwidth
+[[file:../images/us-wealth-distribution.png]]
+
+** Distribution in comparative perspective
+- Is the US an outlier here?
+- What do other comparable countries look like? 
+
+** Distribution in comparative perspective
+
+#+ATTR_LATEX: :float t :width 0.6\textwidth
+[[file:../images/us-income-and-wealth-comparative.png]]
+
+** (Income) Taxes
+- Taxes can be *progressive* where the tax rate increases as the
+  amount increases
+  - Example: federal income tax
+- Or they can be *regressive* where the tax rate decreases as the
+  amount increases
+  - Example: sales taxes on essentials like food
+
+** Taxes
+- Progressive taxes are one way to shrink this gap
+- Other redistributive policies include food stamps and Social Security
+
+** Why progressive taxes?
+- The value of an additional dollar decreases with every dollar you
+  already have
+- So we need to tax dollars at high levels if you already have lots of
+  money to make it just as painful as the taxation of a dollar if you
+  have few
+
+** Voter ID laws
+- Many states have passed Voter ID laws in recent years
+- Reason given usually to suppress voter fraud
+- However, many poor people & minorities don't have access to proper ID
+
+** Who gets represented? 
+(Examples)
+
+* Footnotes
+
+[fn:2] [[http://www.pewresearch.org/fact-tank/2015/01/12/114th-congress-is-most-diverse-ever/][Source]]
+
+[fn:1] Data from the Bureau of Justice Statistics
