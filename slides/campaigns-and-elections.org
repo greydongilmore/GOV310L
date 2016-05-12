@@ -101,7 +101,7 @@
 ** House elections - equal population
 - The Supreme Court mandates beginning in the 1960s that House
   districts must be equal in population
-- 1971 is the first election with single-member districts with equal
+- 1972 is the first election with single-member districts with equal
   populations
 - Eventually, civil rights groups and the courts extend this to most
   other elections (city councils, school districts, etc)
