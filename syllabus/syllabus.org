@@ -67,26 +67,23 @@
     of Students at 471-6259, 471-6441 TTY.
 
 * Tentative Schedule
-|   | *Week* | *Date*              | *Topic*                           | *Readings*                |
-|---+--------+---------------------+-----------------------------------+---------------------------|
-| $ |        | start=<2016-01-11 Mon> |                                   |                           |
-| # |      1 | <2016-01-18 Mon>    | Intro and the founding            | Ch 2 & Federalist 10 & 51 |
-| # |      2 | <2016-01-25 Mon>    | Liberties and rights              | Ch 4                      |
-| # |      3 | <2016-02-01 Mon>    | Federalism & Separation of Powers | Ch 3                      |
-| # |      4 | <2016-02-08 Mon>    | Congress                          | Ch 5                      |
-| # |      5 | <2016-02-15 Mon>    | The Presidency & Executive        | Ch 6 & 7                  |
-| # |      6 | <2016-02-22 Mon>    | The Courts                        | Ch 8                      |
-| # |      7 | <2016-02-29 Mon>    | Issue spotlight: TBD              | TBA                       |
-| # |      8 | <2016-03-07 Mon>    | Catch-up and first exam           | None additional           |
-|---+--------+---------------------+-----------------------------------+---------------------------|
-| # |      9 | <2016-03-14 Mon>    | Spring Break                      |                           |
-|---+--------+---------------------+-----------------------------------+---------------------------|
-| # |     10 | <2016-03-21 Mon>    | Public opinion                    | Ch 9                      |
-| # |     11 | <2016-03-28 Mon>    | Political parties                 | Ch 11                     |
-| # |     12 | <2016-04-04 Mon>    | Campaigns and elections           | Ch 10                     |
-| # |     13 | <2016-04-11 Mon>    | Interest groups                   | Ch 12                     |
-| # |     14 | <2016-04-18 Mon>    | The media                         | TBA                       |
-| # |     15 | <2016-04-25 Mon>    | Issue spotlight: TBD              | TBA                       |
-| # |     16 | <2016-05-02 Mon>    | Catch-up and second exam          | None additional           |
-#+TBLFM: $3=$start + $2 * 7
+#+CONSTANTS: startdate=<2016-08-15>
+| *Week* | *Week of*          | *Topic*                             | *Readings*        |
+|------+------------------+-----------------------------------+-----------------|
+|    1 | <2016-08-22 Mon> | Intro and the founding            | Ch 2            |
+|    2 | <2016-08-29 Mon> | Liberties and rights              | Ch 4            |
+|    3 | <2016-09-05 Mon> | Federalism & Separation of Powers | Ch 3            |
+|    4 | <2016-09-12 Mon> | Congress                          | Ch 5            |
+|    5 | <2016-09-19 Mon> | The Presidency & Executive        | Ch 6 & 7        |
+|    6 | <2016-09-26 Mon> | The Courts                        | Ch 8            |
+|    7 | <2016-10-03 Mon> | Issue spotlight: TBD              | TBA             |
+|    8 | <2016-10-10 Mon> | Catch-up and first exam           | None additional |
+|    9 | <2016-10-24 Mon> | Public opinion                    | Ch 9            |
+|   10 | <2016-10-31 Mon> | Political parties                 | Ch 11           |
+|   11 | <2016-11-07 Mon> | Campaigns and elections           | Ch 10           |
+|   12 | <2016-11-14 Mon> | Interest groups                   | Ch 12           |
+|   13 | <2016-11-21 Mon> | The media                         | TBA             |
+|   14 | <2016-11-28 Mon> | Issue spotlight: TBD              | TBA             |
+|   15 | <2016-12-05 Mon> | Second exam                       | None additional |
+#+TBLFM: $1=vlen(@I$1..0);EN; $2=$startdate + $1 * 7
 
