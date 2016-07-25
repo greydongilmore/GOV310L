@@ -1,19 +1,19 @@
 #+TITLE: Introduction to American Politics
 #+SUBTITLE: GOV310L
 #+AUTHOR: J. Alexander Branham
-#+DATE: Spring 2016
+#+DATE: Fall 2016
 #+EMAIL: branham@utexas.edu 
 #+OPTIONS: toc:nil
 #+LaTeX_CLASS_OPTIONS: [colorlinks, linkcolor=blue, urlcolor=blue]
 #+LATEX_HEADER: \usepackage[margin=1in]{geometry}
 
-- Unique number :: 37685
+- Unique number :: 38305
 - Course time: :: MWF 11-11:50
-- Course location: :: UTC 3.102 
+- Course location: :: UTC 4.102
 - Office hours: :: MW 9:30 - 11 and by appointment 
 - Office location: :: MEZ 3.212
 - Email: :: [[mailto:branham@utexas.edu][branham@utexas.edu]]
-- Course website: :: [[http://jabranham.com/GOV310L/][http://jabranham.com/GOV310L/]]
+- Course website: :: [[http://jabranham.com/GOV310L/][https://jabranham.com/GOV310L/]]
 
 
 * Course description
