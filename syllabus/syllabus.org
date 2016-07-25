@@ -1,5 +1,4 @@
-#+TITLE: Introduction to American Politics
-#+SUBTITLE: GOV310L
+#+TITLE: GOV310L: Introduction to American Politics
 #+AUTHOR: J. Alexander Branham
 #+DATE: Fall 2016
 #+EMAIL: branham@utexas.edu 
