@@ -23,11 +23,10 @@
   semester, we will attempt to understand the public's role in
   American politics. At the completion of the course, students will be
   able to:
-  
+
   1. Demonstrate a basic understanding of U.S. politics
   2. Participate knowledgeably in the American political process
   3. Critically examine key concepts from political science
-
 * Assessment
   - Reaction Papers (20%) :: Two reaction papers are due throughout
        the course of the semester. These can be based on academic or
@@ -57,33 +56,34 @@
   - Missing assignments: I do not let students make up assignments
     (quizzes or exams) barring exceptional circumstances. Let me know
     *now* if you have a conflict with one of the exams.
-  - I will make my slides available on the [[http://jabranham.com/GOV310L][course website]].
+  - I will make my slides available on the [[https://www.jabranham.com/GOV310L][course website]].
   - You are expected to do the readings listed in the course schedule.
-    The book we are using can be found [[http://books.wwnorton.com/books/webad.aspx?id=4294989276][here]], though there are cheaper
-    copies available through other websites.
+    The book we are using can be found [[http://books.wwnorton.com/books/webad.aspx?id=4294989276][here]] (American Government:
+    Power and Purpose by Lowi et al, brief 13th edition), though there
+    are cheaper copies available through other websites.
   - The University of Texas at Austin provides upon request
     appropriate academic accommodations for qualified students with
     disabilities. For more information, contact the Office of the Dean
     of Students at 471-6259, 471-6441 TTY.
 
 * Tentative Schedule
-#+CONSTANTS: startdate=<2016-08-15>
-| *Week* | *Week of*          | *Topic*                             | *Readings*        |
-|------+------------------+-----------------------------------+-----------------|
-|    1 | <2016-08-22 Mon> | Intro and the founding            | Ch 2            |
-|    2 | <2016-08-29 Mon> | Liberties and rights              | Ch 4            |
-|    3 | <2016-09-05 Mon> | Federalism & Separation of Powers | Ch 3            |
-|    4 | <2016-09-12 Mon> | Congress                          | Ch 5            |
-|    5 | <2016-09-19 Mon> | The Presidency & Executive        | Ch 6 & 7        |
-|    6 | <2016-09-26 Mon> | The Courts                        | Ch 8            |
-|    7 | <2016-10-03 Mon> | Issue spotlight: TBD              | TBA             |
-|    8 | <2016-10-10 Mon> | Catch-up and first exam           | None additional |
-|    9 | <2016-10-24 Mon> | Public opinion                    | Ch 9            |
-|   10 | <2016-10-31 Mon> | Political parties                 | Ch 11           |
-|   11 | <2016-11-07 Mon> | Campaigns and elections           | Ch 10           |
-|   12 | <2016-11-14 Mon> | Interest groups                   | Ch 12           |
-|   13 | <2016-11-21 Mon> | The media                         | TBA             |
-|   14 | <2016-11-28 Mon> | Issue spotlight: TBD              | TBA             |
-|   15 | <2016-12-05 Mon> | Second exam                       | None additional |
-#+TBLFM: $1=vlen(@I$1..0);EN; $2=$startdate + $1 * 7
+| *Week* | Week of | *Topic*                             | *Readings*        |
+|------+---------+-----------------------------------+-----------------|
+|    1 | Aug 22  | Intro and the founding            | Ch 2            |
+|    2 | Aug 29  | Liberties and rights              | Ch 4            |
+|    3 | Sep 5   | Federalism & Separation of Powers | Ch 3            |
+|    4 | Sep 12  | Congress                          | Ch 5            |
+|    5 | Sep 19  | The Presidency & Executive        | Ch 6 & 7        |
+|    6 | Sep 26  | The Courts                        | Ch 8            |
+|    7 | Oct 3   | Issue spotlight: TBD              | TBA             |
+|    8 | Oct 10  | Catch-up and first exam           | None additional |
+|------+---------+-----------------------------------+-----------------|
+|    9 | Oct 17  | Public opinion                    | Ch 9            |
+|   10 | Oct 24  | Political parties                 | Ch 11           |
+|   11 | Oct 31  | Campaigns and elections           | Ch 10           |
+|   12 | Nov 7   | Interest groups                   | Ch 12           |
+|   13 | Nov 14  | The media                         | TBA             |
+|   14 | Nov 21  | Issue spotlight: TBD              | TBA             |
+|   15 | Nov 28  | Finish week 14 & catch-up         | None additional |
+|   16 | Dec 5   | Second exam                       | None additional |
 
