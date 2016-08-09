@@ -1,7 +1,8 @@
 ---
 layout: default 
 ---
-# Fall 2016 
+# GOV 310L - Introduction to American Politics
+## Fall 2016 
 
 This is the course website for GOV310L, an introduction to American
 politics. You can find the syllabus
