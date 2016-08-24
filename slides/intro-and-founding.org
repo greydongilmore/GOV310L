@@ -1,7 +1,7 @@
 #+TITLE:     Introduction and the Founding
 #+AUTHOR:    J. Alexander Branham
 #+EMAIL:     branham@utexas.edu
-#+DATE:      Spring 2016
+#+DATE:      Fall 2016
 #+startup: beamer
 #+LaTeX_CLASS: beamer
 #+LATEX_CMD: xelatex
