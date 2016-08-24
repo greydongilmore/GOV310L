@@ -57,6 +57,11 @@
     (quizzes or exams) barring exceptional circumstances. Let me know
     *now* if you have a conflict with one of the exams.
   - I will make my slides available on the [[https://www.jabranham.com/GOV310L][course website]].
+  - Email is the best way to get in touch with me. *I may not
+    receive emails through Canvas's email system*. I will try to reply
+    to emails received during weekday business hours within 24 hours.
+    Emails received over the weekend or after business hours may take
+    longer. 
   - You are expected to do the readings listed in the course schedule.
     The book we are using can be found [[http://books.wwnorton.com/books/webad.aspx?id=4294989276][here]] (American Government:
     Power and Purpose by Lowi et al, brief 13th edition), though there
