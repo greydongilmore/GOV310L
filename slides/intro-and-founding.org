@@ -15,7 +15,7 @@
 ** This class 
 - GOV 310L
 - MWF 11 - 11:50
-- Unique #: 37685
+- Unique #: 38305
 - Satisfies the first half of the legislative requirement 
 ** Goals
  Goals for students of the course: 
@@ -25,29 +25,26 @@
 
 ** The class's website
  - Most materials will be available on the course's website 
- - [[http://jabranham.com/GOV310L]]
+ - [[https://jabranham.com/GOV310L]]
  - I'll use Canvas:
    - For posting grades
    - For online quizzes
+   - For announcements
+   - Do NOT email me through canvas
 
-** Important course policies
+** No make-ups 
  - *NO MAKING UP MISSED ASSIGNMENTS, INCLUDING EXAMS*
- - Exam 1: March 11th
- - Exam 2: May 6th
+ - Exam 1: October 14th
+ - Exam 2: December 5th 
    - not cumulative
 
 ** Grades
- - Participation (25%)
- - Quizzes (25%)
- - Exams (2) (50%)
-
-** Participation 
- - In class
- - Slack
- - Online exercises
- - Civic events
- - Academic events
- - Critical essays
+   - Canvas quizzes (10%) :: Weekly, 2 attempts allowed 
+   - Quizzes (20%) :: Unannounced, in-class. Usually 10 multiple choice
+   - Exams (2) (50%) :: In-class, closed note, NOT cumulative
+   - Reaction papers (20%) :: Short papers (no longer than 2 pages each)
+     - 1st due by October 10
+     - 2nd by December 2nd
 
 * Introduction to politics
 ** What is government?
