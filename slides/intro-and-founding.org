@@ -13,15 +13,15 @@
 * This Class
 
 ** This class 
-- GOV 310L
-- MWF 11 - 11:50
-- Unique #: 38305
-- Satisfies the first half of the legislative requirement 
+   - GOV 310L
+   - MWF 11 - 11:50
+   - Unique #: 38305
+   - Satisfies the first half of the legislative requirement 
 ** Goals
- Goals for students of the course: 
- 1. Demonstrate a basic understanding of U.S. politics
- 2. Participate knowledgeably in the American political process
- 3. Critically examine key concepts from political science
+   Goals for students of the course: 
+   1. Demonstrate a basic understanding of U.S. politics
+   2. Participate knowledgeably in the American political process
+   3. Critically examine key concepts from political science
 
 ** The class's website
  - Most materials will be available on the course's website 
