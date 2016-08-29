@@ -249,6 +249,7 @@ Lives, our Fortunes and our sacred Honor.
 - 4th :: Protects against unreasonable searches and seizures
 - 5th :: Protects against self-incrimination
 - 6th :: Gives defendants rights in criminal trials
+- 7th :: Trial by jury
 - 8th :: No cruel and unusual punishments
 - 9th :: Bill of rights isn't exhaustive
 - 10th :: "The powers not delegated to the United States by the
