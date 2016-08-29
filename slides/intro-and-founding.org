@@ -185,8 +185,7 @@ Lives, our Fortunes and our sacred Honor.
 - How to guard against the "tyranny of faction?"
   - /Federalist 10/: "Extend the sphere"
 - How to guard against ambitious/power hungry politicians?
-- /Federalist 51/: Separation of powers - "Ambition must be made to
-  counteract ambition"
+  - /Federalist 51/: Separation of powers - "Ambition must be made to counteract ambition"
 
 * The Constitution 
 ** The Constitution: Articles I - II
