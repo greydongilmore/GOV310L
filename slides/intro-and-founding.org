@@ -49,14 +49,11 @@
 * Introduction to politics
 ** What is government?
  #+BEAMER: \pause
- - The institutions and procedures through which a land and its people
-   are ruled
+ - The institutions and procedures through which a land and its people are ruled
  - These can be simple or complex
 
 ** Why government?
- - We're all farmers and one of us proposes to build an irrigation
-   system. How do we decide what happens? Does it get built? Who pays
-   for it? Who maintains it? 
+ - We're all farmers and one of us proposes to build an irrigation system. How do we decide what happens? Does it get built? Who pays for it? Who maintains it?
  - Tragedy of the commons
 
 ** Functions of government
@@ -69,23 +66,17 @@
 
 ** Who rules?
  - Autocracy :: rule by a single individual
- - Oligarchy :: rule by a small class of people (landowners, military
-      officers, etc)
- - Democracy :: system that allows citizens to play a significant role
-      in the governmental process, usually through selection of
-      officials
+ - Oligarchy :: rule by a small class of people (landowners, military officers, etc)
+ - Democracy :: system that allows citizens to play a significant role in the governmental process, usually through selection of officials
 
 ** How do they govern?
  - Constitutional :: Formal and effective limits placed on government
- - Authoritarian :: No formal limits, but may be checked by other
-      social forces (the church, for example)
- - Totalitarian :: No formal limits and the state seeks to expand to
-      basically all areas of life
+ - Authoritarian :: No formal limits, but may be checked by other social forces (the church, for example)
+ - Totalitarian :: No formal limits and the state seeks to expand to basically all areas of life
 
 ** What is politics?
  #+BEAMER: \pause 
- - Conflict and struggles over the leadership, structure, and policies
-   of government
+ - Conflict and struggles over the leadership, structure, and policies of government
 
 * The Founding 
 
@@ -108,23 +99,11 @@
 
 ** The Declaration of Independence 
 #+BEGIN_QUOTE
-We, therefore, the Representatives of the united States of America, in
-General Congress, Assembled, appealing to the Supreme Judge of the
-world for the rectitude of our intentions, do, in the Name, and by
-Authority of the good People of these Colonies, solemnly publish and
-declare, That these united Colonies are, and of Right ought to be Free
-and Independent States; that they are Absolved from all Allegiance to
-the British Crown, and that all political connection between them and
-the State of Great Britain, is and ought to be totally dissolved; 
+We, therefore, the Representatives of the united States of America, in General Congress, Assembled, appealing to the Supreme Judge of the world for the rectitude of our intentions, do, in the Name, and by Authority of the good People of these Colonies, solemnly publish and declare, That these united Colonies are, and of Right ought to be Free and Independent States; that they are Absolved from all Allegiance to the British Crown, and that all political connection between them and the State of Great Britain, is and ought to be totally dissolved;
 #+END_QUOTE
 ** The Declaration of Independence 
 #+BEGIN_QUOTE
-and that as Free and Independent States, they have full Power to levy
-War, conclude Peace, contract Alliances, establish Commerce, and to do
-all other Acts and Things which Independent States may of right do.
-And for the support of this Declaration, with a firm reliance on the
-protection of divine Providence, we mutually pledge to each other our
-Lives, our Fortunes and our sacred Honor.
+and that as Free and Independent States, they have full Power to levy War, conclude Peace, contract Alliances, establish Commerce, and to do all other Acts and Things which Independent States may of right do. And for the support of this Declaration, with a firm reliance on the protection of divine Providence, we mutually pledge to each other our Lives, our Fortunes and our sacred Honor.
 #+END_QUOTE
 ** The Revolutionary War
 - British military forces vastly outnumbered the colonists
@@ -142,8 +121,7 @@ Lives, our Fortunes and our sacred Honor.
 ** Constitutional Convention (1787)
 - Called to amend the Articles of Confederation
 - Every state (except Rhode Island) sent delegates 
-- Quickly became apparent that the Articles needed to be scrapped and
-  rewritten
+- Quickly became apparent that the Articles needed to be scrapped and rewritten
 
 ** Constitutional Convention (1787)
 ***                                                                   :BMCOL:
@@ -165,8 +143,7 @@ Lives, our Fortunes and our sacred Honor.
 - Articles of Confederation :: one vote per state
 - Virginia Plan :: representation based on population
 - New Jersey plan :: one vote per state
-- Connecticut compromise :: bicameral, House based on population and
-     Senate representation equal by state
+- Connecticut compromise :: bicameral, House based on population and Senate representation equal by state
 ** Constitutional Convention (1787)
 - Other ideas *not* adopted:
   - New constitution every 19 years
@@ -205,8 +182,7 @@ Lives, our Fortunes and our sacred Honor.
   - Lifetime terms, nominated by president, confirmed by Senate
 - Article IV: States' conduct
   - States must respect other states' laws ("full faith and credit")
-  - Several other agreements between states (extradition of fugitives,
-    for example)
+  - Several other agreements between states (extradition of fugitives, for example)
 
 ** Article V: Amendment
 
@@ -216,8 +192,7 @@ Lives, our Fortunes and our sacred Honor.
     :END:
 - Proposing amendments:
   - 2/3 of both houses of Congress OR
-  - 2/3 of state legislatures call for Constitutional Convention
-    (never used)
+  - 2/3 of state legislatures call for Constitutional Convention (never used)
 
 ***                                                                   :BMCOL:
     :PROPERTIES:
@@ -229,22 +204,17 @@ Lives, our Fortunes and our sacred Honor.
 
 ** Articles VI - VII
 - Article VI: Federal powers
-  - The constitution and federal laws trump state laws & constitutions
-    ("supremacy clause")
+  - The constitution and federal laws trump state laws & constitutions ("supremacy clause")
 - Article VII: Ratification
 
 * The Amendments
 ** The Bill of Rights
-- Madison proposed 39 amendments to the Constitution, 11 of which were
-  eventually ratified[fn:1]
-- The first 10 are the first 10 amendments and are referred to as the
-  Bill of Rights
+- Madison proposed 39 amendments to the Constitution, 11 of which were eventually ratified[fn:1]
+- The first 10 are the first 10 amendments and are referred to as the Bill of Rights
 - These are designed to limit the power of the federal government
 
 ** The Bill of Rights
-- 1st :: Protects free religion, freedom of speech, freedom of the
-     press, right to peaceful assembly, and prohibits Congress from
-     making laws respecting the establishment of religion
+- 1st :: Protects free religion, freedom of speech, freedom of the press, right to peaceful assembly, and prohibits Congress from making laws respecting the establishment of religion
 - 2nd :: Right to keep and bear arms
 - 4th :: Protects against unreasonable searches and seizures
 - 5th :: Protects against self-incrimination
@@ -252,22 +222,12 @@ Lives, our Fortunes and our sacred Honor.
 - 7th :: Trial by jury
 - 8th :: No cruel and unusual punishments
 - 9th :: Bill of rights isn't exhaustive
-- 10th :: "The powers not delegated to the United States by the
-     Constitution, nor prohibited by it to the States, are reserved to
-     the States respectively, or to the people"
+- 10th :: "The powers not delegated to the United States by the Constitution, nor prohibited by it to the States, are reserved to the States respectively, or to the people"
 
 ** Amendments 11 - 27
-- Expansion of the electorate :: (citizenship - XIV, *races* - XV,
-     *women*, XIX, DC - XXIII, no poll tax - XXIV, 18 years old to
-     vote - XXVI)
-- Changing elections :: (fix ballot - XII, revoke 3/5ths - XIV,
-     *direct election of senators* - XVII, eliminate lame duck
-     Congress - XX, *limited president to 2 terms* - XXII,
-     presidential succession - XXV)
-- Changing the power of government :: (limits federal courts'
-  jurisdiction - XI, *eliminates slavery* - XIII, due process to the
-  states - XIV, *income tax* - XVI, prohibit Congress from raising its
-  own salary - XXVII)
+- Expansion of the electorate :: (citizenship - XIV, *races* - XV, *women*, XIX, DC - XXIII, no poll tax - XXIV, 18 years old to vote - XXVI)
+- Changing elections :: (fix ballot - XII, revoke 3/5ths - XIV, *direct election of senators* - XVII, eliminate lame duck Congress - XX, *limited president to 2 terms* - XXII, presidential succession - XXV)
+- Changing the power of government :: (limits federal courts' jurisdiction - XI, *eliminates slavery* - XIII, due process to the states - XIV, *income tax* - XVI, prohibit Congress from raising its own salary - XXVII)
 - Prohibition (XVIII, XXI) ::
 
 * Footnotes
