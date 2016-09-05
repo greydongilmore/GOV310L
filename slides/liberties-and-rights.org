@@ -183,8 +183,8 @@ The enumeration in the Constitution, of certain rights, shall not be construed t
     :PROPERTIES:
     :BEAMER_col: 0.5
     :END:
- #+ATTR_LATEX: width=\textwidth
- [[file:../images/womens-suffrage-propaganda.jpg]]
+    #+ATTR_LATEX: :width 0.7\textwidth :float t
+    [[file:../images/womens-suffrage-propaganda.jpg]]
 
 ** Women's Suffrage 
 - 1869 :: National Women's Suffrage Association (NWSA) formed in NY
@@ -226,7 +226,7 @@ The enumeration in the Constitution, of certain rights, shall not be construed t
 - Monday Sep 4th 1957 Elizabeth Eckford attempts to go to school 
 
 ** The Little Rock Nine
-#+ATTR_LATEX: width=\textwidth
+#+ATTR_LATEX: :width 0.9\textwidth :float t
 [[file:../images/Little_Rock_Desegregation_1957.jpg]]
 
 ** The Little Rock Nine
@@ -259,18 +259,19 @@ The enumeration in the Constitution, of certain rights, shall not be construed t
 - Immigrants
 - Americans with disabilities
 - LGBT community 
+
 * Footnotes
 
-[fn:7] /Smith v. Allwright/
-
-[fn:6] /Roe v. Wade/
-
-[fn:5] Data [[http://www.deathpenaltyinfo.org/number-executions-state-and-region-1976][available online]]
-
-[fn:4] /Gideon v. Wainwright/
-
-[fn:3] /Miranda v. Arizona/
+[fn:1] /New York Times v. United States/
 
 [fn:2] /McDonald v. Chicago/
 
-[fn:1] /New York Times v. United States/
+[fn:3] /Miranda v. Arizona/
+
+[fn:4] /Gideon v. Wainwright/
+
+[fn:5] Data [[http://www.deathpenaltyinfo.org/number-executions-state-and-region-1976][available online]]
+
+[fn:6] /Roe v. Wade/
+
+[fn:7] /Smith v. Allwright/
