@@ -20,8 +20,7 @@
     :END:
 *Civil Liberties*
 - Limitations on collective action
-- Defines spheres (e.g. religion) where the influence of government is
-  limited 
+- Defines spheres (e.g. religion) where the influence of government is limited
 - *What government /can't/ do*
 
 *** Civil Rights                                                      :BMCOL:
@@ -43,31 +42,23 @@
 - The president to a lesser extent 
 
 ** The Bill of Rights
-- Confusingly, the bill of rights focuses on what government must
-  /not/ do and thus is concerned with civil liberties
-- Not originally included in Constitution because Hamilton & others
-  thought it irrelevant
+- Confusingly, the bill of rights focuses on what government must /not/ do and thus is concerned with civil liberties
+- Not originally included in Constitution because Hamilton & others thought it irrelevant
 
 ** The Bill of Rights
 - Originally applied only to the federal government (dual citizenship)
-- The 14th amendment (post Civil War) provides for a single national
-  citizenship, but the Court doesn't start to expand protections
-  provided by the Bill of Rights to the states until late 1800s, but
-  especially the 1930s & 60s
+- The 14th amendment (post Civil War) provides for a single national citizenship, but the Court doesn't start to expand protections provided by the Bill of Rights to the states until late 1800s, but especially the 1930s & 60s
 
 ** The First Amendment
-- *Establishment Clause* prevents Congress from making a law respecting
-  the establishment of religion
+- *Establishment Clause* prevents Congress from making a law respecting the establishment of religion
 - What does that mean?
 #+BEAMER: \pause
 - No official state church?
-- Government can't take sides, but isn't prohibited from providing
-  assistance to religion?
+- Government can't take sides, but isn't prohibited from providing assistance to religion?
 - Wall of separation?
 
 ** The First Amendment
-- *Free exercise of religion* protects citizens' rights to believe and
-  practice whatever religion (or not) they choose
+- *Free exercise of religion* protects citizens' rights to believe and practice whatever religion (or not) they choose
 - Difference in practice and action
 
 ** The First Amendment
@@ -95,17 +86,14 @@
 
 ** The Second Amendment
 #+BEGIN_QUOTE
-A well regulated Militia, being necessary to the security of a free
-State, the right of the people to keep and bear Arms, shall not be
-infringed. 
+A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear Arms, shall not be infringed.
 #+END_QUOTE
 - The right to bear arms
 - Recently applied to the states[fn:2]
 
 ** Rights of the criminally accused 
 - Protection against *unreasonable searches and seizures* (4th amendment)
-  - Exclusionary rule prevents improperly obtained evidence from being
-    introduced during a trial 
+  - Exclusionary rule prevents improperly obtained evidence from being introduced during a trial
 - No *double jeopardy* (5th)
 - Right to a *grand jury* (5th)
 - Protection against *self-incrimination* (5th)
@@ -116,9 +104,9 @@ infringed.
 - Protection against *cruel and unusual punishments* (8th)
 
 ** The Death Penalty 
-- Banned by the Supreme Court in 1972 for being applied in a
-  capricious manner, reinstated in 1976
+- Banned by the Supreme Court in 1972 for being applied in a capricious manner, reinstated in 1976
 - 1976 - 2015 the U.S. executed 1,422 people[fn:5]
+
 | State | Total executions | 2015 |
 |-------+------------------+------|
 | TX    |              532 |   13 |
@@ -134,8 +122,7 @@ infringed.
 
 ** The Ninth Amendment
 #+BEGIN_QUOTE
-The enumeration in the Constitution, of certain rights, shall not be
-construed to deny or disparage others retained by the people.
+The enumeration in the Constitution, of certain rights, shall not be construed to deny or disparage others retained by the people.
 #+END_QUOTE
 - Has been used to justify:
   - The right to privacy
@@ -147,19 +134,15 @@ construed to deny or disparage others retained by the people.
 * Civil Rights
 
 ** Civil Rights: What are they?
-- Recall that civil rights regulate who can participate and how they
-  can do so
-- Civil liberties are what government /can't/ do, civil rights are
-  oftentimes obligations that government must meet
+- Recall that civil rights regulate who can participate and how they can do so
+- Civil liberties are what government /can't/ do, civil rights are oftentimes obligations that government must meet
 
 ** Civil Rights
 - /Who/ has /what/ right and /how much/ do they have?
-- /Citizens 18 years and older/ have the /right to vote/ and their
-  votes are counted /equally/
+- /Citizens 18 years and older/ have the /right to vote/ and their votes are counted /equally/
 - Today, guiding principals of civil rights are that they ought to be
   - *Universal* - everyone can enjoy that right
-  - *Equal* - all people who enjoy a right have an equal ability or
-    opportunity to practice that right
+  - *Equal* - all people who enjoy a right have an equal ability or opportunity to practice that right
 
 ** Civil rights: the founding
 - Right to vote not guaranteed for all
@@ -173,9 +156,7 @@ construed to deny or disparage others retained by the people.
 - 15th amendment :: extends the right to vote to blacks
 - 14th amendment :: equal protection clause 
 #+BEGIN_QUOTE
-... nor shall any State deprive any person of life, liberty, or
-property, without due process of law; nor deny to any person within
-its jurisdiction the equal protection of the laws.
+... nor shall any State deprive any person of life, liberty, or property, without due process of law; nor deny to any person within its jurisdiction the equal protection of the laws.
 #+END_QUOTE
 
 ** The Right to Vote
@@ -193,11 +174,9 @@ its jurisdiction the equal protection of the laws.
     :PROPERTIES:
     :BEAMER_col: .5
     :END:
- - The US inherited economic and political system from Britain, where
-   the rights of women were severely restricted
+ - The US inherited economic and political system from Britain, where the rights of women were severely restricted
  - Minor advances as the US expanded
- - 1848 - Seneca Falls and the Declaration of Sentiments and
-   Resolutions
+ - 1848 - Seneca Falls and the Declaration of Sentiments and Resolutions
    - Asserts that women were entitled to equal rights as men
 
 ***                                                                   :BMCOL:
@@ -208,13 +187,13 @@ its jurisdiction the equal protection of the laws.
  [[file:../images/womens-suffrage-propaganda.jpg]]
 
 ** Women's Suffrage 
-- 1869: National Women's Suffrage Association (NWSA) formed in NY
-- 1869: Wyoming grants women's suffrage
-- 1916: Montana elects a woman to US Congress
-- 1918: All western states + MI + NY have women's suffrage
-- 1919: 19th amendment proposed by Congress
-- 1920: 19th amendment ratified by 3/4 of states 
-- 1920: Women vote
+- 1869 :: National Women's Suffrage Association (NWSA) formed in NY
+- 1869 :: Wyoming grants women's suffrage
+- 1916 :: Montana elects a woman to US Congress
+- 1918 :: All western states + MI + NY have women's suffrage
+- 1919 :: 19th amendment proposed by Congress
+- 1920 :: 19th amendment ratified by 3/4 of states 
+- 1920 :: Women vote
 
 ** Right to vote for black people
 - Granted by 15th amendment
@@ -236,18 +215,14 @@ its jurisdiction the equal protection of the laws.
 - Mississippi black voter turnout in 1969: 59%
 
 ** Racial discrimination in Education
-- /Plessy v. Ferguson/ 1896 - *separate but equal* - the Supreme Court
-  upholds Louisiana statue that requires segregation in schools and
-  public places
+- /Plessy v. Ferguson/ 1896 - *separate but equal* - the Supreme Court upholds Louisiana statue that requires segregation in schools and public places
   - Several minor challenges to this but nothing major
 - /Brown v. Board of Education/ 1954 - reverses /Plessy/
   - Segregation no longer allowed under the law, but remains prevalent anyway
 
 ** The Little Rock Nine
-- The Little Rock Nine were the first black students who registered to
-  attend Little Rock Central High School
-- Arkansas Governor mobilizes the AK National Guard and prevents the
-  Little Rock Nine from entering the school
+- The Little Rock Nine were the first black students who registered to attend Little Rock Central High School
+- Arkansas Governor mobilizes the AK National Guard and prevents the Little Rock Nine from entering the school
 - Monday Sep 4th 1957 Elizabeth Eckford attempts to go to school 
 
 ** The Little Rock Nine
@@ -255,8 +230,7 @@ its jurisdiction the equal protection of the laws.
 [[file:../images/Little_Rock_Desegregation_1957.jpg]]
 
 ** The Little Rock Nine
-- September 24th - President Eisenhower sends the Army to Little Rock
-  and federalizes the AK National Guard
+- September 24th - President Eisenhower sends the Army to Little Rock and federalizes the AK National Guard
 
 ** 1963
 - April - Letter from a Birmingham Jail
@@ -269,12 +243,9 @@ its jurisdiction the equal protection of the laws.
   - LBJ asserts strong support for civil rights legislation 
 
 ** 1964 - 1968
-- Civil rights act of 1964 - outlaws discrimination based on race,
-  color, religion, sex, or national origin in schools, workplaces, and
-  public accommodations
+- Civil rights act of 1964 - outlaws discrimination based on race, color, religion, sex, or national origin in schools, workplaces, and public accommodations
 - Selma Voting Rights march - 1965
-- Voting Rights Act of 1965 - prohibits racial discrimination in
-  voting
+- Voting Rights Act of 1965 - prohibits racial discrimination in voting
 - War on poverty
 - King assassinated 1968 in Memphis
 
