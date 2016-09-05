@@ -107,13 +107,13 @@ A well regulated Militia, being necessary to the security of a free State, the r
 - Banned by the Supreme Court in 1972 for being applied in a capricious manner, reinstated in 1976
 - 1976 - 2015 the U.S. executed 1,422 people[fn:5]
 
-| State | Total executions | 2015 |
-|-------+------------------+------|
-| TX    |              532 |   13 |
-| OK    |              112 |    1 |
-| VA    |              111 |    1 |
-| FL    |               92 |    2 |
-| MO    |               86 |    6 |
+| State | Total executions | 2015 | 2016 (to date) |
+|-------+------------------+------+----------------|
+| TX    |              532 |   13 |              6 |
+| OK    |              112 |    1 |              0 |
+| VA    |              111 |    1 |              0 |
+| FL    |               92 |    2 |              1 |
+| MO    |               86 |    6 |              1 |
 
 ** The Death Penalty
 - Arguments for?
