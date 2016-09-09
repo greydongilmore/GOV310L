@@ -36,7 +36,7 @@
 * Civil Liberties
 ** Who decides? 
 - The courts are the major actor
-  - Jurisdiction from Article II, statues, and prior decisions (precedent)
+  - Jurisdiction from Article II, statutes, and prior decisions (precedent)
 - Congress also plays a role
   - Constitutional amendments, lawmaking
 - The president to a lesser extent 
