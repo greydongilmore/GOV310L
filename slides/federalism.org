@@ -227,7 +227,7 @@ Ambition must be made to counteract ambition
 ** Veto overrides - total number
 #+BEGIN_SRC  R :session R-session :results value graphics :file ../figures/veto-overrides.pdf :exports results :width 10 :height 5
   vetos %>%
-    ggplot(aes(president, total_override)) +
+    ggplot(aes(order_prez, total_override)) +
     geom_bar(stat = "identity")
 #+END_SRC
 
@@ -243,7 +243,7 @@ Ambition must be made to counteract ambition
 
 #+BEGIN_SRC  R :session R-session :results value graphics :file ../figures/veto-override-percent.pdf :exports results :width 10 :height 5
   vetos %>%
-    ggplot(aes(president, regular_override)) +
+    ggplot(aes(order_prez, regular_override)) +
     geom_bar(stat = "identity")
 #+END_SRC
 
