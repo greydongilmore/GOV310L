@@ -1,12 +1,13 @@
 #+TITLE:     Federalism and Separation of Powers
 #+AUTHOR:    J. Alexander Branham
 #+EMAIL:     branham@utexas.edu
-#+DATE:      Spring 2016
+#+DATE: Fall 2016
 #+startup: beamer
 #+LaTeX_CLASS: beamer
 #+LATEX_CMD: xelatex
 #+OPTIONS: toc:nil H:2
-#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue]
+#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue, aspectratio=169]
+#+LATEX_HEADER: \beamerdefaultoverlayspecification{<+->}
 #+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
 
 * Introduction
@@ -35,8 +36,7 @@
 * Federalism
 
 ** Who does what?
-- Federalism  :: system of government that divides power between a
-     central government and regional governments
+- Federalism  :: system of government that divides power between a central government and regional governments
 - Sovereignty :: supreme and independent political authority
 
 ** National government
@@ -45,12 +45,9 @@
 - Supremacy clause :: national laws trump state laws
 
 ** State governments
-- Reserved powers :: tenth amendment reserves powers not specified in
-     the Constitution to the states
-- Police power :: power to regulate health, safety, welfare, and
-     morals of citizens
-- Concurrent powers :: power possessed by both the state and national
-     government (e.g. taxation)
+- Reserved powers :: tenth amendment reserves powers not specified in the Constitution to the states
+- Police power :: power to regulate health, safety, welfare, and morals of citizens
+- Concurrent powers :: power possessed by both the state and national government (e.g. taxation)
 
 ** Obligations of states to each other
 - Full faith and credit clause
@@ -67,8 +64,7 @@
 - State governments more important
 
 ** Dual federalism
-- Necessary and proper clause interpreted widely in /McCulloch v.
-  Maryland/
+- Necessary and proper clause interpreted widely in /McCulloch v. Maryland/
 - Interstate commerce clause in /Gibbons v. Ogden/
 - Both granted much power to national government
 - Little growth of the national government up through 1930s
@@ -81,8 +77,7 @@
 
 ** Cooperative federalism 
 - Post 1930s through 1960s
-- Federal government uses subsidies to encourage states to pursue
-  federal goals
+- Federal government uses subsidies to encourage states to pursue federal goals
 - Subsidies called grants-in-aid
 
 ** Dual vs cooperative federalism
@@ -92,8 +87,7 @@
 ** Regulated federalism
 - 1960s to present
 - More active federal government
-- Threaten to withhold funding if states don't conform to national
-  standards
+- Threaten to withhold funding if states don't conform to national standards
   - E.g. American with disabilities act
 - Unfunded mandates
 - Conditional grants, block grants
@@ -101,9 +95,7 @@
 
 ** Separation of powers
 #+BEGIN_QUOTE
-There can be no liberty where the legislative and executive powers are
-united in the same person... [or] if the power of judging be not
-separated from the legislative and executive powers 
+There can be no liberty where the legislative and executive powers are united in the same person... [or] if the power of judging be not separated from the legislative and executive powers
 #+END_QUOTE
 - Baron de Montesquieu 
 
@@ -114,7 +106,6 @@ separated from the legislative and executive powers
 - Judicial
 
 ** Federalist 51
-#+BEAMER: \pause 
 #+BEGIN_QUOTE
 Ambition must be made to counteract ambition
 #+END_QUOTE
@@ -210,35 +201,35 @@ Ambition must be made to counteract ambition
 #+END_SRC
 
 ** Vetos over time
-#+BEGIN_SRC R :session R-session :results value graphics :file ../figures/vetos.pdf :exports results 
+#+BEGIN_SRC R :session R-session :results value graphics :file ../figures/vetos.pdf :exports results :width 10 :height 5
   vetos %>%
     ggplot(aes(order_prez, total)) +
     geom_bar(stat = "identity")
 #+END_SRC
 
-#+ATTR_LATEX: :width 0.6\textwidth :float t
+#+ATTR_LATEX: :float t
 #+RESULTS:
 [[file:../figures/vetos.pdf]]
 
 ** Recent vetos
-#+BEGIN_SRC R :session R-session :results value graphics :file ../figures/vetos-recent.pdf :exports results 
+#+BEGIN_SRC R :session R-session :results value graphics :file ../figures/vetos-recent.pdf :exports results  :width 10 :height 5
   vetos[(dim(vetos)[1] - 5):dim(vetos)[1], ] %>%
   ggplot(aes(order_prez, total)) +
     geom_bar(stat = "identity")
 #+END_SRC
 
-#+ATTR_LATEX: :width 0.6\textwidth :float t
+#+ATTR_LATEX: :float t
 #+RESULTS:
 [[file:../figures/vetos-recent.pdf]]
 
 ** Veto overrides - total number
-#+BEGIN_SRC  R :session R-session :results value graphics :file ../figures/veto-overrides.pdf :exports results 
+#+BEGIN_SRC  R :session R-session :results value graphics :file ../figures/veto-overrides.pdf :exports results :width 10 :height 5
   vetos %>%
     ggplot(aes(president, total_override)) +
     geom_bar(stat = "identity")
 #+END_SRC
 
-#+ATTR_LATEX: :width 0.6\textwidth :float t
+#+ATTR_LATEX: :float t
 #+RESULTS:
 [[file:../figures/veto-overrides.pdf]]
 
@@ -248,13 +239,13 @@ Ambition must be made to counteract ambition
     mutate(regular_override = as.numeric(sub("%", "", regular_override)))
 #+END_SRC
 
-#+BEGIN_SRC  R :session R-session :results value graphics :file ../figures/veto-override-percent.pdf :exports results 
+#+BEGIN_SRC  R :session R-session :results value graphics :file ../figures/veto-override-percent.pdf :exports results :width 10 :height 5
   vetos %>%
     ggplot(aes(president, regular_override)) +
     geom_bar(stat = "identity")
 #+END_SRC
 
-#+ATTR_LATEX: :width 0.6\textwidth :float t
+#+ATTR_LATEX: :float t
 #+RESULTS:
 [[file:../figures/veto-override-percent.pdf]]
 
