@@ -179,6 +179,8 @@ Ambition must be made to counteract ambition
   library(rvest)
   library(dplyr)
   library(ggplot2)
+  theme_set(theme_minimal())
+  theme_update(axis.text.x = element_text(angle = 90, hjust = 1))
 
   url <- "https://en.wikipedia.org/wiki/List_of_United_States_presidential_vetoes"
 
