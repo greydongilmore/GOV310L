@@ -32,7 +32,6 @@
 - Divides government against itself
 - Share powers across branches 
 
-
 * Federalism
 
 ** Who does what?
@@ -175,6 +174,10 @@ Ambition must be made to counteract ambition
 
 ** Vetos
 
+   - Which president(s) used the veto power most often? What do they have in common?
+   - How about among recent presidents?
+   - What presidents had their vetos overridden most often? Are they the same as above? 
+
 #+BEGIN_SRC R :session R-session :results value silent :exports results
   library(rvest)
   library(dplyr)
@@ -182,13 +185,17 @@ Ambition must be made to counteract ambition
   theme_set(theme_minimal())
   theme_update(axis.text.x = element_text(angle = 90, hjust = 1))
 
+  if (!dir.exists("../figures/")) {
+    dir.create("../figures/")
+  } 
+
   url <- "https://en.wikipedia.org/wiki/List_of_United_States_presidential_vetoes"
 
   temp <- url %>%
     read_html %>%
     html_nodes("table")
 
-  vetos <- html_table(temp[1])
+  vetos <- html_table(temp[1], fill = TRUE)
   vetos <- vetos[[1]]
 
   names(vetos) <- c("president", "regular", "pocket", "total",
@@ -206,7 +213,9 @@ Ambition must be made to counteract ambition
 #+BEGIN_SRC R :session R-session :results value graphics :file ../figures/vetos.pdf :exports results :width 10 :height 5
   vetos %>%
     ggplot(aes(order_prez, total)) +
-    geom_bar(stat = "identity")
+    geom_bar(stat = "identity") +
+    labs(x = "President",
+         y = "Total vetos")
 #+END_SRC
 
 #+ATTR_LATEX: :float t
@@ -217,7 +226,9 @@ Ambition must be made to counteract ambition
 #+BEGIN_SRC R :session R-session :results value graphics :file ../figures/vetos-recent.pdf :exports results  :width 10 :height 5
   vetos[(dim(vetos)[1] - 5):dim(vetos)[1], ] %>%
   ggplot(aes(order_prez, total)) +
-    geom_bar(stat = "identity")
+    geom_bar(stat = "identity") +
+    labs(x = "President",
+         y = "Total number of vetos")
 #+END_SRC
 
 #+ATTR_LATEX: :float t
@@ -228,7 +239,9 @@ Ambition must be made to counteract ambition
 #+BEGIN_SRC  R :session R-session :results value graphics :file ../figures/veto-overrides.pdf :exports results :width 10 :height 5
   vetos %>%
     ggplot(aes(order_prez, total_override)) +
-    geom_bar(stat = "identity")
+    geom_bar(stat = "identity") +
+    labs(x = "President",
+         y = "Number of total veto overrides")
 #+END_SRC
 
 #+ATTR_LATEX: :float t
@@ -244,7 +257,9 @@ Ambition must be made to counteract ambition
 #+BEGIN_SRC  R :session R-session :results value graphics :file ../figures/veto-override-percent.pdf :exports results :width 10 :height 5
   vetos %>%
     ggplot(aes(order_prez, regular_override)) +
-    geom_bar(stat = "identity")
+    geom_bar(stat = "identity") +
+    labs(x = "President",
+         y = "Percent of vetos overridden")
 #+END_SRC
 
 #+ATTR_LATEX: :float t
