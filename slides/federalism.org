@@ -96,7 +96,7 @@
 #+BEGIN_QUOTE
 There can be no liberty where the legislative and executive powers are united in the same person... [or] if the power of judging be not separated from the legislative and executive powers
 #+END_QUOTE
-- Baron de Montesquieu 
+Baron de Montesquieu 
 
 ** Separation of powers
 - Separate functions of government to preserve liberty
