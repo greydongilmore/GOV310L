@@ -107,7 +107,8 @@
 Graph from Poole & Rosenthal, voteview.com
 
 ** Increased polarization - Senate
-#+ATTR_LATEX: :float t
+
+#+ATTR_LATEX: :float t :width 0.8\textwidth
 [[file:../images/senate_party_means_1879-2015.png]]
 
 Graph from Poole & Rosenthal, voteview.com
