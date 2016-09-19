@@ -7,6 +7,7 @@ url: "http://jabranham.com" # the base hostname & protocol for your site
 twitter_username: JAlexBranham
 github_username:  jabranham
 permalink: /:year/:month/:title.html
+google_analytics: UA-65548469-1
 gems:
   - jekyll-sitemap
 
