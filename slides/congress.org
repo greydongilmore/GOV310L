@@ -140,9 +140,6 @@ Graph from Poole & Rosenthal, voteview.com
 - Majority leader:
   - House: Kevin McCarthy (CA)
   - Senate: Mitch McConnell (KY)
-- Whip:
-  - House: Steven Scalise (LA)
-  - Senate: John Cornyn (TX)
 *** Democrats                                                         :BMCOL:
     :PROPERTIES:
     :BEAMER_col: 0.5
@@ -151,9 +148,6 @@ Graph from Poole & Rosenthal, voteview.com
 - Minority leader:
   - House: Nancy Pelosi (CA)
   - Senate: Harry Reid (NV)
-- Whip:
-  - House: Steny Hoyer (MA)
-  - Senate: Dick Durbin (IL)
 ** The committee system 
 - Congress has to deal with a huge number of issues, so created the
   committee system to allow for specialization
