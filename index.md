@@ -13,7 +13,7 @@ These will be updated with links to the slides.
 1. [Intro and the founding](slides/intro-and-founding.pdf "Introduction and the founding slides")
 2. [Liberties and rights](slides/liberties-and-rights.pdf "Civil liberties and rights slides")
 3.  [Federalism and separation of powers](slides/federalism.pdf "Federalism and separation of powers slides")
-4. Congress<!-- [Congress](slides/congress.pdf "Congress slides") -->
+4. [Congress](slides/congress.pdf "Congress slides")
 5. The President and Executive <!-- [The President and Executive](slides/president-and-executive.pdf "President and Executive slides") -->
 6. The Courts<!-- [The Courts](slides/courts.pdf "The Courts slides") -->
 7. Issue spotlight #1 <!-- - [Presidential elections](slides/the-primary-system.pdf "Presidential elections slides") -->
