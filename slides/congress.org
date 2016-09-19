@@ -225,8 +225,9 @@ Graph from Poole & Rosenthal, voteview.com
 * How a bill becomes a law
 
 ** Schoolhouse Rock a little simplified
+
 #+ATTR_LATEX: :float t
-[[file:~/Teaching/GOV310L/images/howlawsmade.jpg]]
+[[file:../images/howlawsmade.png]]
 
 ** Regular procedure 
 - Bill received by Speaker/president of Senate
