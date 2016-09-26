@@ -8,6 +8,7 @@
 #+LANGUAGE: en
 #+OPTIONS: toc:nil H:2
 #+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue, aspectratio=169]
+#+LATEX_HEADER: \beamerdefaultoverlayspecification{<+->}
 #+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
 
 * Representation
