@@ -7,6 +7,7 @@
 #+LATEX_CMD: xelatex
 #+OPTIONS: toc:nil H:2
 #+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue, aspectratio=169]
+#+LATEX_HEADER: \beamerdefaultoverlayspecification{<+->}
 #+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
 
 * The Presidency
@@ -17,8 +18,7 @@
 
 ** Constitutional origins
 #+BEGIN_QUOTE
-The executive Power shall be vested in a President of the United
-States of America
+The executive Power shall be vested in a President of the United States of America
 #+END_QUOTE
 Qualifications: 
 - "Natural born citizen"
@@ -27,10 +27,8 @@ Qualifications:
 
 ** Presidential power
 - Expressed powers :: enumerated in the Constitution
-- Delegated powers :: power assigned to Congress that Congress gives
-     to the executive branch
-- Inherent powers :: Powers claimed by the President not specified in
-     Constitution or given by Congress
+- Delegated powers :: power assigned to Congress that Congress gives to the executive branch
+- Inherent powers :: Powers claimed by the President not specified in Constitution or given by Congress
   - Usually war powers
 
 ** Expressed powers
@@ -49,8 +47,7 @@ Qualifications:
 - Create federal agencies to work towards the goals Congress sets out
 - Congressional legislation can be detailed (tax law and the IRS)
 - Or not
-  - "to assure so far as is possible every working man and woman in
-    the nation safe and healthful working conditions"
+  - "to assure so far as is possible every working man and woman in the nation safe and healthful working conditions"
   - What are those conditions and how to achieve them?
 - Shifts power from Congress to executive branch
 
@@ -71,7 +68,6 @@ Qualifications:
 - Congressional government 1800 - 1930s
   - Weak presidents
   - America's chief clerk 
-#+BEAMER: \pause
 - The New Deal
 
 ** Presidential power
@@ -147,27 +143,21 @@ Cabinet-rank officials
 - Media fragmentation
 - Honeymoon period decline
 ** Administration 
-- Appointments - hundreds of political appointments to the bureaucracy
-  that the president fills with like-minded supporters
-- Regulatory review - OMB function of reviewing all agency regulations
-  and other rule making before they become public policy
-- Recent presidents issue directives to agencies that the agency has
-  to comply with
+- Appointments - hundreds of political appointments to the bureaucracy that the president fills with like-minded supporters
+- Regulatory review - OMB function of reviewing all agency regulations and other rule making before they become public policy
+- Recent presidents issue directives to agencies that the agency has to comply with
 ** Administratoin, cntd
 - Executive orders: presidential decrees
-- Examples: Louisiana purchase, annexation of Texas, emancipation
-  proclamation, Japanese internment, EPA, FDA, Peace Corps
+- Examples: Louisiana purchase, annexation of Texas, emancipation proclamation, Japanese internment, EPA, FDA, Peace Corps
 - Are subject to judicial review like any other law
 ** Administration, cntd
-- Signing statements - an announcement by a president while signing a
-  bill into law, usually concerned with how the president interprets
-  the law
-- Some presidents have tried to declare parts of a law
-  unconstitutional with mixed success from the courts
+- Signing statements - an announcement by a president while signing a bill into law, usually concerned with how the president interprets the law
+- Some presidents have tried to declare parts of a law unconstitutional with mixed success from the courts
 - Others direct the executive branch to deal with the law in various ways
-- Of questionable legal status even though used by all modern
-  presidents
-** Presidential power: Arguments for 
+- Of questionable legal status even though used by all modern presidents
+** Presidential power
+Should the presidency or Congress be more powerful? 
+** Presidential power: Arguments for & against 
 #+BEAMER: \pause
 - Emergency powers
   - ... But hard to find a case where Congress wouldn't have acted
@@ -179,20 +169,17 @@ Cabinet-rank officials
 * The Executive Branch AKA the Bureaucracy 
 ** 
 #+BEGIN_QUOTE
-The bureaucracy is expanding, to meet the needs of the expanding
-bureaucracy. 
+The bureaucracy is expanding, to meet the needs of the expanding bureaucracy.
 #+END_QUOTE
 Oscar Wilde
-
+#+BEAMER: \pause
 #+BEGIN_QUOTE
 The only thing that saves us from the bureaucracy is its inefficiency.
 #+END_QUOTE
 Eugene McCarthy 
 
 ** Why Bureaucracy?
-- Bureaucracy - the structure of offices, tasks, rules, and principles
-  of organization that are employed by all large-scale institutions to
-  coordinate the work of their personnel 
+- Bureaucracy - the structure of offices, tasks, rules, and principles of organization that are employed by all large-scale institutions to coordinate the work of their personnel
 - Bureaucracy is where government actually performs
   - Collecting garbage, policing, mailing Social Security checks, etc
 - Routine ensures services are delivered regularly
@@ -201,28 +188,22 @@ Eugene McCarthy
 - Many workers at the bottom with fewest skills, specializations, and experience
 - Fewer at top, tend to oversee a large number
 ** Bureaucracy enables government to operate
-- Bureaucracy enables us to accomplish tasks that would
-  otherwise be unimaginable
-  - Dividing up tasks, matching them to an appropriately trained
-  labor force, routinizing procedure, and providing right incentive
-  structure
+- Bureaucracy enables us to accomplish tasks that would otherwise be unimaginable
+  - Dividing up tasks, matching them to an appropriately trained labor force, routinizing procedure, and providing right incentive structure
 - Bureaucracies are insulated from politicians
 ** Bureaucrats fulfill important roles
 - Bureaucrats implement laws
 - Bureaucrats make and enforce rules
-  - Rules issued provide more details and specifics about what a
-    policy will actually mean
+  - Rules issued provide more details and specifics about what a policy will actually mean
   - Have a brief period of public comment before going into effect
 ** Bureaucrats settle disputes 
-- Administrative adjudication - application of rules and precedents to
-  specific cases to settle disputes with regulated parties
+- Administrative adjudication - application of rules and precedents to specific cases to settle disputes with regulated parties
   - NLRB for union certifications
   - FCC for licenses
 ** Bureaucracies serve politicians 
 - Congress delegates authority to the bureaucracy to save time and energy
 - Then provides direction with congressional oversight
-  - Bureaucratic agencies monitored by the staff of relevant
-    legislative committees
+  - Bureaucratic agencies monitored by the staff of relevant legislative committees
 ** Organization of the executive branch 
 Four kinds of bureaucratic agencies: 
 1. cabinet departments
@@ -233,8 +214,7 @@ Four kinds of bureaucratic agencies:
 - Mostly structured the same
 - Headed by a Secretary
 - Deputy Secretary directly under
-- Then comes many top administrators (general counsel, chief
-  economist, etc)
+- Then comes many top administrators (general counsel, chief economist, etc)
 - Undersecretaries are in charge of several agencies (bureaus)
   - FBI, Forest Service, IRS, etc
 - Bureaus organized into divisions, offices, services, units, etc
@@ -243,12 +223,10 @@ Four kinds of bureaucratic agencies:
 - Usually very important or expensive
 - NASA, CIA, EPA, FCC, NLRB, SSA
 ** Government corporations
-- These provide a service and charge for it similar to a private
-  corporation
+- These provide a service and charge for it similar to a private corporation
 - Amtrak, TVA
 ** Independent regulatory commission 
-- These are set up as mini-legislatures but are confined to a small
-  (usually very technical) topic
+- These are set up as mini-legislatures but are confined to a small (usually very technical) topic
 - None created 1970 - 2008 financial crisis
 ** Functions that agencies serve
 1. Clientele agencies
@@ -257,9 +235,7 @@ Four kinds of bureaucratic agencies:
 4. Redistributive agencies
 ** Clientele agencies
 - Mission is to promote, serve, or represent a particular interest
-- Depts of Agriculture, the Interior, Labor, Commerce, Housing and
-  Urban Development, Transportation, Energy, Education, Health and
-  Human Services
+- Depts of Agriculture, the Interior, Labor, Commerce, Housing and Urban Development, Transportation, Energy, Education, Health and Human Services
 ** Agencies for maintenance of the union
 - Revenue agencies (IRS)
 - Internal security
@@ -267,32 +243,25 @@ Four kinds of bureaucratic agencies:
 ** Agencies for maintenance of the union
 - External security
   - "Negotiations" (State) and "Aggressive Negotiations" (Defense)
-- State - composed of geographic bureaus as well as functional bureaus
-  (economic, intelligence, etc) and IOs
+- State - composed of geographic bureaus as well as functional bureaus (economic, intelligence, etc) and IOs
 - Defense
   - Huge budgetary item
-  - Many lucrative contracts in districts, making downsizing
-    politically difficult 
+  - Many lucrative contracts in districts, making downsizing politically difficult
 ** Regulatory agencies
-- A dept, bureau, or independent agency whose purpose is to eliminate
-  or restrict certain behaviors deemed negative in themselves or in
-  their consequences
+- A dept, bureau, or independent agency whose purpose is to eliminate or restrict certain behaviors deemed negative in themselves or in their consequences
 - Mostly date from 1930s and after
 - FDA, OSHA, FTC, etc
-- Rules have the force of law and are called *administrative
-  legislation*
+- Rules have the force of law and are called *administrative legislation*
 ** Redistributive agencies
 - Fiscal and monetary policy agencies
   - Fiscal policy - taxing and spending (Treasury Dept)
-  - Monetary policy - regulates supply/price of money and
-    availability of credit
+  - Monetary policy - regulates supply/price of money and availability of credit
 - Federal Reserve System AKA "The Fed"
   - Authority over credit rates and lending activity of banks
   - "Banker's bank"
 ** Redistributive agencies
 - Welfare agencies
-- Designed to provide a social security net and/or transfer wealth
-  from the rich to the poor
+- Designed to provide a social security net and/or transfer wealth from the rich to the poor
 - Social Security Administration by far the largest
 - Others:
   - TANF - Dept HHS
@@ -305,28 +274,21 @@ Four kinds of bureaucratic agencies:
   - More budget = higher salaries, more personnel, benefits, etc
   - Prestige and power
   - Personal (political) beliefs
-- But they don't always get what they want - Congress evaluates
-  bureaus' performance
+- But they don't always get what they want - Congress evaluates bureaus' performance
 - High level bureaucrats are politicians
 ** Bureaucracies and the principal-agent problem 
-- Congress and the president (principal) "hire" bureaus (agents) to
-  accomplish their goals
-- Beneficial because the principal can now turn attention to other
-  issues
+- Congress and the president (principal) "hire" bureaus (agents) to accomplish their goals
+- Beneficial because the principal can now turn attention to other issues
 - Agent can propose policies that aren't at principals' ideal points
-- *Bureaucratic drift* - bureaucratic implementation that produces
-  policies closer to the bureaucracy's preferences than what the
-  original legislation intended, but without political reaction
+- *Bureaucratic drift* - bureaucratic implementation that produces policies closer to the bureaucracy's preferences than what the original legislation intended, but without political reaction
 ** Congressional oversight 
-- Oversight - an effort by Congress to exercise control over the
-  activities of executive agencies
+- Oversight - an effort by Congress to exercise control over the activities of executive agencies
   - Usually hearings or investigations
 - Public hearings the most important indication
 - (PAP examples)
 ** Reforming the bureaucracy
 - A popular campaign promise
-- Americans don't like big government and think the government is
-  wasteful ideal point
+- Americans don't like big government and think the government is wasteful ideal point
 - Difficult to do because most people like individual programs
 ** Reforming - termination
 - Elimination of an agency
@@ -334,16 +296,13 @@ Four kinds of bureaucratic agencies:
 - Deregulation easier - reducing/eliminating restraints on the conduct
   of individuals or private institutions
 ** Reforming - devolution
-- Removing a program from the federal level and passing it to the
-  states or local level
+- Removing a program from the federal level and passing it to the states or local level
 - Often aimed to provide more flexible/efficient services
   - At the cost of heterogeneous policy outputs
 ** Reforming - privatization 
 - Moving all/part of a program from the public sector to the private
 - Doesn't really downsize government, since we still pay for it
-- Simply removes employees from government payroll and adds them to
-  private
+- Simply removes employees from government payroll and adds them to private
 - Private sector corporations can provide similar services for cheaper
-- But private sector employees often provide lower pay and fewer
-  benefits
+- But private sector employees often provide lower pay and fewer benefits
 
