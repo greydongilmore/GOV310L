@@ -1,7 +1,7 @@
 #+TITLE:     The Courts
 #+AUTHOR:    J. Alexander Branham
 #+EMAIL:     branham@utexas.edu
-#+DATE:      Spring 2016
+#+DATE: Fall 2016
 #+startup: beamer
 #+LaTeX_CLASS: beamer
 #+LATEX_CMD: xelatex
@@ -10,23 +10,19 @@
 #+LATEX_HEADER: \usetikzlibrary{shapes.geometric, arrows, positioning}
 #+LATEX_HEADER: \tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
 #+LATEX_HEADER: \tikzstyle{arrow} = [thick,->,>=stealth]
+#+LATEX_HEADER: \beamerdefaultoverlayspecification{<+->}
 #+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue, aspectratio=169]
 #+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
 
 * Judicial Process
 
 ** Types of disputes
-- Criminal law :: Government charges an individual with a violation of
-     a statue that has been enacted to protect the public health,
-     safety, morals, or welfare
+- Criminal law :: Government charges an individual with a violation of a statue that has been enacted to protect the public health, safety, morals, or welfare
   - Defendants found guilty fined and/or sent to prison 
-- Civil law :: Disputes between two parties (gvt can be one) where no
-     crime is alleged 
+- Civil law :: Disputes between two parties (gvt can be one) where no crime is alleged
   - Contracts and torts most common
-  - Defendants who lose can't be fined or sent to jail but can be
-    forced to pay damages 
-- Public law :: cases that involve the rights of the citizens or
-     powers of government 
+  - Defendants who lose can't be fined or sent to jail but can be forced to pay damages
+- Public law :: cases that involve the rights of the citizens or powers of government
   - Constitutional law
 
 * Organization of the Courts
@@ -35,9 +31,7 @@
 - Two court systems: federal and state
 - Most cases at state level
 - Federal: 94 district courts, 13 Court of Appeals, Supreme Court
-- State: district courts, state appellate courts, state supreme court (or
-  court of criminal appeals), US
-  Supreme Court 
+- State: district courts, state appellate courts, state supreme court (or court of criminal appeals), US Supreme Court
 ** The court system 
 #+BEGIN_LaTeX
 \begin{tikzpicture}%[node distance=1cm]
@@ -67,8 +61,7 @@
 - Treaties with other nations
 - US Constitution
 - If the US government is a party
-- Civil cases involving people in more than one state and money
-  greater than $75,000
+- Civil cases involving people in more than one state and money greater than $75,000
 - Appeals from state supreme courts
   - Due process
   - Federal law
@@ -118,35 +111,27 @@
 - Cases between the US and a one or several states
 - *Cases between two or more states*
 - Cases involving foreign ambassadors or other ministers
-- Cases brought by one state against citizens of another or against a
-  foreign country
+- Cases brought by one state against citizens of another or against a foreign country
 - *ALL ELSE* is appeals-only
 ** Rules of Access
 - *Ripeness*
   - No hypotheticals
   - Two truely adversarial parties
-- *Standing* - parties must have a substantial stake in the outcome of
-  the case (injury)
+- *Standing* - parties must have a substantial stake in the outcome of the case (injury)
 - *Mootness* - avoid hearing cases that no longer require resolution
 - Court more likely to hear cases:
   - with conflicting decisions by lower courts
   - important civil rights/liberties
   - federal government is appellant
 ** /Certiorari/
-- Writ of /certiorari/ is a formal request by an appellant to have
-  the Supreme Court review the decision of a lower court, must be
-  filed within 90 days
-- Clerks pool together all the petitions, write memos summarizing
-  facts and giving opinions
+- Writ of /certiorari/ is a formal request by an appellant to have the Supreme Court review the decision of a lower court, must be filed within 90 days
+- Clerks pool together all the petitions, write memos summarizing facts and giving opinions
 - Discuss list, 4 votes needed to grant cert
-- This is usually about 90 per year, about 1% of the petitions
-  received
+- This is usually about 90 per year, about 1% of the petitions received
 ** Solicitor General
 - Government's top lawyer
-- Screens cases involving the government, usually his/her decision is
-  final
-- Can write /amicus curiae/ briefs indicating the government's
-  position
+- Screens cases involving the government, usually his/her decision is final
+- Can write /amicus curiae/ briefs indicating the government's position
 ** Procedure
 - Preparation - briefs and /amicus curiae/ briefs
 - Oral arguments - 30 minutes each
@@ -162,8 +147,7 @@
 - Marbury v. Madison (1803) :: Establishes judicial review
 - McCulloch v. Maryland (1819) :: Justifies "implied powers"
 - Gibbons v. Ogden (1824) :: Supremacy of federal government over states
-- Dred Scott v. Sandford (1857) :: Slaves weren't citizens & had no
-     Constitutional rights
+- Dred Scott v. Sandford (1857) :: Slaves weren't citizens & had no Constitutional rights
 - Plessy v. Ferguson (1896) :: Separate but equal
 - Brown v. Board of Education (1954) :: Ends segregation
 - Baker v. Carr (1962) :: Courts get involved in districting
@@ -179,8 +163,7 @@
 - Federal agency actions
 - Presidential power
 ** Interactions with Congress
-- Strikes down administrative action based on statutory authority
-  (statutory rationale)
+- Strikes down administrative action based on statutory authority (statutory rationale)
 - Strikes down statues based on Constitution (constitutional rationale)
 ** Interactions with the President 
 - President nominates judges
