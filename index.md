@@ -15,7 +15,7 @@ These will be updated with links to the slides.
 3.  [Federalism and separation of powers](slides/federalism.pdf "Federalism and separation of powers slides")
 4. [Congress](slides/congress.pdf "Congress slides")
 5. [The President and Executive](slides/president-and-executive.pdf "President and Executive slides")
-6. The Courts<!-- [The Courts](slides/courts.pdf "The Courts slides") -->
+6. [The Courts](slides/courts.pdf "The Courts slides")
 7. Issue spotlight #1 <!-- - [Presidential elections](slides/the-primary-system.pdf "Presidential elections slides") -->
 8. Public Opinion<!-- [Public Opinion](slides/public-opinion.pdf "Public opinion slides") -->
 9. Political Parties<!-- [Political Parties](slides/political-parties.pdf "Political parties slides") -->
