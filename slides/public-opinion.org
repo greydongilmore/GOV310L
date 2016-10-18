@@ -141,7 +141,6 @@ V. O. Key
 
 ** Party id (2014 General Social Survey)
 #+ATTR_LATEX: :float t
-#+RESULTS:
 [[file:../figures/partyid-2014-gss.pdf]]
 
 ** Polarization 
@@ -187,7 +186,6 @@ Some people think that the government in Washington ought to reduce the income d
 
 ** Equal wealth (2014 GSS)
 #+ATTR_LATEX: :float t :width 0.8\textwidth
-#+RESULTS:
 [[file:../figures/equalwealth-2014-gss.pdf]]
 
 ** Foundations - social groups
@@ -302,8 +300,6 @@ Now I'm going to read several more statements. As I read each one, please tell m
 
   ggsave("../figures/female-equalwealth-2014-gss.pdf", width = 9, height = 5)
 #+END_SRC
-
-#+RESULTS:
 
 ** Identity politics - sex
 #+ATTR_LATEX: :float t :width 0.8\textwidth
@@ -465,8 +461,6 @@ Do you think we're spending too much, too little, or about the right amount on (
 
   ggsave("../figures/2014-welfare-question-wording.pdf", width = 9, height = 5)
 #+END_SRC
-
-#+RESULTS:
 
 ** Welfare vs Assistance to the poor (2014 GSS)
 #+ATTR_LATEX: :float t :width 0.8\textwidth
