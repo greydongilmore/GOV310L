@@ -92,53 +92,55 @@ V. O. Key
 - Political orientations
   - Party ID and ideology 
 ** Party id (2014 General Social Survey)
-#+BEGIN_SRC python :session python-session :results value silent :exports results
-  import os.path
-  if os.path.exists('gss2014/') == False:
-      import urllib.request
-      import zipfile
-  
-      # Download the file from `url` and save it locally under `file_name`:
-      urllib.request.urlretrieve('http://gss.norc.org/documents/stata/2014_stata.zip', 'gss2014.zip')
-
-      zip_ref = zipfile.ZipFile('gss2014.zip', 'r')
-      zip_ref.extractall('gss2014')
-      zip_ref.close()
+#+BEGIN_SRC R :session r-session :exports none
+  if (!dir.exists("gss2014/")) {
+    dir.create("gss2014/")
+    download.file("http://gss.norc.org/documents/stata/2014_stata.zip",
+                  "gss2014.zip")
+    unzip("gss2014.zip", exdir = "gss2014/")
+  }
 #+END_SRC
 
-#+BEGIN_SRC python :session python-session :results value silent :exports results
-  import pandas as pd
-  import numpy as np
-  pd.set_option('max_columns', 50)
-  from scipy import stats, integrate
-  import matplotlib.pyplot as plt
-  from matplotlib import interactive
-  import seaborn as sns
-  sns.set(color_codes=True, palette='muted', style='dark')
 
-  gss = pd.read_stata('gss2014/GSS2014.DTA', convert_categoricals=False)
-  gss['pid'] = gss['partyid'].astype('category', ordered=True)
-  gss.pid.cat.categories = ['Strong D', 'Weak D', 'Lean D', 'I', 'Lean R', 'Weak R', 'Strong R', 'Other']
+#+BEGIN_SRC R :exports results :session r-session
+  library(tidyverse)
+  library(rio)
+  theme_set(theme_minimal())
 
-  plt.figure()
-  party_id_plot = sns.countplot(x='pid', data=gss)
-  party_id_plot.set(xlabel='Party ID', ylabel='Count')
-  party_id_plot = party_id_plot.get_figure()
-  party_id_plot.savefig('../figures/partyid-2014-gss.pdf')
+  gss <- import("gss2014/GSS2014.DTA")
+  gss$pid <- factor(gss$partyid,
+                   labels = c("Strong D", "Weak D",
+                              "Lean D", "I", "Lean R",
+                              "Weak R", "Strong R", "Other"))
 
-  # partyid_plot.figure.clf()
+  gss %>%
+    filter(!is.na(pid)) %>%
+    ggplot() + 
+    geom_bar(aes(pid, y = (..count..) / sum(..count..)),
+             fill = c(rep("#290EE9", 3),
+                      "purple",
+                      rep("#E91D0E", 3),
+                      "black")) +
+    labs(y = "Percent", x = "")
 
-  gss['equal_wealth'] = gss['eqwlth'].astype('category')
-  gss.equal_wealth.cat.categories = ['Gvt reduce\n differences', '2', '3', '4', '5', '6', 'No gvt action']
+  ggsave("../figures/partyid-2014-gss.pdf", width = 9, height = 5)
 
-  plt.figure()
-  equal_wealth_plot = sns.countplot(x='equal_wealth', data=gss)
-  equal_wealth_plot.set(xlabel='Equal wealth', ylabel='Count')
-  equal_wealth_plot.get_figure()
-  plt.savefig('../figures/equalwealth-2014-gss.pdf')
+  gss$equal_wealth <- factor(gss$eqwlth,
+                            labels = c("Gvt reduce\n differences",
+                                       "2", "3", "4", "5", "6",
+                                       "No gvt action"))
+
+  gss %>%
+    filter(!is.na(equal_wealth)) %>%
+    ggplot() +
+    geom_bar(aes(equal_wealth, y = (..count..) / sum(..count..))) +
+    labs(y = "Percent", x = "")
+
+  ggsave("../figures/equalwealth-2014-gss.pdf", width = 9, height = 5)
 #+END_SRC
+
 ** Party id (2014 General Social Survey)
-#+ATTR_LATEX: :float t :width 0.8\textwidth
+#+ATTR_LATEX: :float t
 #+RESULTS:
 [[file:../figures/partyid-2014-gss.pdf]]
 
@@ -206,27 +208,31 @@ Some people think that the government in Washington ought to reduce the income d
 - Generally, conservatives support the social and economic status quo, favor markets as solutions to social problems, and believe that large and powerful government pose a threat to citizens' freedoms
 
 ** Ideology (continued)
-- Oftentimes we think of ideology as a spectrum with those on the left favoring more liberal policies and those on the right favoring more conservative ones
-- In general, the Democrats represent more liberal views and the Republicans more conservative
+  - Oftentimes we think of ideology as a spectrum with those on the left favoring more liberal policies and those on the right favoring more conservative ones
+  - In general, the Democrats represent more liberal views and the Republicans more conservative
 
+   #+BEGIN_SRC R :session r-session :exports results
+      gss <- gss %>%
+        mutate(
+          polviews = factor(polviews, labels = c("Ext liberal",
+                                                 "Lib",
+                                                 "Slightly lib",
+                                                 "Moderate",
+                                                 "Slightly cons",
+                                                 "Cons",
+                                                 "Ext cons")))
 
-#+BEGIN_SRC python :session python-session :results value silent :exports results
-  gss.polviews = gss.polviews.astype('category')
-  gss.polviews.cat.categories = ['Ext liberal',
-                                 'Lib',
-                                 'Slight lib',
-                                 'Moderate',
-                                 'Slight cons',
-                                 'Cons',
-                                 'Ext cons']
+      gss %>%
+        filter(!is.na(polviews)) %>%
+        ggplot(aes(polviews, y = (..count..) / sum(..count..))) +
+        geom_bar(fill = c("midnightblue", "blue", "skyblue", 
+                          "purple",
+                          "tomato1", "red2", "red3")) +
+        labs(x = "", y = "Percent")
 
-  plt.figure()
-  ideology_plot = sns.countplot(x='polviews', data=gss)
-  ideology_plot.set(xlabel='Ideology', ylabel='Count')
-  ideology_plot = ideology_plot.get_figure()
-  plt.savefig('../figures/ideology-2014-gss.pdf')
-#+END_SRC
+      ggsave("../figures/ideology-2014-gss.pdf", width = 9, height = 5)
 
+    #+END_SRC
 ** Ideology (2014 GSS)
 #+ATTR_LATEX: :float t :width 0.8\textwidth
 [[file:../figures/ideology-2014-gss.pdf]]
@@ -265,33 +271,39 @@ Now I'm going to read several more statements. As I read each one, please tell m
 #+END_QUOTE
 
 
-#+BEGIN_SRC python :session python-session :results value silent :exports results
-  gss.sex = gss.sex.astype('category')
-  gss.sex.cat.categories = ['Male',
-                            'Female']
+#+BEGIN_SRC R :session r-session :exports results
+  gss <- gss %>%
+    mutate(
+      sex = factor(sex, labels = c("Male", "Female")),
+      fefam = factor(fefam, labels = c("Str agree", "Agree",
+                                       "Disagree", "Str disagree"))
+    )
 
-  gss.fefam = gss.fefam.astype('category')
-  gss.fefam.cat.categories = ['Str agree',
-                              'Agree',
-                              'Disagree',
-                              'Str disagree']
+  gss %>%
+    filter(!is.na(fefam)) %>%
+    count(sex, fefam) %>%
+    mutate(percent = n / sum(n)) %>%
+    ggplot(aes(sex, fill = fefam)) +
+    geom_bar(aes(y = percent),
+             stat = "identity",
+             position = "dodge")
 
-  plt.figure()
-  female_home_plot = sns.countplot(hue='fefam',
-                                   x='sex',
-                                   data=gss)
-  female_home_plot.set(huelabel='')
-  female_home_plot = female_home_plot.get_figure()
-  female_home_plot.savefig('../figures/females-home-2014-gss.pdf')
+  ggsave("../figures/females-home-2014-gss.pdf", width = 9, height = 5)
 
+  gss %>%
+    filter(!is.na(equal_wealth)) %>%
+    count(sex, equal_wealth) %>%
+    mutate(percent = n / sum(n)) %>%
+    ggplot(aes(sex, fill = equal_wealth)) +
+    geom_bar(aes(y = percent),
+             stat = "identity",
+             position = "dodge") +
+    scale_fill_discrete(name = "")
 
-  plt.figure()
-  female_equalwealth_plot = sns.countplot(x='sex', 
-                                          hue='equal_wealth',
-                                          data=gss)
-  female_equalwealth_plot = female_equalwealth_plot.get_figure()
-  female_equalwealth_plot.savefig('../figures/female-equalwealth-2014-gss.pdf')
+  ggsave("../figures/female-equalwealth-2014-gss.pdf", width = 9, height = 5)
 #+END_SRC
+
+#+RESULTS:
 
 ** Identity politics - sex
 #+ATTR_LATEX: :float t :width 0.8\textwidth
@@ -424,44 +436,38 @@ Now I'm going to read several more statements. As I read each one, please tell m
 Do you think we're spending too much, too little, or about the right amount on (welfare) or (assistance to the poor)?
 #+END_QUOTE
 
-#+BEGIN_SRC python :session python-session :results value silent :exports results
-  gss.natfare = gss.natfare.astype('category')
-  gss.natfare.cat.categories = ['too little',
-                              'about right',
-                              'too much']
-  gss.natfarey = gss.natfarey.astype('category')
-  gss.natfarey.cat.categories = ['too little',
-                              'about right',
-                              'too much']
+#+BEGIN_SRC R :session r-session :exports results
+  gss %>%
+    mutate(
+      natfare = factor(natfare, labels = c("too little",
+                                           "about right",
+                                           "too much")),
+      natfarey = factor(natfarey, labels = c("too little",
+                                             "about right",
+                                             "too much")),
+      alt = factor(ifelse(!is.na(natfarey), TRUE, FALSE),
+                   labels = c('"Welfare"',
+                              '"Assistance to the poor"')),
+      welfare = factor(ifelse(!is.na(natfarey), natfarey, natfare),
+                       labels = c("too little",
+                 "about right",
+                 "too much"))) %>%
+    filter(!is.na(welfare)) %>%
+    count(alt, welfare) %>%
+    mutate(percent = n / sum(n)) %>%
+    ggplot() +
+    geom_bar(aes(welfare, percent),
+             stat = "identity",
+             position = "dodge") +
+    facet_wrap( ~ alt) +
+    labs(x = "",
+         y = "Percent")
 
-  plt.figure()
-  sns.countplot(x='natfare',
-                data=gss)
-  plt.ylim(0, 800)
-  plt.savefig('../figures/welfare-2014-gss.pdf')
-
-  plt.figure()
-  sns.countplot(x='natfarey', data=gss)
-  plt.ylim(0, 800)
-  plt.savefig('../figures/assist-poor-2014-gss.pdf')
+  ggsave("../figures/2014-welfare-question-wording.pdf", width = 9, height = 5)
 #+END_SRC
 
-** Welfare vs Assistance to the poor (2014 GSS)
-#+BEGIN_LaTeX
-\begin{figure}[h]
-  \centering
-  \begin{subfigure}[h]{0.47\textwidth}
-    \centering
-\includegraphics[width=\textwidth]{../figures/assist-poor-2014-gss.pdf}
-\caption{Assistance to poor}
-  \end{subfigure}
-~
-\begin{subfigure}[h]{0.47\textwidth}
-\centering
-\includegraphics[width=\textwidth]{../figures/welfare-2014-gss.pdf}
-\caption{Welfare}
-\end{subfigure}
-\caption{Question wording effects}
-\end{figure}
-#+END_LaTeX
+#+RESULTS:
 
+** Welfare vs Assistance to the poor (2014 GSS)
+#+ATTR_LATEX: :float t :width 0.8\textwidth
+[[file:../figures/2014-welfare-question-wording.pdf]]
