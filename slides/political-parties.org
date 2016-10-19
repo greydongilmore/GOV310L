@@ -1,34 +1,29 @@
 #+TITLE:     Political Parties
 #+AUTHOR:    J. Alexander Branham
 #+EMAIL:     branham@utexas.edu
-#+DATE:      Spring 2016
+#+DATE:      Fall 2016
 #+startup: beamer
 #+LaTeX_CLASS: beamer
 #+LATEX_CMD: xelatex
 #+OPTIONS: toc:nil H:2
-#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue]
+#+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue, aspectratio=169]
+#+LATEX_HEADER: \beamerdefaultoverlayspecification{<+->}
 #+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
 
 * Overview of Parties
 
 ** What are parties?
-- Teams of politicians, activists, and interest groups organized to
-  win control of government
-- An organization that attempts to influence government by electing
-  its members to office 
+- Teams of politicians, activists, and interest groups organized to win control of government
+- An organization that attempts to influence government by electing its members to office
 
 ** American suspicion of party
 - Americans have long been suspicious of parties
-- Much of the government has been structured to minimize the impact of
-  "faction"
-- Washington's infamous farewell address warns against the evils of
-  party
-- /However/, it is difficult to see how government could function
-  without parties
+- Much of the government has been structured to minimize the impact of "faction"
+- Washington's infamous farewell address warns against the evils of party
+- /However/, it is difficult to see how government could function without parties
 
 ** Parties are inevitable (& good?)
-- Parties form to solve key problems of collective action in a
-  democracy
+- Parties form to solve key problems of collective action in a democracy
 - They form an essential link between the people and government
 - Parties offer clear choices to voters
 - Parties allow voters to hold officials accountable
@@ -38,20 +33,15 @@
 - Democrats and Republicans
 - There are only two!
   - This has been true for all of modern American history
-  - Occasional splinters (e.g. the Progressives) generally return or
-    move to the other party
-- Choice between two parties combined with majority rule means that
-  you're making a choice for government
+  - Occasional splinters (e.g. the Progressives) generally return or move to the other party
+- Choice between two parties combined with majority rule means that you're making a choice for government
 
 ** Parties abroad
 - Many other countries have more than two parties
-- This is especially true for countries who award seats in Parliament
-  proportionally
-- In these kinds of systems, it is not usually the case that one party
-  wins a majority of seats
+- This is especially true for countries who award seats in Parliament proportionally
+- In these kinds of systems, it is not usually the case that one party wins a majority of seats
 - Instead, parties have to create a coalition to govern
-- Harder to know these coalitions beforehand, and harder to assign
-  blame after
+- Harder to know these coalitions beforehand, and harder to assign blame after
 
 * Why parties?
 
@@ -64,23 +54,19 @@
 - Parties provide labels that help voters decide between candidates
 - They also help groups organize
 - These could be large, well-organized and financed groups
-  - Like the AFL-CIO with the Democrats or the Chamber of Commerce
-    with the Republicans
+  - Like the AFL-CIO with the Democrats or the Chamber of Commerce with the Republicans
 
 ** Collective action (continued)
 - Or large groups without much finance
   - Women's groups with the Republicans originally, now with the Democrats
   - Immigrant groups (with both parties, depending on the group)
-  - Religious groups (fundamentalists and born-again Christians with
-    the Republicans today)
+  - Religious groups (fundamentalists and born-again Christians with the Republicans today)
 - These groups provide votes, money, volunteers to the party
 - In return they get influence over public policy
 
 ** Collective Choice 
-- Within government, parties are coalitions of individuals with shared
-  interests who (generally) support one anothers'  policies
-- Parties allow lasting alliances to be formed, helping the
-  legislative proposal process
+- Within government, parties are coalitions of individuals with shared interests who (generally) support one anothers' policies
+- Parties allow lasting alliances to be formed, helping the legislative proposal process
   - Imagine if a new coalition had to be made for each proposal
 - Occasionally this process breaks down
   - Usually takes the form of minor players defying party leadership 
@@ -99,8 +85,7 @@
 - And able to raise lots of money
 
 ** Nominating candidates
-- Nomination is the process by which parties select their candidates
-  for public office
+- Nomination is the process by which parties select their candidates for public office
 - Nomination by *convention* or *primary election*
 
 ** Getting out the Vote (GOTV)
@@ -111,68 +96,49 @@
 
 ** Electoral Choice
 - "We should vote for individuals, not for parties"
-- But that ignores that there are many races and it is costly to learn
-  about each one
-- Parties provide labels that help voters make decent decisions in
-  low-information races
+- But that ignores that there are many races and it is costly to learn about each one
+- Parties provide labels that help voters make decent decisions in low-information races
 - Partisans vote with their party ~90% of the time
 - Parties help voters old government accountable
 
 ** Influencing government
 - Parties act as "big tents" bringing together different interests
-- Republicans today generally embrace laissez-faire economics and a
-  minimal government role in the economy. They also support an
-  expanded role for religion in society and strong opposition to
-  abortion and affirmative action
-- Democrats today generally want the government to regulate the
-  economy (especially wrt pollution, poverty, and unemployment),
-  protect and expand civil rights (esp for minorities)
+- Republicans today generally embrace laissez-faire economics and a minimal government role in the economy. They also support an expanded role for religion in society and strong opposition to abortion and affirmative action
+- Democrats today generally want the government to regulate the economy (especially wrt pollution, poverty, and unemployment), protect and expand civil rights (esp for minorities)
 
 * Parties in Government
 
 ** Parties and Congress 
-- We've already covered this, but the *majority party* runs each
-  branch of Congress - especially the House
+- We've already covered this, but the *majority party* runs each branch of Congress - especially the House
 - The committee system is organized by the parties
 
 ** Party and the President
 - The President is automatically the leader of their party
 - Americans hold the president accountable for how the country is doing
   - This is generally true even if the other party controls Congress
-- Other party members are appointed to head the various executive
-  agencies
+- Other party members are appointed to head the various executive agencies
 
 * Parties in the Electorate
 
 ** Party identification
-- *Party identification* is an individual's attachment to a particular
-  political party, usually based on some combination of issues,
-  ideology, past experience, and upbringing
+- *Party identification* is an individual's attachment to a particular political party, usually based on some combination of issues, ideology, past experience, and upbringing
   - These are usually formed early in life and are hard to change
-- Strong partisans are generally more knowledgeable about politics and
-  more likely to vote
-- Independents are generally the least knowledgeable and the least
-  likely to vote 
-- *Party activists* are the partisans who contribute time, energy, or
-  effort to help support their party
+- Strong partisans are generally more knowledgeable about politics and more likely to vote
+- Independents are generally the least knowledgeable and the least likely to vote
+- *Party activists* are the partisans who contribute time, energy, or effort to help support their party
 
 ** Party identification (2014 GSS)
 #+ATTR_LATEX: :float t
 [[file:../figures/partyid-2014-gss.pdf]]
 
 ** Group basis of parties
-- The two parties don't draw support equally from different areas of
-  society - they appeal to different groups of people
-- Organized groups like the AFL-CIO or Chamber of Commerce can give
-  resources (money, votes) in exchange for influence
-- Parties can appeal to unorganized groups as well through policy
-  promises 
+- The two parties don't draw support equally from different areas of society - they appeal to different groups of people
+- Organized groups like the AFL-CIO or Chamber of Commerce can give resources (money, votes) in exchange for influence
+- Parties can appeal to unorganized groups as well through policy promises
 
 ** Race and ethnicity
-- Nearly all black people identify as Democrats (~90%), which means
-  about 25% of Democratic support comes from the black vote
-- Hispanics also tend to identify as Democrat (Cuban Americans were
-  the exception until recently)
+- Nearly all black people identify as Democrats (~90%), which means about 25% of Democratic support comes from the black vote
+- Hispanics also tend to identify as Democrat (Cuban Americans were the exception until recently)
 - Asian Americans are divided
 
 ** Sex
@@ -180,15 +146,12 @@
 - Men are somewhat more likely to be Republican
 - This *gender gap* is somewhat new (1980s onward)
 - Ranges from 4 percentage points (1992) to 11 (1996)
-- In 2012, Obama won 55 percent of women's votes and 45 percent of
-  men's
+- In 2012, Obama won 55 percent of women's votes and 45 percent of men's
 
 ** Religion 
 - Jews are nearly all Democrats (~90%)
-- Catholics used to be solidly Democratic but have been slowly
-  shifting Republican
-- Liberal protestant religions (Episcopalians and Unitarians, for
-  example) tend to be Democrats
+- Catholics used to be solidly Democratic but have been slowly shifting Republican
+- Liberal protestant religions (Episcopalians and Unitarians, for example) tend to be Democrats
 - Born-again and fundamentalist Christians tend to be Republican
 
 ** Income
@@ -199,8 +162,7 @@
 - Middle-income Americans are about evenly split
 
 ** Region 
-- The South used to be be solidly Democrat, it is now solidly
-  Republican
+- The South used to be be solidly Democrat, it is now solidly Republican
 - The Northeast and far West tend to be heavily Democrat
 - The Midwest is a battleground
 
@@ -218,36 +180,24 @@
 
 ** Contemporary party organizations (continued)
 - Congressional Campaign Committees
-  - Republicans have National Republican Campaign Committee (NRCC -
-    House) and National Republican Senatorial Committee (NRSC - Senate)
-  - Democrats have Democratic Congressional Campaign Committee (DCCC -
-    House) and Democratic Senatorial Campaign Committee (DSCC -
-    Senate)
-  - These committees help raise funds, developing strategies,
-    recruiting candidates, training newly-elected officials, etc
+  - Republicans have National Republican Campaign Committee (NRCC - House) and National Republican Senatorial Committee (NRSC - Senate)
+  - Democrats have Democratic Congressional Campaign Committee (DCCC - House) and Democratic Senatorial Campaign Committee (DSCC - Senate)
+  - These committees help raise funds, developing strategies, recruiting candidates, training newly-elected officials, etc
 
 ** Contemporary party organizations (continued)
 - Finally, each party has a head committee in each state
-  - Then county committees, state senate district committees, judicial
-    district committees, citywide party committees, wards, precincts,
-    etc
+  - Then county committees, state senate district committees, judicial district committees, citywide party committees, wards, precincts, etc
 
 ** Contemporary party organizations (continued)
-- Party organizations today are more professional, better financed and
-  organized than at any point in the past
-- They function as service providers to candidates, supplying things
-  like information (lists of supporters, for example) and workers
+- Party organizations today are more professional, better financed and organized than at any point in the past
+- They function as service providers to candidates, supplying things like information (lists of supporters, for example) and workers
 - They also provide assistance in tight races
 - This is fairly new - since the early 90s (ish)
 
 * Party Systems 
 ** Party systems
-- The *party system* for any country at any point in time
-  characterizes the number of parties, their organization, the balance
-  of power between the parties, the parties' bases of power, and the
-  issues and policies around which the parties organize
-- These systems tend to be stable (in /equilibrium/) and slow to
-  change.
+- The *party system* for any country at any point in time characterizes the number of parties, their organization, the balance of power between the parties, the parties' bases of power, and the issues and policies around which the parties organize
+- These systems tend to be stable (in /equilibrium/) and slow to change.
 - When they do change, it can be either suddenly or gradually
 - The US has had six party systems in its history
 ** Federalists versus Democratic-Republicans
@@ -257,7 +207,7 @@
     :PROPERTIES:
     :BEAMER_col: 0.5
     :END:
-- Federalists
+- *Federalists*
 - Northeastern mercantile
 - Supportive of tariffs
 - creation of national bank
@@ -267,6 +217,7 @@
     :PROPERTIES:
     :BEAMER_col: 0.5
     :END:
+- *Democrat-Republicans*
 - Southern agrarian
 - free trade
 - promotion of agriculture
@@ -285,6 +236,7 @@
     :PROPERTIES:
     :BEAMER_col: 0.5
     :END:
+- *Democrats*
 - Pro-Jacksonites
 - Supporters of the south and agriculture
 
@@ -292,6 +244,7 @@
     :PROPERTIES:
     :BEAMER_col: 0.5
     :END:
+- *Whigs*
 - Anti-Jackson
 - Not many clear policies
 - Ran candidates on personality and favorability
@@ -299,49 +252,37 @@
 
 ** Republicans versus Democrats
 - 1860 - 1896
-- 1860: Republican Abraham Lincoln elected, civil war begins soon
-  after
+- 1860: Republican Abraham Lincoln elected, civil war begins soon after
 - 1865: war ends, Reconstruction in the South
-- During this time, *party machines* emerge as local party
-  organizations that control politics through patronage and the
-  nomination process
+- During this time, *party machines* emerge as local party organizations that control politics through patronage and the nomination process
   - Tammany Hall, etc
 
 ** Republicans versus Democrats
 - 1896 - 1932
-- In 1896, the Democrats absorbed the Populists (third party) and
-  nominated William Jennings Bryan (cross of gold speech guy)
+- In 1896, the Democrats absorbed the Populists (third party) and nominated William Jennings Bryan (cross of gold speech guy)
   - Northern and midwestern business go all-out to defeat Bryan
   - Republicans (McKinley) win
-- During this time, Republicans dominated the presidency (7 of 9) and
-  Congress (control of both houses in 15 of 18 contests)
+- During this time, Republicans dominated the presidency (7 of 9) and Congress (control of both houses in 15 of 18 contests)
 
 ** Republicans versus Democrats
 - 1932 - 1968
-- The Republicans were blamed with not doing enough to combat the
-  Great Depression
+- The Republicans were blamed with not doing enough to combat the Great Depression
 - In 1932, FDR was elected with the New Deal 
 - The federal government /greatly/ expanded in size and scope
 - The New Deal coalition kept the Democrats in power for 36 years
-  - Unionized workers, upper-middle class professionals, southern
-    farmers, Jews, Catholics, and northern African Americans
-- In the 1960s, the Great Society program, the Vietnam War, and
-  advances in civil rights broke up the New Deal coalition
+  - Unionized workers, upper-middle class professionals, southern farmers, Jews, Catholics, and northern African Americans
+- In the 1960s, the Great Society program, the Vietnam War, and advances in civil rights broke up the New Deal coalition
 
 ** Republicans versus Democrats 
 - In 1968, Nixon added the South to the Republican coalition
 - In the 80s, Reagan added religious conservatives
-- Since the passage of the Voting Rights Act (1965), the parties are
-  basically at a stalemate
-- Bases of support have shifted, though, with Republicans taking the
-  South and Democrats the northeast
+- Since the passage of the Voting Rights Act (1965), the parties are basically at a stalemate
+- Bases of support have shifted, though, with Republicans taking the South and Democrats the northeast
 - Today's parties are relatively ideologically homogeneous
 
 ** Third parties
 - There are always more than two parties
-- Usually these third parties die out or are absorbed by one of the
-  larger two
+- Usually these third parties die out or are absorbed by one of the larger two
 - A third party hurts themselves by putting up candidates
   - Examples with Greens and Democrats
-- Single-member plurality districts also make it very difficult for
-  minor parties to win anything 
+- Single-member plurality districts also make it very difficult for minor parties to win anything
