@@ -396,9 +396,9 @@ Now I'm going to read several more statements. As I read each one, please tell m
 - Media act as an *agenda setter*
   - Has the power to bring attention (or not) to particular issues and problems
 - The media can also *prime* people by making them think about an issue in a certain context
-  - For example, covering 
+  - For example, covering the environment a lot makes people think about the election in terms of the environment
 - Finally, the media can *frame* issues in a certain way
-  - For example, covering waste in the welfare system primes people to think about it in terms of governmental inefficiency
+  - For example, covering welfare programs as expensive vs covering them as helping poor people
 
 ** Media (continued)
 - Priming can distract people from important problems
