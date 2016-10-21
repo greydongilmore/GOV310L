@@ -210,25 +210,25 @@ Some people think that the government in Washington ought to reduce the income d
   - In general, the Democrats represent more liberal views and the Republicans more conservative
 
    #+BEGIN_SRC R :session r-session :exports results
-      gss <- gss %>%
-        mutate(
-          polviews = factor(polviews, labels = c("Ext liberal",
-                                                 "Lib",
-                                                 "Slightly lib",
-                                                 "Moderate",
-                                                 "Slightly cons",
-                                                 "Cons",
-                                                 "Ext cons")))
+     gss <- gss %>%
+       mutate(
+         polviews = factor(polviews, labels = c("Ext liberal",
+                                                "Lib",
+                                                "Slightly lib",
+                                                "Moderate",
+                                                "Slightly cons",
+                                                "Cons",
+                                                "Ext cons")))
 
-      gss %>%
-        filter(!is.na(polviews)) %>%
-        ggplot(aes(polviews, y = (..count..) / sum(..count..))) +
-        geom_bar(fill = c("midnightblue", "blue", "skyblue", 
-                          "purple",
-                          "tomato1", "red2", "red3")) +
-        labs(x = "", y = "Percent")
+     gss %>%
+       filter(!is.na(polviews)) %>%
+       ggplot(aes(polviews, y = (..count..) / sum(..count..))) +
+       geom_bar(fill = c("midnightblue", "blue", "skyblue",
+                         "purple",
+                         "tomato1", "red2", "red3")) +
+       labs(x = "", y = "Percent")
 
-      ggsave("../figures/ideology-2014-gss.pdf", width = 9, height = 5)
+     ggsave("../figures/ideology-2014-gss.pdf", width = 9, height = 5)
 
     #+END_SRC
 ** Ideology (2014 GSS)
@@ -452,9 +452,11 @@ Do you think we're spending too much, too little, or about the right amount on (
     count(alt, welfare) %>%
     mutate(percent = n / sum(n)) %>%
     ggplot() +
-    geom_bar(aes(welfare, percent),
+    geom_bar(aes(welfare, percent, fill = welfare),
              stat = "identity",
              position = "dodge") +
+    scale_fill_manual(values = c("#999999", "#E69F00", "#56B4E9")) +
+  guides(fill = FALSE) +
     facet_wrap( ~ alt) +
     labs(x = "",
          y = "Percent")
