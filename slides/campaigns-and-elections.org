@@ -1,7 +1,7 @@
 #+TITLE:     Campaigns and Elections
 #+AUTHOR:    J. Alexander Branham
 #+EMAIL:     branham@utexas.edu
-#+DATE:      Spring 2016
+#+DATE:      Fall 2016
 #+startup: beamer
 #+LaTeX_CLASS: beamer
 #+LATEX_CMD: xelatex
@@ -17,12 +17,10 @@
 - President, (most) governors every four years
 - Federal and state legislators every two years
 - Thousands of other offices (mayors, councilors, commissioners, etc)
-- There are somewhere around 90,000 governments in the US, most of
-  which are elected
+- There are somewhere around 90,000 governments in the US, most of which are elected
 
 ** Elections
-- A typical election asks a voter about some of the aforementioned
-  offices, bond issues, referenda, initiatives, and other issues
+- A typical election asks a voter about some of the aforementioned offices, bond issues, referenda, initiatives, and other issues
 - Most Americans can vote three or four times a year
 
 ** Elections - potential problems
@@ -33,13 +31,11 @@
 
 ** Electoral institutions
 - Elections are run through a combination of federal and state laws
-- These laws determine everything from the timing to who can vote, how
-  votes are counted, what it takes to win, etc
+- These laws determine everything from the timing to who can vote, how votes are counted, what it takes to win, etc
 
 ** Who can vote
 - Most citizens over the age of 18
-- This has changed since the founding, where oftentimes only white
-  male property owners over the age of 21 could vote
+- This has changed since the founding, where oftentimes only white male property owners over the age of 21 could vote
 - /Who/ can vote is different than who /actually/ votes
   - Presidential election: usually ~60% of people eligible to vote do so
   - Midterms: ~45%
@@ -52,8 +48,7 @@
 
 ** Turnout rates
 - Turnout in the US is on the lower end of other comparable countries
-- *Turnout rate* is simply the number of people who vote divided by
-  the number of people who are allowed to vote
+- *Turnout rate* is simply the number of people who vote divided by the number of people who are allowed to vote
 - The denominator is actually harder to define
 - Most of the time voting age population is used
 - There's roughly 320 million people in the US
@@ -72,10 +67,8 @@
 ** The ballot
 - Today, voting viewed as a private matter
 - Voting is done by *secret ballot*
-- Only the case since the end of the 1800s as a way to end vote buying
-  and voter intimidation
-  - Not all votes in the US are secret - for example, town halls and
-    (some) caucuses
+- Only the case since the end of the 1800s as a way to end vote buying and voter intimidation
+  - Not all votes in the US are secret - for example, town halls and (some) caucuses
 
 ** The ballot
 - Along with the secret ballot the US adopted the *Australian ballot*
@@ -100,12 +93,9 @@
   - In 1967, Congress mandates single-member districts
 
 ** House elections - equal population
-- The Supreme Court mandates beginning in the 1960s that House
-  districts must be equal in population
-- 1972 is the first election with single-member districts with equal
-  populations
-- Eventually, civil rights groups and the courts extend this to most
-  other elections (city councils, school districts, etc)
+- The Supreme Court mandates beginning in the 1960s that House districts must be equal in population
+- 1972 is the first election with single-member districts with equal populations
+- Eventually, civil rights groups and the courts extend this to most other elections (city councils, school districts, etc)
 
 ** The Senate
 - Not single-member districts
@@ -124,17 +114,13 @@
 
 ** Winning a majority
 - Using single-member districts magnifies the power of the majority
-- In 2014, Republicans won about 52% of the vote but get 57% of the
-  seats in the House
-- In 2012, Barack Obama won 51% of the vote, but 62% of the electoral
-  votes
+- In 2014, Republicans won about 52% of the vote but get 57% of the seats in the House
+- In 2012, Barack Obama won 51% of the vote, but 62% of the electoral votes
 - This makes it hard for small parties to get any seats
-- Majority tendency of districts makes it hard for minorities to get
-  representation
+- Majority tendency of districts makes it hard for minorities to get representation
 
 ** Districts 
-- Today, about a quarter of the US population is black or Hispanic,
-  but only about 15% of Congress is
+- Today, about a quarter of the US population is black or Hispanic, but only about 15% of Congress is
 - *Gerrymandering* can give unfair advantage to one party
   - Today, the bias tends to be about 5 percentage points
   - This is down from the 1960s (~11 points)
@@ -149,21 +135,17 @@
 - Main alternative to plurality rule is *proportional representation*
 
 ** Duverger's Law 
-- *Duverger's law* states that plurality rule systems tend to produce
-  two-party systems
+- *Duverger's law* states that plurality rule systems tend to produce two-party systems
 - Politicians don't want to split the vote
 - Voters don't want to waste theirs
 
 ** Direct Democracy 
-- Referendum :: a measure proposed by the legislature that is referred
-     to the vote of the electorate for approval or rejection
-- Initiative :: citizens may petition to place a policy proposal on
-     the ballot for vote
+- Referendum :: a measure proposed by the legislature that is referred to the vote of the electorate for approval or rejection
+- Initiative :: citizens may petition to place a policy proposal on the ballot for vote
 - Recall :: removing a public official by vote
 
 ** Direct democracy in Texas
-- Texas only allows legislatively referred proposed constitutional
-  amendments
+- Texas only allows legislatively referred proposed constitutional amendments
 
 * How voters decide
 
@@ -171,8 +153,7 @@
 - Two decisions to make in any election:
   - Whether to vote or not
   - Who to vote for
-- Age and education play a large role in determining whether someone
-  will vote or not
+- Age and education play a large role in determining whether someone will vote or not
 - In 2012, about 60% of the voting eligible population voted
 - However, only 41% of those under 25 voted
 - 71% of those above 65 voted
@@ -200,17 +181,14 @@
 - But what is partisan identification?
 
 ** Party ID as psychological attachment 
-- People identify with a party not unlike how they identify with a
-  religion or community
-- The first few presidential elections someone experiences have a
-  profound experience
+- People identify with a party not unlike how they identify with a religion or community
+- The first few presidential elections someone experiences have a profound experience
 - Those 18--25 in 1984 ID with the Republicans (Reagan)
 - Those 18--25 in 2008 ID with the Democrats (Obama)
 
 ** Party ID as ideological affinity
 - People ID with parties that pursue policies that they will like
-- Today's parties are much more ideologically coherent than those in
-  the 70s and 80s
+- Today's parties are much more ideologically coherent than those in the 70s and 80s
 
 ** Party ID as tally of experiences 
 - Party ID reflects experiences with leaders, especially the president
@@ -218,34 +196,27 @@
 - Each president lets us update our beliefs about that
 
 ** Issues 
-- Of course, partisanship doesn't totally determine individuals'
-  votes, especially in non-presidential elections
+- Of course, partisanship doesn't totally determine individuals' votes, especially in non-presidential elections
 - Voters vote for candidates based on the issues too
 - *Prospective voting*: making choices that focus on future behavior
-- *Retrospective voting*: making choices that focus on past
-  performance
+- *Retrospective voting*: making choices that focus on past performance
 
 ** Spatial issues
 - Many issues can be mapped in a continuous space
   - e.g. tax rates, spending, abortion, etc
-- *Median voter theorem* pushes candidates towards the middle of the
-  spectrum 
+- *Median voter theorem* pushes candidates towards the middle of the spectrum
 
 ** Valence issues
 - *Valence issues* lack conflict about what is desirable
   - Everyone wants less crime, better health, peace, etc
 - The economy is the most important valence issue
-- When the economy is improving, people tend to vote for the party in
-  power
-- When the economy is in decline, people tend to vote for the
-  opposition
+- When the economy is improving, people tend to vote for the party in power
+- When the economy is in decline, people tend to vote for the opposition
 
 ** Candidate characteristics 
 - Voters tend to vote for people like them
-- Race, ethnicity, religion, gender, geography, and social background
-  all matter
-- Personality also matters - people tend to like candidates who appear
-  "honest," or "competent"
+- Race, ethnicity, religion, gender, geography, and social background all matter
+- Personality also matters - people tend to like candidates who appear "honest," or "competent"
 
 * Campaigns
 
@@ -262,17 +233,13 @@
 
 ** Elections in the US
 - Campaigns are long, often lasting a year or more
-- The Federal Election Commission (*FEC*) calls the election cycle the
-  two-year period leading up to the election
-- Super expensive - in 2012, the Obama campaign spend 1.2 billion,
-  Romney spent 1.25 billion
+- The Federal Election Commission (*FEC*) calls the election cycle the two-year period leading up to the election
+- Super expensive - in 2012, the Obama campaign spend 1.2 billion, Romney spent 1.25 billion
 
 ** Elections abroad
 - Many other countries have a much shorter campaign cycle
-- Government calls for election, campaign for a month or three, then
-  have an election
-- Most other democracies also limit expenditures and fundraising
-  activities
+- Government calls for election, campaign for a month or three, then have an election
+- Most other democracies also limit expenditures and fundraising activities
 
 ** Campaign Finance Reforms
 - 1971 Congress passes the Federal Elections Campaign Act
@@ -282,35 +249,26 @@
   - Public funding for presidential elections
 
 ** Campaign Finance Reforms
-- /Buckley v. Valeo/: the Supreme Court decides that money is a form
-  of speech - 1976
-  - Candidates, groups, and parties may spend as much as they like,
-    but the donations must come in small amounts
+- /Buckley v. Valeo/: the Supreme Court decides that money is a form of speech - 1976
+  - Candidates, groups, and parties may spend as much as they like, but the donations must come in small amounts
 
 ** Campaign Finance Reforms
-- 2002: Congress enacts the Bipartisan Campaign Reform Act (BCRA,
-  McCain-Feingold Act)
+- 2002: Congress enacts the Bipartisan Campaign Reform Act (BCRA, McCain-Feingold Act)
   - prohibited unlimited party spending (soft money)
-  - Banned certain sorts of political attack advertisements in the
-    last weeks of a campaign 
+  - Banned certain sorts of political attack advertisements in the last weeks of a campaign
 
 
 ** Campaign Finance Reforms
 - /Citizens United v. Federal Election Commission/: 2010
   - Strikes down limits on independent expenditures by corporations
-  - Decides that corporations have the same right to political speech
-    as individuals
+  - Decides that corporations have the same right to political speech as individuals
 
 ** Congressional campaigns 
-- An important difference between presidential elections and
-  congressional elections is the *incumbency advantage*
-- Seems like it's around 5--10 percentage points in most
-  non-presidential elections
+- An important difference between presidential elections and congressional elections is the *incumbency advantage*
+- Seems like it's around 5--10 percentage points in most non-presidential elections
 
 ** Effectiveness of campaigns
-- Whether campaigns are effective or not has been studied by political
-  scientists quite a bit
-- While individual ads can have a large impact, their effect tends to
-  die out relatively quickly
+- Whether campaigns are effective or not has been studied by political scientists quite a bit
+- While individual ads can have a large impact, their effect tends to die out relatively quickly
 - Competing campaigns also tend to cancel out each others' effects
 
