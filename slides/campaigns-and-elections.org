@@ -237,7 +237,7 @@
 - Campaigns are long, often lasting a year or more
 - The Federal Election Commission (*FEC*) calls the election cycle the two-year period leading up to the election
 - Super expensive - in 2012, the Obama campaign spend 1.2 billion, Romney spent 1.25 billion
-- This cycle has been cheaper - as of October 19, Clinton had spent $897.7 million (with $171.6 M on hand) and Trump had spent $429.5 M (with $83.9 M on hand)
+  - This cycle has been cheaper - as of October 19, Clinton had spent $897.7 million (with $171.6 M on hand) and Trump had spent $429.5 M (with $83.9 M on hand)
 
 ** Elections abroad
 - Many other countries have a much shorter campaign cycle
