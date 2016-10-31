@@ -58,11 +58,12 @@
 
 ** Other restrictions on the vote
 - Registration
-  - "Motor voter" helps since 1993
   - Registration is atypical in a democracy
   - Only about 80% of the electorate is registered
-  - Helps determine precincts 
+  - Helps determine precincts
+  - "Motor voter" helps since 1993
 - Voter ID laws
+  - Being challenged in the courts
 
 ** The ballot
 - Today, voting viewed as a private matter
@@ -112,10 +113,11 @@
 - Electoral college
 - Number of votes is number of Senators plus number of representatives
 
-** Winning a majority
+** Winning an election
 - Using single-member districts magnifies the power of the majority
-- In 2014, Republicans won about 52% of the vote but get 57% of the seats in the House
-- In 2012, Barack Obama won 51% of the vote, but 62% of the electoral votes
+- In 2014, Republicans won about 51.2% vote but get 57% of the seats in the House
+  - In 2012, Democrats received 49% of the vote and Republicans 48%, but Democrats received 46% of seats while Republicans got 54%.
+- In 2012, Barack Obama won 51% of the two-party vote, but 62% of the electoral votes
 - This makes it hard for small parties to get any seats
 - Majority tendency of districts makes it hard for minorities to get representation
 
@@ -235,6 +237,7 @@
 - Campaigns are long, often lasting a year or more
 - The Federal Election Commission (*FEC*) calls the election cycle the two-year period leading up to the election
 - Super expensive - in 2012, the Obama campaign spend 1.2 billion, Romney spent 1.25 billion
+- This cycle has been cheaper - as of October 19, Clinton had spent $897.7 million (with $171.6 M on hand) and Trump had spent $429.5 M (with $83.9 M on hand)
 
 ** Elections abroad
 - Many other countries have a much shorter campaign cycle
