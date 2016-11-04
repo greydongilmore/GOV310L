@@ -4,7 +4,7 @@
 #+DATE: Fall 2016
 #+startup: beamer
 #+LaTeX_CLASS: beamer
-#+LATEX_CMD: xelatex
+#+LATEX_COMPILER: xelatex
 #+OPTIONS: toc:nil H:2
 #+LATEX_HEADER: \usepackage{tikz}
 #+LATEX_HEADER: \usetikzlibrary{shapes.geometric, arrows, positioning}
