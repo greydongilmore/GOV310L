@@ -20,7 +20,7 @@ These will be updated with links to the slides.
 8. [Public Opinion](slides/public-opinion.pdf "Public opinion slides")
 9. [Political Parties](slides/political-parties.pdf "Political parties slides")
 10. [Campaigns and elections](slides/campaigns-and-elections.pdf "Campaigns and elections slides")
-11. Interest Groups <!-- [Interest groups](slides/interest-groups.pdf "Interest group slides") -->
+11. [Interest groups](slides/interest-groups.pdf "Interest group slides")
 12. The media <!-- [The media](slides/the-media.pdf "The media slides") -->
 13. Issue spotlight #2 <!-- - [Inequality](slides/inequality.pdf "Inequality slides") -->
 
