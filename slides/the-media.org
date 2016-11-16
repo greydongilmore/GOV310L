@@ -41,19 +41,16 @@ Which do you use most?
 ** Print media 
 - Newspapers hugely important
 - Set the news agenda
-- Provides details and context not usually seen in the short TV
-  segments
+- Provides details and context not usually seen in the short TV segments
 
 ** Print media troubles
 - Many newspapers are in serious financial trouble
 - Many (most?) newspapers will close over the next few years
-- Remains to be seen whether the internet can replace them, especially
-  with regard to local news coverage 
+- Remains to be seen whether the internet can replace them, especially with regard to local news coverage
 
 ** Broadcast
 - Historically more expensive than print
-- Technological limitations forced the federal government to heavily
-  regulate licenses for the broadcast spectrum 
+- Technological limitations forced the federal government to heavily regulate licenses for the broadcast spectrum
 
 
 # #+BEGIN_SRC R
@@ -92,8 +89,7 @@ Which do you use most?
 - Since 2008
 
 ** Internet media
-- Occupies a place between TV (short but constantly updated) and print
-  (detailed but once per day)
+- Occupies a place between TV (short but constantly updated) and print (detailed but once per day)
 - Allows people to get involved directly
 - Becoming more popular
 - People, media, candidates can all talk directly to each other
@@ -106,41 +102,32 @@ Which do you use most?
 - Government regulates both content and ownership of broadcast media
 
 ** Broadcast regulation
-- Between 6am and 10pm, the FCC limits obscenity, indecency, and
-  profanity on TV and radio
-- The FCC attempted to limit ownership, but the 1996
-  Telecommunications Act did away with that
+- Between 6am and 10pm, the FCC limits obscenity, indecency, and profanity on TV and radio
+- The FCC attempted to limit ownership, but the 1996 Telecommunications Act did away with that
   - Led to many mergers
 
 ** Equal time rule
-- The *equal time rule* says that a broadcaster must provide
-  candidates for political office equal opportunity to broadcast their
-  message
+- The *equal time rule* says that a broadcaster must provide candidates for political office equal opportunity to broadcast their message
 
 ** Right of rebuttal
-- The *right of rebuttal* is an FCC regulation that gives individuals
-  the opportunity to respond to personal attacks
+- The *right of rebuttal* is an FCC regulation that gives individuals the opportunity to respond to personal attacks
 
 ** Fairness doctrine
 - FCC requirement that broadcasters must provide time for opposing viewpoints
 - No longer enforced by the FCC since there are so many stations
 
 ** Freedom of the press
-- *Prior restraint*: an effort by a government agency to block the
-  publication of material it deems harmful in some way (censorship)
-- In the US, except under extraordinary circumstances, the First
-  Amendment prohibits government from preventing
+- *Prior restraint*: an effort by a government agency to block the publication of material it deems harmful in some way (censorship)
+- In the US, except under extraordinary circumstances, the First Amendment prohibits government from preventing
 
 ** Freedom of the press
-- Situation: the NY Times acquires secret Defense Department documents
-  from an opponent of the War who had obtained the documents illegally
+- Situation: the NY Times acquires secret Defense Department documents from an opponent of the War who had obtained the documents illegally
 - Should the NY Times be allowed to publish these documents?
 #+BEAMER: \pause
 - The Supreme Court said yes
 
 ** Freedom of the press 
-- Other court decisions have ruled that network stations have the same
-  protections as traditional print media
+- Other court decisions have ruled that network stations have the same protections as traditional print media
 
 ** Organization & ownership 
 - ~2,000 TV stations, ~1,400 daily newspapers, 13,000+ radio stations
@@ -159,10 +146,8 @@ Which do you use most?
   - FOX bought by Rupert Murdoch
 
 ** Media concentration
-- Many point to the internet as being less concentrated than print and
-  broadcast media
-- But large corporations (e.g. Google) have a large presence on the
-  internet and can effectively censor parts 
+- Many point to the internet as being less concentrated than print and broadcast media
+- But large corporations (e.g. Google) have a large presence on the internet and can effectively censor parts
 
 * What affects coverage?
 
@@ -173,8 +158,7 @@ Which do you use most?
 
 ** Journalists
 - Historically publishers had lots of leeway in what they wanted reported
-- Not the case as much today - business interests (money) tend to
-  prevail
+- Not the case as much today - business interests (money) tend to prevail
 - Journalists have large leeway in interpretation of news stories
 
 ** Journalists and bias
@@ -183,22 +167,18 @@ Which do you use most?
 - What do you think? 
 
 ** Journalists and bias
-- Journalists tend to be Democratic and liberal in their personal
-  beliefs
+- Journalists tend to be Democratic and liberal in their personal beliefs
 - But does this translate into their stories?
 
 ** Bias
-- Little evidence that news stories are more or less positive (or
-  negative) about one party or the other...
-- However, some networks tend to use loaded words for one party more
-  than the other
+- Little evidence that news stories are more or less positive (or negative) about one party or the other...
+- However, some networks tend to use loaded words for one party more than the other
   - FOX and the Wall Street journal tend to be conservative
   - Most other major outlets lean slightly to the left
   - PBS leans neither way
 
 ** Bias
-- Many journalists follow an ethical code requiring them to be fair
-  and unbiased
+- Many journalists follow an ethical code requiring them to be fair and unbiased
 - This may be shifting with the rise of FOX and MSNBC
 
 ** News sources 
@@ -208,27 +188,22 @@ Which do you use most?
 
 ** Leaks 
 - *News leak* - disclosure of confidential information to the media
-- Sometimes are *whistle-blowers* - low-level workers aiming to call
-  attention to improper behavior
-- More often high-level officials who regularly leak information to
-  the press
+- Sometimes are *whistle-blowers* - low-level workers aiming to call attention to improper behavior
+- More often high-level officials who regularly leak information to the press
   - Establish relationship
   - Ensure the story is published on their terms
 
 ** Press releases
-- Companies & politicians put out *press releases* that are basically
-  pre-written news stories
+- Companies & politicians put out *press releases* that are basically pre-written news stories
 - Newspapers often publish these with little or no revision
 - Allows companies/politicians to control a story's context
 
 ** Hiring reporters
-- Some governments/corporations pay reporters to write favorable
-  things about them
+- Some governments/corporations pay reporters to write favorable things about them
 - At best questionably ethical
 
 ** Consumers 
-- Consumers tend to be middle-upper or upper class, so the news
-  reports tend to cater to their interests
+- Consumers tend to be middle-upper or upper class, so the news reports tend to cater to their interests
 
 * Media effects
 
@@ -247,15 +222,12 @@ Which do you use most?
 - This makes people think of welfare in terms of money and expenses
 
 ** Framing
-- *Framing* theory states that an issue can be viewed from a variety
-  of perspectives and have implications for multiple values and considerations
-- Small changes in the presentation of an issue can produce large
-  changes in opinion
+- *Framing* theory states that an issue can be viewed from a variety of perspectives and have implications for multiple values and considerations
+- Small changes in the presentation of an issue can produce large changes in opinion
 
 ** Framing examples
 
-Do you favor or oppose allowing a hate group to hold a political
-rally?[fn:1]
+Do you favor or oppose allowing a hate group to hold a political rally?[fn:1]
 #+BEAMER: \pause
 
 Given the importance of free speech - 85% favor
