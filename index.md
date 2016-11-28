@@ -22,7 +22,7 @@ These will be updated with links to the slides.
 10. [Campaigns and elections](slides/campaigns-and-elections.pdf "Campaigns and elections slides")
 11. [Interest groups](slides/interest-groups.pdf "Interest group slides")
 12. [The media](slides/the-media.pdf "The media slides")
-13. Issue spotlight #2 <!-- - [Inequality](slides/inequality.pdf "Inequality slides") -->
+13. Issue Spotlight #2 --- [Inequality](slides/inequality.pdf "Inequality slides")
 
 # Source
 The source code for all the files here is available under a version-controlled repository [on github](https://github.com/jabranham/GOV310L).
