@@ -3,7 +3,7 @@ title: J. Alexander Branham
 email: branham@utexas.edu
 description: "I'm a PhD Candidate in the Department of Government at UT-Austin. I study American politics, public opinion, and methods."
 baseurl: /GOV310L # the subpath of your site, e.g. /blog/
-url: "http://jabranham.com" # the base hostname & protocol for your site
+url: "https://jabranham.com" # the base hostname & protocol for your site
 twitter_username: JAlexBranham
 github_username:  jabranham
 google_analytics: UA-65548469-1

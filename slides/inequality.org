@@ -7,6 +7,7 @@
 #+LATEX_COMPILER: xelatex
 #+OPTIONS: toc:nil H:2
 #+LATEX_CLASS_OPTIONS: [colorlinks, urlcolor=blue, aspectratio=169]
+#+LATEX_HEADER: \beamerdefaultoverlayspecification{<+->}
 #+BEAMER_THEME: metropolis[titleformat=smallcaps, progressbar=frametitle] 
 
 ** Inequality
@@ -99,11 +100,6 @@
 - So we need to tax dollars at high levels if you already have lots of
   money to make it just as painful as the taxation of a dollar if you
   have few
-
-** Voter ID laws
-- Many states have passed Voter ID laws in recent years
-- Reason given usually to suppress voter fraud
-- However, many poor people & minorities don't have access to proper ID
 
 * Who gets represented? 
 
