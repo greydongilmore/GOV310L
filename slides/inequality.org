@@ -31,8 +31,16 @@
 
 ** Wealth distribution
 
-#+ATTR_LATEX: :float t :width 0.6\textwidth
-[[file:../images/us-wealth-distribution.png]]
+#+BEGIN_EXPORT latex
+
+\begin{figure}
+  \centering  \visible<1-4>{\includegraphics[width=0.6\textwidth]{../images/0wealth-income.png}}
+\visible<4>{\includegraphics[width=0.6\textwidth]{../images/1-wealth-income.png}}
+\visible<3-4>{\includegraphics[width=0.6\textwidth]{../images/2-wealth-income.png}}
+\visible<2-4>{\includegraphics[width=0.6\textwidth]{../images/3-wealth-income.png}}
+\visible<1-4>{\includegraphics[width=0.6\textwidth]{../images/4-wealth-income.png}}
+\end{figure}
+#+END_EXPORT
 
 ** Distribution in comparative perspective
 - Is the US an outlier here?
@@ -51,7 +59,8 @@
     geom_bar(stat = "identity") +
     ylim(c(0, 100)) +
     labs(x = "Country",
-         y = "Percent of wealth going to top 10%") + 
+         y = "Percent of wealth going to top 10%",
+         caption = "Source: OECD data, November 2014") + 
     theme_minimal()
 
   ggsave("../figures/us-wealth-comparative.pdf", width = 9, height = 5)
@@ -137,30 +146,30 @@ Our task: to analyze whether (and to what extent) there exists unequal represent
   - What to expect if they're completely related?
 
 ** Policy support for three income groups
-#+ATTR_LATEX: :float t :width 0.6\textwidth 
-[[file:../images/inequality/image6.pdf]]
+   #+ATTR_LATEX: :float t :width 0.6\textwidth 
+   [[file:../images/inequality/image6-crop.pdf]]
 
 ** Policy support for agreement (support)
-#+ATTR_LATEX: :float t :width 0.6\textwidth 
-[[file:../images/inequality/image7.pdf]]
+   #+ATTR_LATEX: :float t :width 0.6\textwidth 
+   [[file:../images/inequality/image7-crop.pdf]]
 
 ** Policy support for agreement (opposed)
-#+ATTR_LATEX: :float t :width 0.6\textwidth 
-[[file:../images/inequality/image8.pdf]]
+   #+ATTR_LATEX: :float t :width 0.6\textwidth 
+   [[file:../images/inequality/image8-crop.pdf]]
 
 ** Disagreement (352/1779 policies)
-#+ATTR_LATEX: :float t :width 0.6\textwidth 
-[[file:../images/inequality/image9.pdf]]
+   #+ATTR_LATEX: :float t :width 0.6\textwidth 
+   [[file:../images/inequality/image9-crop.pdf]]
 
 ** Looking at the middle and rich
-#+ATTR_LATEX: :float t :width 0.8\textwidth 
-#+CAPTION: Source: Branham, Soroka, Wlezien 2017, "When do the Rich Win?"
-file:../images/inequality/image10.jpeg
+   #+ATTR_LATEX: :float t :width 0.55\textwidth 
+   #+CAPTION: Source: Branham, Soroka, Wlezien 2017, "When do the Rich Win?"
+   [[file:../images/inequality/figure1.pdf]]
 
 ** Disagreement
-#+ATTR_LATEX: :float t :width 0.8\textwidth 
-#+CAPTION: Source: Branham, Soroka, and Wlezien 2017
-[[file:../images/inequality/image11.jpeg]]
+   #+ATTR_LATEX: :float t :width 0.55\textwidth 
+   #+CAPTION: Source: Branham, Soroka, and Wlezien 2017
+   [[file:../images/inequality/figure2.pdf]]
 
 ** Win rates
 
