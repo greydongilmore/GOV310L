@@ -157,7 +157,7 @@ Our task: to analyze whether (and to what extent) there exists unequal represent
    #+ATTR_LATEX: :float t :width 0.6\textwidth 
    [[file:../images/inequality/image8-crop.pdf]]
 
-** Disagreement (352/1779 policies)
+** Disagreement (352/1779 policies ~ 20%)
    #+ATTR_LATEX: :float t :width 0.6\textwidth 
    [[file:../images/inequality/image9-crop.pdf]]
 
